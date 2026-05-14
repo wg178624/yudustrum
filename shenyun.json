@@ -484,6 +484,20 @@
       ],
       "created": "-05-08_18-26-34",
       "summary": "自动存盘日志 · 2026-05-08_18-26-34 本次会话完成 1. ✅ CF Worker 反代爬虫部署上线 → https://hermes-scraper.g1786245232.wor"
+    },
+    {
+      "name": "会话日志_2026-05-14_21-55-46",
+      "path": "auto-save/会话日志_2026-05-14_21-55-46.md",
+      "tags": [
+        "会话日志",
+        "羽渡尘向量化",
+        "ChromaDB",
+        "Git版本化",
+        "备份"
+      ],
+      "created": "2026-05-14_21-55-46",
+      "source": "本对话",
+      "summary": "羽渡尘向量库 v2 上线（Ollama nomic-embed-text 768维）+ Git版本管理 + D盘冷备份 + C盘垃圾清理 + 工具盘点"
     }
   ],
   "anchors": [],
@@ -552,7 +566,7 @@
       "summary": "CF Worker 反代项目就绪，待部署"
     }
   ],
-  "feather_count": 45,
+  "feather_count": 46,
   "last_autosave": "2026-05-10_20-30-00",
   "教材数量": "13本（含新增5本高数/概率论）",
   "skills": [
