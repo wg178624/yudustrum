@@ -1,0 +1,19 @@
+{
+  "version": 3,
+  "updated": "2026-05-21T22:23:23.402097",
+  "layers": {
+    "L0_feathers": {
+      "count": 8,
+      "path": "feathers/"
+    },
+    "L1_atoms": {
+      "count": 7,
+      "total_facts": 35,
+      "path": "atoms/"
+    },
+    "L2_scenarios": {
+      "count": 10,
+      "path": "scenarios/"
+    }
+  }
+}

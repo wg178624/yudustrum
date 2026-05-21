@@ -1,0 +1,42 @@
+{
+  "source": "feathers/feather_002_工具使用手册.md",
+  "title": "🪶 第2片羽毛 · 工具使用手册",
+  "tags": [
+    "工具",
+    "CodeX",
+    "Chrome",
+    "OpenClaw",
+    "Ollama",
+    "NVIDIA",
+    "Obsidian"
+  ],
+  "atoms": [
+    {
+      "fact": "位置:** VS Code 扩展 `/mnt/c/Users/j'g'f'd/.vscode/extensions/openai.chatgpt-*/bin/windows-x86_64/codex.exe`",
+      "section": "CodeX (编码代理)",
+      "type": "key_point"
+    },
+    {
+      "fact": "MCP Server:** 已接入 Hermes 配置",
+      "section": "CodeX (编码代理)",
+      "type": "key_point"
+    },
+    {
+      "fact": "执行:** `CODEX_PATH=\"...\" && \"$CODEX_PATH\" exec --yolo \"任务\"`",
+      "section": "CodeX (编码代理)",
+      "type": "key_point"
+    },
+    {
+      "fact": "认证:** `codex login --device-auth` → 浏览器输码",
+      "section": "CodeX (编码代理)",
+      "type": "key_point"
+    },
+    {
+      "fact": "注意:** token 过期就重登，`--yolo` 绕沙箱",
+      "section": "CodeX (编码代理)",
+      "type": "key_point"
+    }
+  ],
+  "atom_count": 5,
+  "created": "2026-05-21T22:23:23.332710"
+}

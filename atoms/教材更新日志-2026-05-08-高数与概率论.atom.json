@@ -1,0 +1,34 @@
+{
+  "source": "feathers/教材更新日志-2026-05-08-高数与概率论.md",
+  "title": "📚 教材更新日志：新增高数与概率论",
+  "tags": [],
+  "atoms": [
+    {
+      "fact": "**来源**：GitHub Yoget/Tongji-University-Advanced-Mathematics",
+      "section": "content",
+      "type": "summary"
+    },
+    {
+      "fact": "**下载路径**：/mnt/d/iCloudDrive/iCloud~md~obsidian/Linux/教材/",
+      "section": "content",
+      "type": "summary"
+    },
+    {
+      "fact": "| 高等数学教材上册【第七版】【高清OCR可检索版本】.pdf | 18 MB |",
+      "section": "content",
+      "type": "summary"
+    },
+    {
+      "fact": "| 高等数学教材下册【第七版】【高清OCR可检索版本】.pdf | 16 MB |",
+      "section": "content",
+      "type": "summary"
+    },
+    {
+      "fact": "| 高等数学习题全解指南上册_同济七版【高清OCR可检索版本】.pdf | 15 MB |",
+      "section": "content",
+      "type": "summary"
+    }
+  ],
+  "atom_count": 5,
+  "created": "2026-05-21T22:23:23.346507"
+}
