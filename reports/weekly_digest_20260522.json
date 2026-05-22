@@ -1,0 +1,122 @@
+{
+  "title": "羽渡尘周报 — 2026-05-22",
+  "generated": "2026-05-22T14:58:08.217483",
+  "sections": {
+    "高频主题": [
+      {
+        "entity": "RTX 4070",
+        "hits": 3,
+        "score": 3
+      },
+      {
+        "entity": "Hermes",
+        "hits": 3,
+        "score": 3
+      },
+      {
+        "entity": "CUDA",
+        "hits": 2,
+        "score": 2
+      },
+      {
+        "entity": "Ollama",
+        "hits": 1,
+        "score": 1
+      },
+      {
+        "entity": "羽渡尘",
+        "hits": 1,
+        "score": 1
+      },
+      {
+        "entity": "Chrome",
+        "hits": 1,
+        "score": 1
+      },
+      {
+        "entity": "VPS",
+        "hits": 1,
+        "score": 1
+      },
+      {
+        "entity": "RTX 4090",
+        "hits": 0,
+        "score": 0
+      }
+    ],
+    "低价值实体（可清理候选）": [
+      {
+        "entity": "Ollama",
+        "详细": {
+          "score": 1,
+          "hits": 1,
+          "last_hit": "2026-05-22 13:55"
+        }
+      },
+      {
+        "entity": "羽渡尘",
+        "详细": {
+          "score": 1,
+          "hits": 1,
+          "last_hit": "2026-05-22 13:55"
+        }
+      },
+      {
+        "entity": "Chrome",
+        "详细": {
+          "score": 1,
+          "hits": 1,
+          "last_hit": "2026-05-22 13:55"
+        }
+      },
+      {
+        "entity": "VPS",
+        "详细": {
+          "score": 1,
+          "hits": 1,
+          "last_hit": "2026-05-22 13:55"
+        }
+      },
+      {
+        "entity": "RTX 4090",
+        "详细": {
+          "score": 0,
+          "hits": 0
+        }
+      }
+    ],
+    "零命中实体": 1,
+    "最强关系链": [
+      {
+        "from": "Hermes",
+        "to": "VPS",
+        "strength": 26
+      },
+      {
+        "from": "Edge",
+        "to": "Hermes",
+        "strength": 24
+      },
+      {
+        "from": "Edge",
+        "to": "VPS",
+        "strength": 24
+      },
+      {
+        "from": "DeepSeek",
+        "to": "Hermes",
+        "strength": 19
+      },
+      {
+        "from": "DeepSeek",
+        "to": "VPS",
+        "strength": 18
+      }
+    ],
+    "自动融合条数": 2,
+    "知识覆盖": {
+      "实体总数": 8,
+      "关系总数": 10
+    }
+  }
+}
