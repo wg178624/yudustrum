@@ -1,0 +1,65 @@
+{
+  "session": "20260522_1337",
+  "source": "feathers/feather_002_工具使用手册.md",
+  "title": "feather_002_工具使用手册",
+  "facts": [
+    "位置:** VS Code 扩展 `/mnt/c/Users/j'g'f'd/.vscode/extensions/openai.chatgpt-*/bin/windows-x86_64/codex.exe`",
+    "MCP Server:** 已接入 Hermes 配置",
+    "执行:** `CODEX_PATH=\"...\" && \"$CODEX_PATH\" exec --yolo \"任务\"`",
+    "认证:** `codex login --device-auth` → 浏览器输码",
+    "注意:** token 过期就重登，`--yolo` 绕沙箱",
+    "位置:** `/mnt/c/Users/j'g'f'd/AppData/Local/Google/Chrome/Application/chrome.exe`",
+    "用法:** `chrome.exe --headless --disable-gpu --no-sandbox --dump-dom <url>`",
+    "优势:** 有用户登录态，能过 Cloudflare 反爬"
+  ],
+  "trace_ids": [
+    {
+      "trace_id": "bd16a9193b0c",
+      "line": 11,
+      "section": "CodeX (编码代理)",
+      "type": "fact"
+    },
+    {
+      "trace_id": "65896c851552",
+      "line": 12,
+      "section": "CodeX (编码代理)",
+      "type": "fact"
+    },
+    {
+      "trace_id": "922d43a0022d",
+      "line": 13,
+      "section": "CodeX (编码代理)",
+      "type": "fact"
+    },
+    {
+      "trace_id": "39392d3ee6a0",
+      "line": 14,
+      "section": "CodeX (编码代理)",
+      "type": "fact"
+    },
+    {
+      "trace_id": "2084c78d6d89",
+      "line": 15,
+      "section": "CodeX (编码代理)",
+      "type": "fact"
+    },
+    {
+      "trace_id": "bd62306c7e94",
+      "line": 18,
+      "section": "Chrome (真身浏览器)",
+      "type": "fact"
+    },
+    {
+      "trace_id": "8b56fde143aa",
+      "line": 19,
+      "section": "Chrome (真身浏览器)",
+      "type": "fact"
+    },
+    {
+      "trace_id": "0bcb4c2adbea",
+      "line": 20,
+      "section": "Chrome (真身浏览器)",
+      "type": "fact"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "session": "20260522_1337",
+  "source": "feathers/feather_003_EIE完整培养方案与书单.md",
+  "title": "feather_003_EIE完整培养方案与书单",
+  "facts": [
+    "名称：** 电子信息工程 (Electronic Information Engineering)",
+    "国家标准：** 教育部高等学校电子信息类专业教学指导委员会制定",
+    "学制：** 4年",
+    "学分：** 约160-170学分",
+    "授予学位：** 工学学士",
+    "`模拟电子技术基础.pdf` — 模电",
+    "`数字电子技术基础.pdf` — 数电（可用）",
+    "`计算机组成原理（第3版）（唐朔飞）.pdf` — 计组"
+  ],
+  "trace_ids": [
+    {
+      "trace_id": "3c5f6e0ea51b",
+      "line": 11,
+      "section": "专业概况",
+      "type": "fact"
+    },
+    {
+      "trace_id": "5e2b4ea4729d",
+      "line": 12,
+      "section": "专业概况",
+      "type": "fact"
+    },
+    {
+      "trace_id": "55086715d4e0",
+      "line": 13,
+      "section": "专业概况",
+      "type": "fact"
+    },
+    {
+      "trace_id": "714072a55be4",
+      "line": 14,
+      "section": "专业概况",
+      "type": "fact"
+    },
+    {
+      "trace_id": "ca3b0c6d6045",
+      "line": 15,
+      "section": "专业概况",
+      "type": "fact"
+    },
+    {
+      "trace_id": "6c499558abbd",
+      "line": 86,
+      "section": "D盘已有教材 vs 需要补的",
+      "type": "fact"
+    },
+    {
+      "trace_id": "fe47583f09ce",
+      "line": 87,
+      "section": "D盘已有教材 vs 需要补的",
+      "type": "fact"
+    },
+    {
+      "trace_id": "edad28c7869d",
+      "line": 88,
+      "section": "D盘已有教材 vs 需要补的",
+      "type": "fact"
+    }
+  ]
+}

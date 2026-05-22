@@ -1,0 +1,37 @@
+{
+  "session": "20260522_1337",
+  "source": "feathers/教材更新日志-2026-05-08-高数与概率论.md",
+  "title": "教材更新日志-2026-05-08-高数与概率论",
+  "facts": [
+    "- 标签新增：高数、概率论",
+    "✅ 高等数学（上下册 + 习题全解）← **NEW**",
+    "✅ 概率论与数理统计 ← **NEW**",
+    "❌ 仍需补充：电路分析、信号与系统、线性代数"
+  ],
+  "trace_ids": [
+    {
+      "trace_id": "e7e17f12fda5",
+      "line": 20,
+      "section": "eie-tutor 技能更新",
+      "type": "fact"
+    },
+    {
+      "trace_id": "e19c09c3d98a",
+      "line": 24,
+      "section": "当前教材总览",
+      "type": "fact"
+    },
+    {
+      "trace_id": "5890beb13b20",
+      "line": 25,
+      "section": "当前教材总览",
+      "type": "fact"
+    },
+    {
+      "trace_id": "f336d1573142",
+      "line": 33,
+      "section": "当前教材总览",
+      "type": "fact"
+    }
+  ]
+}

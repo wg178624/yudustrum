@@ -1,19 +1,30 @@
 {
-  "version": 3,
-  "updated": "2026-05-21T22:23:23.402097",
+  "version": 4,
+  "updated": "2026-05-22T13:37:17.215112",
+  "features": {
+    "symbolic_memory": true,
+    "trace_chain": true,
+    "persona_v4": true
+  },
   "layers": {
     "L0_feathers": {
       "count": 8,
       "path": "feathers/"
     },
-    "L1_atoms": {
+    "L1_atoms_v4": {
       "count": 7,
-      "total_facts": 35,
       "path": "atoms/"
     },
     "L2_scenarios": {
       "count": 10,
       "path": "scenarios/"
+    },
+    "L3_persona": {
+      "path": "persona/persona.v4.json"
+    },
+    "Symbolic": {
+      "count": 0,
+      "path": "symbols/"
     }
   }
 }

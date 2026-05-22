@@ -1,0 +1,44 @@
+{
+  "session": "20260522_1337",
+  "source": "feathers/feather_004_本地技能包迭代全览.md",
+  "title": "feather_004_本地技能包迭代全览",
+  "facts": [
+    "v1.0.0 初版：四大目录 + 神蕴索引 + 自动存盘",
+    "v1.1.0 中文注释规则 + 用户偏好 + Obsidian 集成",
+    "v1.2.0 全局行为规则：先搜羽毛，命中引用，未命中建议存",
+    "v1.3.0 iCloud Drive 集成",
+    "v2.0.0 SQLite FTS5 全文搜索引擎 + MySQL 学习笔记"
+  ],
+  "trace_ids": [
+    {
+      "trace_id": "bfb9c3988671",
+      "line": 12,
+      "section": "🪶 羽渡尘 v2.0.0",
+      "type": "fact"
+    },
+    {
+      "trace_id": "8df2689f171e",
+      "line": 13,
+      "section": "🪶 羽渡尘 v2.0.0",
+      "type": "fact"
+    },
+    {
+      "trace_id": "616829a2b9ad",
+      "line": 14,
+      "section": "🪶 羽渡尘 v2.0.0",
+      "type": "fact"
+    },
+    {
+      "trace_id": "271364afdc4f",
+      "line": 15,
+      "section": "🪶 羽渡尘 v2.0.0",
+      "type": "fact"
+    },
+    {
+      "trace_id": "a6503b27e9bc",
+      "line": 16,
+      "section": "🪶 羽渡尘 v2.0.0",
+      "type": "fact"
+    }
+  ]
+}
