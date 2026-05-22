@@ -1,0 +1,116 @@
+{
+  "version": "5.0",
+  "built": "2026-05-22T14:56:24.070165",
+  "cooccurrence_graph": {
+    "total_nodes": 135,
+    "total_edges": 1414,
+    "avg_degree": 20.95,
+    "min_cooccurrence": 2
+  },
+  "temporal_graph": {
+    "total_tracked_entities": 2
+  },
+  "topology": {
+    "hubs": [
+      {
+        "entity": "Hermes",
+        "degree": 78
+      },
+      {
+        "entity": "片羽毛",
+        "degree": 57
+      },
+      {
+        "entity": "WSL",
+        "degree": 56
+      },
+      {
+        "entity": "DeepSeek",
+        "degree": 55
+      },
+      {
+        "entity": "VPS",
+        "degree": 51
+      },
+      {
+        "entity": "Edge",
+        "degree": 50
+      },
+      {
+        "entity": "Go",
+        "degree": 45
+      },
+      {
+        "entity": "EIE",
+        "degree": 43
+      },
+      {
+        "entity": "童诗白",
+        "degree": 37
+      },
+      {
+        "entity": "鲁棒性",
+        "degree": 37
+      }
+    ],
+    "strongest_relations": [
+      [
+        "Hermes",
+        "VPS",
+        26
+      ],
+      [
+        "Edge",
+        "Hermes",
+        24
+      ],
+      [
+        "Edge",
+        "VPS",
+        24
+      ],
+      [
+        "DeepSeek",
+        "Hermes",
+        19
+      ],
+      [
+        "DeepSeek",
+        "VPS",
+        18
+      ],
+      [
+        "DeepSeek",
+        "Edge",
+        18
+      ],
+      [
+        "EIE",
+        "Hermes",
+        14
+      ],
+      [
+        "Hermes",
+        "Ollama",
+        14
+      ],
+      [
+        "Hermes",
+        "OpenClaw",
+        14
+      ],
+      [
+        "Hermes",
+        "MCP",
+        14
+      ]
+    ],
+    "graph_density": 0.156329,
+    "core_entities": 20
+  },
+  "files": {
+    "graph": "graph/",
+    "cooccurrence": "graph/cooccurrence_graph.json",
+    "temporal": "graph/temporal_graph.json"
+  }
+}
