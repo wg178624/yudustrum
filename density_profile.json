@@ -1,0 +1,159 @@
+{
+  "version": "5.4",
+  "built": "2026-05-22T15:05:48.643223",
+  "matrix": {
+    "CUDA|编译|调试|报错|错误|bug|报错日志|traceback|error": {
+      "density": 1.0,
+      "strategy": "full_detail"
+    },
+    "模电|模拟电子|电路|公式|推导|定理|计算": {
+      "density": 1.0,
+      "strategy": "full_detail"
+    },
+    "版本|版本号|安装|部署|配置": {
+      "density": 0.7,
+      "strategy": "medium_detail"
+    },
+    "工具|命令|快捷键|脚本|命令参考|kejilion|k\\b": {
+      "density": 0.7,
+      "strategy": "medium_detail"
+    },
+    "EIE|学习|课程|教材|培养方案|书单": {
+      "density": 0.7,
+      "strategy": "medium_detail"
+    },
+    "迭代|版本日志|更新|日志|变更": {
+      "density": 0.7,
+      "strategy": "medium_detail"
+    },
+    "Chrome|浏览器|WSL|桥接|浏览器方案|共享视野": {
+      "density": 0.4,
+      "strategy": "summary"
+    },
+    "计划|规划|路线|路线图|未来|目标": {
+      "density": 0.4,
+      "strategy": "summary"
+    },
+    "求职|Penang|槟城|Intel|AMD|简历|面试": {
+      "density": 0.1,
+      "strategy": "condensed"
+    }
+  },
+  "default": {
+    "density": 0.7,
+    "strategy": "medium_detail",
+    "reason": "默认标准压缩"
+  },
+  "scenario_profiles": {
+    "Chrome.scenario": {
+      "name": "Chrome",
+      "density": {
+        "base_density": 0.4,
+        "decay_factor": 1.0,
+        "effective_density": 0.4,
+        "strategy": "summary",
+        "reason": "已稳定的方案只需摘要"
+      },
+      "compression_type": "summary"
+    },
+    "CodeX.scenario": {
+      "name": "CodeX",
+      "density": {
+        "base_density": 0.7,
+        "decay_factor": 1.0,
+        "effective_density": 0.7,
+        "strategy": "medium_detail",
+        "reason": "默认标准压缩"
+      },
+      "compression_type": "medium_detail"
+    },
+    "EIE.scenario": {
+      "name": "EIE",
+      "density": {
+        "base_density": 0.7,
+        "decay_factor": 1.0,
+        "effective_density": 0.7,
+        "strategy": "medium_detail",
+        "reason": "学习计划需保留课程链路"
+      },
+      "compression_type": "medium_detail"
+    },
+    "书单.scenario": {
+      "name": "书单",
+      "density": {
+        "base_density": 0.7,
+        "decay_factor": 1.0,
+        "effective_density": 0.7,
+        "strategy": "medium_detail",
+        "reason": "学习计划需保留课程链路"
+      },
+      "compression_type": "medium_detail"
+    },
+    "初始搭建.scenario": {
+      "name": "初始搭建",
+      "density": {
+        "base_density": 0.7,
+        "decay_factor": 1.0,
+        "effective_density": 0.7,
+        "strategy": "medium_detail",
+        "reason": "默认标准压缩"
+      },
+      "compression_type": "medium_detail"
+    },
+    "培养方案.scenario": {
+      "name": "培养方案",
+      "density": {
+        "base_density": 0.7,
+        "decay_factor": 1.0,
+        "effective_density": 0.7,
+        "strategy": "medium_detail",
+        "reason": "学习计划需保留课程链路"
+      },
+      "compression_type": "medium_detail"
+    },
+    "工具.scenario": {
+      "name": "工具",
+      "density": {
+        "base_density": 0.7,
+        "decay_factor": 1.0,
+        "effective_density": 0.7,
+        "strategy": "medium_detail",
+        "reason": "工具使用需保留操作步骤"
+      },
+      "compression_type": "medium_detail"
+    },
+    "技能.scenario": {
+      "name": "技能",
+      "density": {
+        "base_density": 0.7,
+        "decay_factor": 1.0,
+        "effective_density": 0.7,
+        "strategy": "medium_detail",
+        "reason": "默认标准压缩"
+      },
+      "compression_type": "medium_detail"
+    },
+    "版本.scenario": {
+      "name": "版本",
+      "density": {
+        "base_density": 0.7,
+        "decay_factor": 1.0,
+        "effective_density": 0.7,
+        "strategy": "medium_detail",
+        "reason": "配置安装需保留关键参数"
+      },
+      "compression_type": "medium_detail"
+    },
+    "迭代.scenario": {
+      "name": "迭代",
+      "density": {
+        "base_density": 0.7,
+        "decay_factor": 1.0,
+        "effective_density": 0.7,
+        "strategy": "medium_detail",
+        "reason": "版本日志需保留关键里程碑"
+      },
+      "compression_type": "medium_detail"
+    }
+  }
+}
