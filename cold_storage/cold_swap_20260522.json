@@ -1,0 +1,14 @@
+{
+  "version": "5.1",
+  "type": "cold_storage",
+  "swapped_at": "2026-05-22T14:57:22.282108",
+  "hot_count": 7,
+  "cold_count": 1,
+  "cold_entities": {
+    "RTX 4090": {
+      "score": 0,
+      "hits": 0,
+      "reason": "从未命中"
+    }
+  }
+}

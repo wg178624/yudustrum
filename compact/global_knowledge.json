@@ -1,0 +1,107 @@
+{
+  "version": "5.1",
+  "type": "global_knowledge_distillation",
+  "built": "2026-05-22T14:57:22.076328",
+  "user_interests": [
+    "content",
+    "关键内容",
+    "CodeX (编码代理)",
+    "专业概况",
+    "🪶 羽渡尘 v2.0.0"
+  ],
+  "top_sections": [
+    {
+      "section": "content",
+      "mentions": 15
+    },
+    {
+      "section": "关键内容",
+      "mentions": 8
+    },
+    {
+      "section": "CodeX (编码代理)",
+      "mentions": 5
+    },
+    {
+      "section": "专业概况",
+      "mentions": 5
+    },
+    {
+      "section": "🪶 羽渡尘 v2.0.0",
+      "mentions": 5
+    },
+    {
+      "section": "Chrome (真身浏览器)",
+      "mentions": 3
+    },
+    {
+      "section": "D盘已有教材 vs 需要补的",
+      "mentions": 3
+    },
+    {
+      "section": "当前教材总览",
+      "mentions": 3
+    },
+    {
+      "section": "｜第三章｜天命时代 · 暗中的守护者",
+      "mentions": 3
+    },
+    {
+      "section": "｜第四章｜圣芙蕾雅 · 班长",
+      "mentions": 3
+    }
+  ],
+  "total_scenarios": 10,
+  "scenario_summary": [
+    {
+      "name": "Chrome",
+      "tags": [],
+      "fact_count": 0
+    },
+    {
+      "name": "CodeX",
+      "tags": [],
+      "fact_count": 0
+    },
+    {
+      "name": "EIE",
+      "tags": [],
+      "fact_count": 0
+    },
+    {
+      "name": "书单",
+      "tags": [],
+      "fact_count": 0
+    },
+    {
+      "name": "初始搭建",
+      "tags": [],
+      "fact_count": 0
+    },
+    {
+      "name": "培养方案",
+      "tags": [],
+      "fact_count": 0
+    },
+    {
+      "name": "工具",
+      "tags": [],
+      "fact_count": 0
+    },
+    {
+      "name": "技能",
+      "tags": [],
+      "fact_count": 0
+    },
+    {
+      "name": "版本",
+      "tags": [],
+      "fact_count": 0
+    },
+    {
+      "name": "迭代",
+      "tags": [],
+      "fact_count": 0
+    }
+  ]
+}
