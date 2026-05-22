@@ -1,0 +1,18 @@
+{
+  "id": "chg_0002",
+  "timestamp": "2026-05-22T14:58:55.883266",
+  "component": "entities.fact_timeline.json",
+  "action": "snapshot",
+  "detail": "初始状态: entities/fact_timeline.json",
+  "author": "auto",
+  "snapshot": {
+    "timestamp": "2026-05-22T14:58:55.883281",
+    "files": {
+      "snapshots/entities_entity_weights.json.json": "d56dd06cb01b453d",
+      "snapshots/entities_fact_timeline.json.json": "d4187d5b34fc3859",
+      "snapshots/entities_entity_index.json.json": "19873096595f842b",
+      "snapshots/graph_cooccurrence_graph.json.json": "8ec521807ed552b7",
+      "snapshots/layer_index.json.json": "ef5c1f3b9041e0e1"
+    }
+  }
+}

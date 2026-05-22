@@ -1,0 +1,119 @@
+{
+  "version": "5.3",
+  "type": "memory_changelog",
+  "created": "2026-05-22T14:58:55.788011",
+  "entries": [
+    {
+      "id": "chg_0000",
+      "timestamp": "2026-05-22T14:58:55.788031",
+      "component": "system",
+      "action": "init",
+      "detail": "羽渡尘 v5.3 记忆版本控制初始化",
+      "author": "auto",
+      "snapshot": {
+        "timestamp": "2026-05-22T14:58:55.788034",
+        "files": {
+          "snapshots/entities_entity_weights.json.json": "d56dd06cb01b453d",
+          "snapshots/entities_fact_timeline.json.json": "d4187d5b34fc3859",
+          "snapshots/entities_entity_index.json.json": "19873096595f842b",
+          "snapshots/graph_cooccurrence_graph.json.json": "8ec521807ed552b7",
+          "snapshots/layer_index.json.json": "ef5c1f3b9041e0e1"
+        }
+      }
+    },
+    {
+      "id": "chg_0001",
+      "timestamp": "2026-05-22T14:58:55.836707",
+      "component": "entities.entity_weights.json",
+      "action": "snapshot",
+      "detail": "初始状态: entities/entity_weights.json",
+      "author": "auto",
+      "snapshot": {
+        "timestamp": "2026-05-22T14:58:55.836722",
+        "files": {
+          "snapshots/entities_entity_weights.json.json": "d56dd06cb01b453d",
+          "snapshots/entities_fact_timeline.json.json": "d4187d5b34fc3859",
+          "snapshots/entities_entity_index.json.json": "19873096595f842b",
+          "snapshots/graph_cooccurrence_graph.json.json": "8ec521807ed552b7",
+          "snapshots/layer_index.json.json": "ef5c1f3b9041e0e1"
+        }
+      }
+    },
+    {
+      "id": "chg_0002",
+      "timestamp": "2026-05-22T14:58:55.883266",
+      "component": "entities.fact_timeline.json",
+      "action": "snapshot",
+      "detail": "初始状态: entities/fact_timeline.json",
+      "author": "auto",
+      "snapshot": {
+        "timestamp": "2026-05-22T14:58:55.883281",
+        "files": {
+          "snapshots/entities_entity_weights.json.json": "d56dd06cb01b453d",
+          "snapshots/entities_fact_timeline.json.json": "d4187d5b34fc3859",
+          "snapshots/entities_entity_index.json.json": "19873096595f842b",
+          "snapshots/graph_cooccurrence_graph.json.json": "8ec521807ed552b7",
+          "snapshots/layer_index.json.json": "ef5c1f3b9041e0e1"
+        }
+      }
+    },
+    {
+      "id": "chg_0003",
+      "timestamp": "2026-05-22T14:58:55.944994",
+      "component": "entities.entity_index.json",
+      "action": "snapshot",
+      "detail": "初始状态: entities/entity_index.json",
+      "author": "auto",
+      "snapshot": {
+        "timestamp": "2026-05-22T14:58:55.945007",
+        "files": {
+          "snapshots/entities_entity_weights.json.json": "d56dd06cb01b453d",
+          "snapshots/entities_fact_timeline.json.json": "d4187d5b34fc3859",
+          "snapshots/entities_entity_index.json.json": "19873096595f842b",
+          "snapshots/graph_cooccurrence_graph.json.json": "8ec521807ed552b7",
+          "snapshots/layer_index.json.json": "ef5c1f3b9041e0e1"
+        }
+      }
+    },
+    {
+      "id": "chg_0004",
+      "timestamp": "2026-05-22T14:58:56.000457",
+      "component": "graph.cooccurrence_graph.json",
+      "action": "snapshot",
+      "detail": "初始状态: graph/cooccurrence_graph.json",
+      "author": "auto",
+      "snapshot": {
+        "timestamp": "2026-05-22T14:58:56.000471",
+        "files": {
+          "snapshots/entities_entity_weights.json.json": "d56dd06cb01b453d",
+          "snapshots/entities_fact_timeline.json.json": "d4187d5b34fc3859",
+          "snapshots/entities_entity_index.json.json": "19873096595f842b",
+          "snapshots/graph_cooccurrence_graph.json.json": "8ec521807ed552b7",
+          "snapshots/layer_index.json.json": "ef5c1f3b9041e0e1"
+        }
+      }
+    },
+    {
+      "id": "chg_0005",
+      "timestamp": "2026-05-22T14:58:56.055568",
+      "component": "layer_index.json",
+      "action": "snapshot",
+      "detail": "初始状态: layer_index.json",
+      "author": "auto",
+      "snapshot": {
+        "timestamp": "2026-05-22T14:58:56.055584",
+        "files": {
+          "snapshots/entities_entity_weights.json.json": "d56dd06cb01b453d",
+          "snapshots/entities_fact_timeline.json.json": "d4187d5b34fc3859",
+          "snapshots/entities_entity_index.json.json": "19873096595f842b",
+          "snapshots/graph_cooccurrence_graph.json.json": "8ec521807ed552b7",
+          "snapshots/layer_index.json.json": "ef5c1f3b9041e0e1"
+        }
+      }
+    }
+  ],
+  "stats": {
+    "total_changes": 6,
+    "last_commit": "2026-05-22T14:58:56.055568"
+  }
+}
