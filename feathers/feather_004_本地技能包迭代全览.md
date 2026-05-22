@@ -87,3 +87,49 @@ AI 热点实时查询
 - OpenClaw（5月10日卸载）
 - xrdp 远程桌面（5月10日禁用并卸载）
 - VS Code 主力 IDE → 已换 Google Antigravity
+
+## 🧬 技能合并（5月22日 — 9个→6个）
+- chrome-bridge → windows-wsl-bridge（v3.0.0 合并）
+- eie-tutor → eie-csdiy-roadmap（v1.3.0 合并，更名为 eie 全能体系）
+- zhendao-cache → huo-bi-san-jia（v2.0.0 合并，货比三家+振刀合体）
+
+## 🧠 羽渡尘完整进化史（截至 2026-05-22）
+
+### 存储层
+| 版本 | 新增能力 | 参考来源 |
+|:----|---------|:--------:|
+| v0   | SQLite FTS5 关键词搜索 | 自研 |
+| v1   | shenyun.json 索引 + 自动存盘 | 自研 |
+| v2   | ChromaDB 语义搜索 | Ollama nomic-embed-text |
+| v3   | L0→L1→L2→L3 分层记忆 | TencentDB Agent Memory |
+| v4   | 符号化压缩 + 溯源链 | 自研 |
+| v4.1 | 实体链接 (648个) | Mem0 |
+| v4.2 | 反馈权重 | Cognee |
+| v4.3 | 时间窗口 | Graphiti |
+| v5.0 | GraphRAG 关系图谱 (135节点/1414边) | NetworkX |
+| v5.1 | 分层压缩 + LLM自动融合 + 冷热换页 | MemGPT |
+| v5.2 | Agentic Memory 健康检查 + 周报 | 自研 |
+| v5.3 | 记忆版本控制 + 变更追踪 | Git-like |
+| v5.4 | Semantic Density Distillation | 自研 |
+| v5.5 | 缓存对齐器 + 多路召回 | 自研 |
+| v5.6 | 缓存块对齐 (全prompt) | DeepSeek KV Cache 文档 |
+| v5.7 | 系统自检钩子 | 自研 |
+
+### 数据统计
+- 脚本数: 14 个 (yudustream 系列)
+- 实体数: 648
+- 关系边: 1414
+- Git commit: 18 次
+- 开发周期: 5月4日 — 5月22日（18天）
+
+### 参考项目一览
+| 项目 | 贡献 |
+|:----|:----|
+| TencentDB Agent Memory | 分层存储 L0→L3 |
+| Mem0 | 实体链接 + ADD-only |
+| Zep Graphiti | 时间窗口 + 事实生命周期 |
+| Cognee | 反馈权重 + 自进化 |
+| MemGPT | 虚拟内存换页 + 自动摘要 |
+| GraphRAG | 关系图谱构建 |
+| NetworkX | 图数据库引擎 |
+| DeepSeek API | 缓存机制理解 + 对齐优化 |
