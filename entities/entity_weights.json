@@ -22,13 +22,13 @@
       "last_hit": "2026-05-22 13:55"
     },
     "Hermes": {
-      "score": 3,
-      "hits": 3,
+      "score": 6,
+      "hits": 6,
       "last_hit": "2026-05-22 13:55"
     },
     "Chrome": {
-      "score": 1,
-      "hits": 1,
+      "score": 6,
+      "hits": 6,
       "last_hit": "2026-05-22 13:55"
     },
     "VPS": {
@@ -39,6 +39,30 @@
     "RTX 4090": {
       "score": 0,
       "hits": 0
+    },
+    "Linux Chrome": {
+      "score": 5,
+      "hits": 5
+    },
+    "WSL Chrome": {
+      "score": 5,
+      "hits": 5
+    },
+    "google-chrome-stable": {
+      "score": 5,
+      "hits": 5
+    },
+    "chrome-bridge": {
+      "score": 5,
+      "hits": 5
+    },
+    "WSL": {
+      "score": 3,
+      "hits": 3
+    },
+    "WSLg": {
+      "score": 3,
+      "hits": 3
     }
   },
   "history": [
