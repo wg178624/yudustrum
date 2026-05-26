@@ -1,14 +1,22 @@
 {
   "version": "v4",
-  "built": "2026-05-22T13:37:17.211313",
-  "total_traced_facts": 56,
+  "built": "2026-05-26T13:25:45.941419",
+  "total_traced_facts": 70,
   "top_sections": [
     {
       "section": "content",
-      "mentions": 15
+      "mentions": 18
     },
     {
       "section": "关键内容",
+      "mentions": 8
+    },
+    {
+      "section": "🪶 羽渡尘",
+      "mentions": 8
+    },
+    {
+      "section": "最终配置定案",
       "mentions": 8
     },
     {
@@ -17,10 +25,6 @@
     },
     {
       "section": "专业概况",
-      "mentions": 5
-    },
-    {
-      "section": "🪶 羽渡尘 v2.0.0",
       "mentions": 5
     },
     {
@@ -38,17 +42,13 @@
     {
       "section": "｜第三章｜天命时代 · 暗中的守护者",
       "mentions": 3
-    },
-    {
-      "section": "｜第四章｜圣芙蕾雅 · 班长",
-      "mentions": 3
     }
   ],
   "interests": [
     "content",
     "关键内容",
-    "CodeX (编码代理)",
-    "专业概况",
-    "🪶 羽渡尘 v2.0.0"
+    "🪶 羽渡尘",
+    "最终配置定案",
+    "CodeX (编码代理)"
   ]
 }

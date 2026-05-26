@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-05-22T13:37:17.215112",
+  "updated": "2026-05-26T13:25:45.946039",
   "features": {
     "symbolic_memory": true,
     "trace_chain": true,
@@ -8,11 +8,11 @@
   },
   "layers": {
     "L0_feathers": {
-      "count": 8,
+      "count": 10,
       "path": "feathers/"
     },
     "L1_atoms_v4": {
-      "count": 7,
+      "count": 9,
       "path": "atoms/"
     },
     "L2_scenarios": {

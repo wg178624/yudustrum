@@ -1,0 +1,65 @@
+{
+  "session": "20260526_1325",
+  "source": "feathers/feather_049_大家伙配置讨论_5月26日.md",
+  "title": "feather_049_大家伙配置讨论_5月26日",
+  "facts": [
+    "机箱**: 超微 CSE-846 4U机架（HDD背板保护，不换）",
+    "主板**: 超微 H12SSL-i，SSI-EEB（已是最大哥位，不换）",
+    "CPU**: AMD EPYC 75F3（32C/64T，Zen3，4.0GHz加速）",
+    "相比于原计划7502（Zen2，3.35GHz），75F3单核性能提升30-40%",
+    "吃3A游戏单核频率（赛博朋克2077/大镖客2/最后生还者/黑神话悟空）",
+    "H12SSL-i支持7003系列，刷BIOS 2.3+即可",
+    "散热**: 待定，2028年再定",
+    "选项①: 猫头鹰 NH-U14S TR4-SP3 ¥500（165mm height，CSE-846极限兼容）"
+  ],
+  "trace_ids": [
+    {
+      "trace_id": "1fe4afa70de4",
+      "line": 12,
+      "section": "最终配置定案",
+      "type": "fact"
+    },
+    {
+      "trace_id": "859cb2d635b6",
+      "line": 13,
+      "section": "最终配置定案",
+      "type": "fact"
+    },
+    {
+      "trace_id": "5ab488114cd3",
+      "line": 14,
+      "section": "最终配置定案",
+      "type": "fact"
+    },
+    {
+      "trace_id": "e90ce455cd19",
+      "line": 15,
+      "section": "最终配置定案",
+      "type": "fact"
+    },
+    {
+      "trace_id": "072489db4f41",
+      "line": 16,
+      "section": "最终配置定案",
+      "type": "fact"
+    },
+    {
+      "trace_id": "8502d51f289a",
+      "line": 17,
+      "section": "最终配置定案",
+      "type": "fact"
+    },
+    {
+      "trace_id": "275d38509348",
+      "line": 18,
+      "section": "最终配置定案",
+      "type": "fact"
+    },
+    {
+      "trace_id": "2e05dfbe5775",
+      "line": 19,
+      "section": "最终配置定案",
+      "type": "fact"
+    }
+  ]
+}

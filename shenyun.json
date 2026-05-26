@@ -498,6 +498,19 @@
       "created": "2026-05-14_21-55-46",
       "source": "本对话",
       "summary": "羽渡尘向量库 v2 上线（Ollama nomic-embed-text 768维）+ Git版本管理 + D盘冷备份 + C盘垃圾清理 + 工具盘点"
+    },
+    {
+      "path": "feathers/feather_049_大家伙配置讨论_5月26日.md",
+      "title": "大家伙配置讨论 5月26日",
+      "tags": [
+        "大家伙",
+        "伺服器",
+        "硬件配置",
+        "EPYC",
+        "H12SSL-i"
+      ],
+      "type": "feather",
+      "summary": "最终配置定案：CSE-846+H12SSL-i+75F3+7900XTX+256GB+长城双电源+PTJBOD，散热待定"
     }
   ],
   "anchors": [],

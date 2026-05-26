@@ -1,5 +1,5 @@
 {
-  "session": "20260522_1337",
+  "session": "20260526_1325",
   "source": "feathers/feather_004_本地技能包迭代全览.md",
   "title": "feather_004_本地技能包迭代全览",
   "facts": [
@@ -7,37 +7,58 @@
     "v1.1.0 中文注释规则 + 用户偏好 + Obsidian 集成",
     "v1.2.0 全局行为规则：先搜羽毛，命中引用，未命中建议存",
     "v1.3.0 iCloud Drive 集成",
-    "v2.0.0 SQLite FTS5 全文搜索引擎 + MySQL 学习笔记"
+    "v2.0.0 SQLite FTS5 全文搜索引擎",
+    "v2.1.0 向量化引擎上线 ChromaDB（5月10日）",
+    "v3.0.0 分层记忆 L0→L1→L2→L3（5月14日）",
+    "参考 TencentDB Agent Memory 架构"
   ],
   "trace_ids": [
     {
-      "trace_id": "bfb9c3988671",
-      "line": 12,
-      "section": "🪶 羽渡尘 v2.0.0",
-      "type": "fact"
-    },
-    {
-      "trace_id": "8df2689f171e",
+      "trace_id": "8cf70ee556c0",
       "line": 13,
-      "section": "🪶 羽渡尘 v2.0.0",
+      "section": "🪶 羽渡尘",
       "type": "fact"
     },
     {
-      "trace_id": "616829a2b9ad",
+      "trace_id": "3fc7c04a88b2",
       "line": 14,
-      "section": "🪶 羽渡尘 v2.0.0",
+      "section": "🪶 羽渡尘",
       "type": "fact"
     },
     {
-      "trace_id": "271364afdc4f",
+      "trace_id": "cc0b61628654",
       "line": 15,
-      "section": "🪶 羽渡尘 v2.0.0",
+      "section": "🪶 羽渡尘",
       "type": "fact"
     },
     {
-      "trace_id": "a6503b27e9bc",
+      "trace_id": "59bdf16661c1",
       "line": 16,
-      "section": "🪶 羽渡尘 v2.0.0",
+      "section": "🪶 羽渡尘",
+      "type": "fact"
+    },
+    {
+      "trace_id": "fa01e6259fe3",
+      "line": 17,
+      "section": "🪶 羽渡尘",
+      "type": "fact"
+    },
+    {
+      "trace_id": "2a03ac59c75d",
+      "line": 18,
+      "section": "🪶 羽渡尘",
+      "type": "fact"
+    },
+    {
+      "trace_id": "8b7c84db036d",
+      "line": 19,
+      "section": "🪶 羽渡尘",
+      "type": "fact"
+    },
+    {
+      "trace_id": "ccfdc28ea83d",
+      "line": 20,
+      "section": "🪶 羽渡尘",
       "type": "fact"
     }
   ]
