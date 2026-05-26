@@ -1,0 +1,121 @@
+{
+  "source": "feathers/feather_050_华为韬定律.md",
+  "atoms": [
+    {
+      "text": "发布时间：2026年5月25日，IEEE ISCAS 2026，上海",
+      "section": "基本信息",
+      "type": "fact",
+      "trace_id": "d4c530d0ac1d"
+    },
+    {
+      "text": "发布人：何庭波，华为公司董事、半导体业务部总裁",
+      "section": "基本信息",
+      "type": "fact",
+      "trace_id": "8af1c1d74b79"
+    },
+    {
+      "text": "意义：中国首次提出指导全球半导体产业演进的新原则",
+      "section": "基本信息",
+      "type": "fact",
+      "trace_id": "aceb7b86b5e8"
+    },
+    {
+      "text": "基于实际工作负载，细粒度控制指令流和数据流",
+      "section": "四层降τ体系",
+      "type": "fact",
+      "trace_id": "d67f7b9c9865"
+    },
+    {
+      "text": "过去6年基于韬定律已设计量产 **381款芯片**",
+      "section": "成果与路线图",
+      "type": "fact",
+      "trace_id": "f6408e31fe91"
+    },
+    {
+      "text": "2026年秋季：新麒麟芯片首发逻辑折叠技术",
+      "section": "成果与路线图",
+      "type": "fact",
+      "trace_id": "f8af203d8ce6"
+    },
+    {
+      "text": "2031年：等效 1.4nm 制程的晶体管密度",
+      "section": "成果与路线图",
+      "type": "fact",
+      "trace_id": "ac999b919b01"
+    },
+    {
+      "text": "时间常数 τ = RC — 模电基础概念被华为变成了芯片设计新范式",
+      "section": "对EIE学习的意义",
+      "type": "fact",
+      "trace_id": "62b761c27a96"
+    }
+  ],
+  "trace_chain": [
+    {
+      "trace_id": "d4c530d0ac1d",
+      "fact": "发布时间：2026年5月25日，IEEE ISCAS 2026，上海",
+      "source_file": "feathers/feather_050_华为韬定律.md",
+      "line": 12,
+      "section": "基本信息",
+      "type": "fact"
+    },
+    {
+      "trace_id": "8af1c1d74b79",
+      "fact": "发布人：何庭波，华为公司董事、半导体业务部总裁",
+      "source_file": "feathers/feather_050_华为韬定律.md",
+      "line": 13,
+      "section": "基本信息",
+      "type": "fact"
+    },
+    {
+      "trace_id": "aceb7b86b5e8",
+      "fact": "意义：中国首次提出指导全球半导体产业演进的新原则",
+      "source_file": "feathers/feather_050_华为韬定律.md",
+      "line": 14,
+      "section": "基本信息",
+      "type": "fact"
+    },
+    {
+      "trace_id": "d67f7b9c9865",
+      "fact": "基于实际工作负载，细粒度控制指令流和数据流",
+      "source_file": "feathers/feather_050_华为韬定律.md",
+      "line": 40,
+      "section": "四层降τ体系",
+      "type": "fact"
+    },
+    {
+      "trace_id": "f6408e31fe91",
+      "fact": "过去6年基于韬定律已设计量产 **381款芯片**",
+      "source_file": "feathers/feather_050_华为韬定律.md",
+      "line": 50,
+      "section": "成果与路线图",
+      "type": "fact"
+    },
+    {
+      "trace_id": "f8af203d8ce6",
+      "fact": "2026年秋季：新麒麟芯片首发逻辑折叠技术",
+      "source_file": "feathers/feather_050_华为韬定律.md",
+      "line": 51,
+      "section": "成果与路线图",
+      "type": "fact"
+    },
+    {
+      "trace_id": "ac999b919b01",
+      "fact": "2031年：等效 1.4nm 制程的晶体管密度",
+      "source_file": "feathers/feather_050_华为韬定律.md",
+      "line": 52,
+      "section": "成果与路线图",
+      "type": "fact"
+    },
+    {
+      "trace_id": "62b761c27a96",
+      "fact": "时间常数 τ = RC — 模电基础概念被华为变成了芯片设计新范式",
+      "source_file": "feathers/feather_050_华为韬定律.md",
+      "line": 56,
+      "section": "对EIE学习的意义",
+      "type": "fact"
+    }
+  ],
+  "atom_count": 8,
+  "updated": "2026-05-26T14:32:45.337902"
+}

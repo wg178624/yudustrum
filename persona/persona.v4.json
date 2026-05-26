@@ -1,7 +1,7 @@
 {
   "version": "v4",
-  "built": "2026-05-26T13:25:45.941419",
-  "total_traced_facts": 70,
+  "built": "2026-05-26T14:32:45.380316",
+  "total_traced_facts": 78,
   "top_sections": [
     {
       "section": "content",
@@ -36,11 +36,11 @@
       "mentions": 3
     },
     {
-      "section": "当前教材总览",
+      "section": "基本信息",
       "mentions": 3
     },
     {
-      "section": "｜第三章｜天命时代 · 暗中的守护者",
+      "section": "成果与路线图",
       "mentions": 3
     }
   ],
