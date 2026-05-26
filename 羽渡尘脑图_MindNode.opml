@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>羽渡尘知识图谱</title>
+  </head>
+  <body>
+    <outline text="羽渡尘">
+      <outline text="分层记忆">
+        <outline text="L0 羽毛 — 47片Markdown，YAML元数据，Git版本控制"/>
+        <outline text="L1 Atom — 969实体，结构化事实，溯源链"/>
+        <outline text="L2 场景 — 按标签聚合，跨羽毛连接"/>
+        <outline text="L3 画像 — 78条事实，自动兴趣提取，高频话题排名"/>
+      </outline>
+      <outline text="检索管线">
+        <outline text="四路召回">
+          <outline text="实体匹配"/>
+          <outline text="图谱关系"/>
+          <outline text="FTS5全文"/>
+          <outline text="向量语义"/>
+        </outline>
+        <outline text="动态TopK">
+          <outline text="简单3条"/>
+          <outline text="常规5条"/>
+          <outline text="复杂8条"/>
+          <outline text="调试12条"/>
+        </outline>
+        <outline text="缓存对齐">
+          <outline text="核心兜（高频）"/>
+          <outline text="背景兜（低频）"/>
+          <outline text="字典序排序"/>
+          <outline text="命中率&gt;99%"/>
+        </outline>
+      </outline>
+      <outline text="存储系统">
+        <outline text="MEMORY.md — 羽渡尘快照窗口，576字动态生成"/>
+        <outline text="USER.md — 你的画像，扩容至5000字"/>
+        <outline text="user-iron-laws — 铁律刻入SSD，7个章节"/>
+        <outline text="D盘羽毛库 — 506GB空间，iCloud教材链接"/>
+      </outline>
+      <outline text="工具生态">
+        <outline text="Obsidian — 图谱视图，[Wikilink]，教材库联动"/>
+        <outline text="Chrome — headless爬虫，端口9222"/>
+        <outline text="VPS — kejilion.sh，翻墙通道"/>
+      </outline>
+      <outline text="你的方向">
+        <outline text="EIE半导体">
+          <outline text="模电/数电/计组"/>
+          <outline text="C/C++/Linux"/>
+        </outline>
+        <outline text="槟城计划">
+          <outline text="PSDC留学"/>
+          <outline text="Intel/AMD"/>
+        </outline>
+        <outline text="大家伙">
+          <outline text="EPYC 75F3"/>
+          <outline text="RX 7900XTX"/>
+          <outline text="CSE-846 4U"/>
+        </outline>
+      </outline>
+    </outline>
+  </body>
+</opml>
