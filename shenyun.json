@@ -564,6 +564,20 @@
       ],
       "type": "feather",
       "summary": "Claude Code文档精读: 五大扩展机制(CLAUDE.md/Skills/Subagents/MCP/Hooks)设计哲学+关键参数+对羽渡尘启发"
+    },
+    {
+      "path": "feathers/feather_054_马来西亚半导体NIMP2030.md",
+      "title": "马来西亚半导体资料 NIMP2030 + MIDA",
+      "tags": [
+        "槟城",
+        "半导体",
+        "Intel",
+        "AMD",
+        "马来西亚",
+        "职业规划"
+      ],
+      "type": "feather",
+      "summary": "马来西亚NIMP2030: 半导体为国策, 全球市场580B→1T, 槟城为核心, Intel/AMD持续扩产"
     }
   ],
   "anchors": [],
