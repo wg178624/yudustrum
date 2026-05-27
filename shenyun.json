@@ -578,6 +578,20 @@
       ],
       "type": "feather",
       "summary": "马来西亚NIMP2030: 半导体为国策, 全球市场580B→1T, 槟城为核心, Intel/AMD持续扩产"
+    },
+    {
+      "path": "feathers/feather_055_教材库学习路线图.md",
+      "title": "教材库学习路线图",
+      "tags": [
+        "EIE",
+        "学习路线",
+        "C",
+        "计组",
+        "模电",
+        "教材"
+      ],
+      "type": "feather",
+      "summary": "教材库优先级排序: T0计组→C Primer→数据结构 T1数电→模电→控制论 T2 OS→计网 T3数学/C++/无线电"
     }
   ],
   "anchors": [],
