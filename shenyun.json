@@ -592,6 +592,19 @@
       ],
       "type": "feather",
       "summary": "教材库优先级排序: T0计组→C Primer→数据结构 T1数电→模电→控制论 T2 OS→计网 T3数学/C++/无线电"
+    },
+    {
+      "path": "feathers/feather_056_csdiy自学指南.md",
+      "title": "CSDIY.wiki 计算机自学路线",
+      "tags": [
+        "CS自学",
+        "EIE",
+        "学习路线",
+        "公开课",
+        "教材"
+      ],
+      "type": "feather",
+      "summary": "csdiy.wiki 开源CS自学路线: 数学/系统/硬件课程,对你EIE方向有补充作用但非主线"
     }
   ],
   "anchors": [],
