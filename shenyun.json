@@ -605,6 +605,17 @@
       ],
       "type": "feather",
       "summary": "csdiy.wiki 开源CS自学路线: 数学/系统/硬件课程,对你EIE方向有补充作用但非主线"
+    },
+    {
+      "path": "feathers/feather_057_收藏夹薅下来计划.md",
+      "title": "浏览器收藏薅下来计划",
+      "tags": [
+        "收藏夹",
+        "离线保存",
+        "工作流"
+      ],
+      "type": "feather",
+      "summary": "把浏览器收藏夹的技术内容薅下来存本地羽毛,防网站挂/网络暴毙"
     }
   ],
   "anchors": [],
