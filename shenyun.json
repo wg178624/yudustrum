@@ -629,6 +629,21 @@
       ],
       "type": "feather",
       "summary": "Bitcoin whitepaper 2008. 9页纸在教材库. 经典工程范本: 用已有技术(Hashcash/Merkle/P2P)拼出新东西"
+    },
+    {
+      "path": "feathers/feather_059_VLESS_Reality_VPN教程.md",
+      "title": "VLESS+Reality VPN 自建完整教程",
+      "tags": [
+        "VPN",
+        "VPS",
+        "Reality",
+        "VLESS",
+        "翻墙",
+        "X-ui",
+        "网络"
+      ],
+      "type": "feather",
+      "summary": "VLESS+Reality 自建VPN完整教程. 替代旧版Shadowsocks, 无需域名借用大厂伪装"
     }
   ],
   "anchors": [],
