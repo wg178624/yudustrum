@@ -657,6 +657,19 @@
       ],
       "type": "feather",
       "summary": "EdgeTunnel部署指南: CF Worker做应急翻墙, V2RayN挂了时备用"
+    },
+    {
+      "path": "feathers/feather_061_GoogleAntigravity入门教程.md",
+      "title": "Google Antigravity 官方入门教程",
+      "tags": [
+        "Antigravity",
+        "Google",
+        "IDE",
+        "agent-first",
+        "Codelab"
+      ],
+      "type": "feather",
+      "summary": "Google Antigravity官方Codelab(105min). 你主力的agent-first IDE. 覆盖安装/Agent/浏览器/规则/技能/安全"
     }
   ],
   "anchors": [],
