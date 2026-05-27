@@ -616,6 +616,19 @@
       ],
       "type": "feather",
       "summary": "把浏览器收藏夹的技术内容薅下来存本地羽毛,防网站挂/网络暴毙"
+    },
+    {
+      "path": "feathers/feather_058_比特币白皮书.md",
+      "title": "比特币白皮书 中本聪",
+      "tags": [
+        "比特币",
+        "区块链",
+        "白皮书",
+        "中本聪",
+        "工程思维"
+      ],
+      "type": "feather",
+      "summary": "Bitcoin whitepaper 2008. 9页纸在教材库. 经典工程范本: 用已有技术(Hashcash/Merkle/P2P)拼出新东西"
     }
   ],
   "anchors": [],
