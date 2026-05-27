@@ -644,6 +644,19 @@
       ],
       "type": "feather",
       "summary": "VLESS+Reality 自建VPN完整教程. 替代旧版Shadowsocks, 无需域名借用大厂伪装"
+    },
+    {
+      "path": "feathers/feather_060_EdgeTunnel_应急翻墙.md",
+      "title": "EdgeTunnel CF Worker 应急翻墙备用",
+      "tags": [
+        "CF Worker",
+        "翻墙",
+        "EdgeTunnel",
+        "应急",
+        "V2Ray"
+      ],
+      "type": "feather",
+      "summary": "EdgeTunnel部署指南: CF Worker做应急翻墙, V2RayN挂了时备用"
     }
   ],
   "anchors": [],
