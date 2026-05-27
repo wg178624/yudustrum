@@ -1,45 +1,45 @@
 {
   "version": "4.1",
-  "built": "2026-05-26T14:32:45.195064",
-  "total_entities": 969,
-  "total_files_scanned": 48,
+  "built": "2026-05-27T13:08:37.679563",
+  "total_entities": 1038,
+  "total_files_scanned": 50,
   "entities": {
     "Hermes": {
       "mention_count": 50,
       "source_files": [
-        "auto-save/USER_20260506_200545.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "feathers/用户设备清单.md",
-        "auto-save/存盘日志_2026-05-08_18-26-34.md",
-        "auto-save/MEMORY_20260506_174854.md",
-        "auto-save/MEMORY_20260506_172529.md",
-        "auto-save/会话日志_2026-05-08_23-30-00.md",
-        "feathers/feather_049_大家伙配置讨论_5月26日.md",
-        "auto-save/USER_20260506_165420.md",
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/USER_20260506_172529.md",
-        "auto-save/USER_20260506_204305.md",
-        "auto-save/SESSION_20260508_160059.md",
-        "auto-save/MEMORY_20260506_162418.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/SESSION_20260506_162418.md",
-        "auto-save/SESSION_20260506_165420.md",
-        "feathers/feather_002_工具使用手册.md",
-        "auto-save/USER_20260508_160059.md",
-        "auto-save/USER_20260506_160708.md",
         "auto-save/USER_20260506_174854.md",
-        "auto-save/USER_20260506_162418.md",
-        "auto-save/USER_20260506_181455.md",
         "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260506_181455.md",
+        "auto-save/USER_20260506_165420.md",
+        "feathers/feather_049_大家伙配置讨论_5月26日.md",
+        "auto-save/MEMORY_20260506_203848.md",
+        "auto-save/USER_20260506_162418.md",
+        "auto-save/USER_20260506_160708.md",
+        "auto-save/USER_20260507_210412.md",
+        "auto-save/USER_20260506_204305.md",
+        "auto-save/USER_20260506_172529.md",
+        "auto-save/SESSION_20260508_160059.md",
+        "feathers/用户设备清单.md",
         "feathers/feather_001_20260504_会话复盘.md",
         "auto-save/USER_20260506_203848.md",
-        "auto-save/USER_20260507_210412.md",
-        "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/USER_20260506_171659.md"
+        "auto-save/会话日志_2026-05-08_23-30-00.md",
+        "auto-save/USER_20260508_160059.md",
+        "auto-save/SESSION_20260506_165420.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/存盘日志_2026-05-08_18-26-34.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/USER_20260506_181455.md",
+        "auto-save/SESSION_20260506_162418.md",
+        "auto-save/USER_20260506_171659.md",
+        "auto-save/MEMORY_20260508_160059.md",
+        "auto-save/MEMORY_20260506_171659.md",
+        "feathers/feather_002_工具使用手册.md",
+        "auto-save/MEMORY_20260506_165420.md",
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/USER_20260506_200545.md",
+        "auto-save/MEMORY_20260506_181455.md"
       ],
       "first_seen_in": "feathers/feather_001_20260504_会话复盘.md",
       "sample_lines": [
@@ -61,36 +61,37 @@
       ]
     },
     "VPS": {
-      "mention_count": 44,
+      "mention_count": 45,
       "source_files": [
-        "auto-save/USER_20260506_200545.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260506_174854.md",
-        "auto-save/MEMORY_20260506_172529.md",
-        "auto-save/会话日志_2026-05-08_23-30-00.md",
-        "auto-save/USER_20260506_165420.md",
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/USER_20260506_172529.md",
-        "auto-save/USER_20260506_204305.md",
-        "auto-save/MEMORY_20260506_162418.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/SESSION_20260506_203848.md",
-        "auto-save/USER_20260508_160059.md",
-        "auto-save/USER_20260506_160708.md",
         "auto-save/USER_20260506_174854.md",
-        "auto-save/USER_20260506_162418.md",
-        "auto-save/USER_20260506_181455.md",
         "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "feathers/feather_004_本地技能包迭代全览.md",
+        "auto-save/USER_20260506_165420.md",
+        "auto-save/MEMORY_20260506_203848.md",
+        "auto-save/USER_20260506_162418.md",
+        "auto-save/USER_20260506_160708.md",
+        "auto-save/USER_20260507_210412.md",
+        "auto-save/USER_20260506_204305.md",
+        "auto-save/USER_20260506_172529.md",
         "feathers/feather_001_20260504_会话复盘.md",
         "auto-save/USER_20260506_203848.md",
-        "auto-save/USER_20260507_210412.md",
-        "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/USER_20260506_171659.md"
+        "auto-save/会话日志_2026-05-08_23-30-00.md",
+        "auto-save/USER_20260508_160059.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "feathers/feather_051_羽渡尘脑图总览.md",
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/USER_20260506_181455.md",
+        "auto-save/USER_20260506_171659.md",
+        "auto-save/MEMORY_20260508_160059.md",
+        "auto-save/MEMORY_20260506_171659.md",
+        "auto-save/MEMORY_20260506_165420.md",
+        "auto-save/SESSION_20260506_203848.md",
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/USER_20260506_200545.md",
+        "auto-save/MEMORY_20260506_181455.md"
       ],
       "first_seen_in": "feathers/feather_001_20260504_会话复盘.md",
       "sample_lines": [
@@ -105,36 +106,36 @@
           "text": "- LLM 自动融合矛盾事实（VPS密码→密钥等）"
         },
         {
-          "file": "auto-save/MEMORY_20260506_160708.md",
-          "line": 1,
-          "text": "用户(gang)的 VPS 日常维护靠 kejilion.sh（科技lion脚本工具箱 v4.4.10），用 `k` 命令启动。功能：系统查询/更新/清理、BBR管理、Docker管理、应用市场(10"
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 66,
+          "text": "VPS"
         }
       ]
     },
     "EIE": {
       "mention_count": 39,
       "source_files": [
-        "auto-save/USER_20260506_200545.md",
-        "auto-save/会话日志_2026-05-08_23-30-00.md",
-        "auto-save/USER_20260506_165420.md",
-        "auto-save/USER_20260506_172529.md",
-        "feathers/feather_050_华为韬定律.md",
-        "auto-save/USER_20260506_204305.md",
-        "auto-save/SESSION_20260506_172529.md",
-        "feathers/feather_003_EIE完整培养方案与书单.md",
-        "auto-save/SESSION_20260506_165420.md",
-        "auto-save/SESSION_20260506_203848.md",
-        "auto-save/SESSION_20260506_181455.md",
-        "auto-save/USER_20260508_160059.md",
-        "auto-save/USER_20260506_160708.md",
         "auto-save/USER_20260506_174854.md",
+        "auto-save/USER_20260506_165420.md",
+        "feathers/feather_050_华为韬定律.md",
         "auto-save/USER_20260506_162418.md",
-        "auto-save/USER_20260506_181455.md",
-        "auto-save/SESSION_20260506_171659.md",
-        "feathers/feather_004_本地技能包迭代全览.md",
-        "auto-save/USER_20260506_203848.md",
+        "auto-save/USER_20260506_160708.md",
         "auto-save/USER_20260507_210412.md",
-        "auto-save/USER_20260506_171659.md"
+        "auto-save/USER_20260506_204305.md",
+        "auto-save/USER_20260506_172529.md",
+        "feathers/feather_003_EIE完整培养方案与书单.md",
+        "auto-save/USER_20260506_203848.md",
+        "auto-save/会话日志_2026-05-08_23-30-00.md",
+        "auto-save/USER_20260508_160059.md",
+        "auto-save/SESSION_20260506_165420.md",
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "auto-save/USER_20260506_181455.md",
+        "auto-save/USER_20260506_171659.md",
+        "auto-save/SESSION_20260506_171659.md",
+        "auto-save/SESSION_20260506_181455.md",
+        "auto-save/SESSION_20260506_203848.md",
+        "auto-save/USER_20260506_200545.md",
+        "auto-save/SESSION_20260506_172529.md"
       ],
       "first_seen_in": "feathers/feather_003_EIE完整培养方案与书单.md",
       "sample_lines": [
@@ -158,29 +159,29 @@
     "DeepSeek": {
       "mention_count": 29,
       "source_files": [
-        "auto-save/USER_20260506_200545.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "feathers/feather_049_大家伙配置讨论_5月26日.md",
+        "auto-save/MEMORY_20260506_203848.md",
+        "auto-save/USER_20260507_210412.md",
+        "auto-save/USER_20260506_204305.md",
+        "auto-save/USER_20260506_203848.md",
+        "auto-save/SESSION_20260506_174854.md",
+        "auto-save/USER_20260508_160059.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/USER_20260506_181455.md",
+        "auto-save/MEMORY_20260508_160059.md",
+        "auto-save/MEMORY_20260506_171659.md",
+        "feathers/feather_002_工具使用手册.md",
+        "auto-save/MEMORY_20260506_165420.md",
         "auto-save/MEMORY_20260506_200545.md",
         "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260506_174854.md",
-        "auto-save/MEMORY_20260506_172529.md",
-        "feathers/feather_049_大家伙配置讨论_5月26日.md",
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/SESSION_20260506_174854.md",
-        "auto-save/USER_20260506_204305.md",
-        "auto-save/SESSION_20260506_172529.md",
-        "auto-save/MEMORY_20260506_162418.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "feathers/feather_002_工具使用手册.md",
-        "auto-save/USER_20260508_160059.md",
-        "auto-save/USER_20260506_181455.md",
-        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/USER_20260506_200545.md",
         "auto-save/MEMORY_20260506_181455.md",
-        "feathers/feather_004_本地技能包迭代全览.md",
-        "auto-save/USER_20260506_203848.md",
-        "auto-save/USER_20260507_210412.md",
-        "auto-save/MEMORY_20260506_203848.md"
+        "auto-save/SESSION_20260506_172529.md"
       ],
       "first_seen_in": "feathers/feather_002_工具使用手册.md",
       "sample_lines": [
@@ -201,24 +202,64 @@
         }
       ]
     },
+    "羽渡尘": {
+      "mention_count": 25,
+      "source_files": [
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "auto-save/USER_20260506_174854.md",
+        "auto-save/USER_20260506_165420.md",
+        "auto-save/存盘日志_2026-05-08_18-26-34.md",
+        "auto-save/USER_20260506_172529.md",
+        "auto-save/USER_20260506_181455.md",
+        "auto-save/SESSION_20260506_203848.md",
+        "auto-save/USER_20260506_203848.md",
+        "auto-save/USER_20260506_162418.md",
+        "auto-save/SESSION_20260506_200545.md",
+        "auto-save/USER_20260506_171659.md",
+        "auto-save/USER_20260506_200545.md",
+        "auto-save/USER_20260508_160059.md",
+        "auto-save/SESSION_20260507_210412.md",
+        "auto-save/USER_20260506_204305.md",
+        "auto-save/USER_20260507_210412.md",
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_004_本地技能包迭代全览.md",
+          "line": 11,
+          "text": "## 🪶 羽渡尘"
+        },
+        {
+          "file": "feathers/feather_004_本地技能包迭代全览.md",
+          "line": 125,
+          "text": "## 🧠 羽渡尘完整进化史（截至 2026-05-22）"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 2,
+          "text": "title: \"羽渡尘知识图谱 — 脑图总览\""
+        }
+      ]
+    },
     "Ollama": {
       "mention_count": 24,
       "source_files": [
-        "auto-save/USER_20260506_160708.md",
-        "auto-save/USER_20260506_174854.md",
-        "auto-save/USER_20260506_162418.md",
-        "auto-save/USER_20260506_181455.md",
-        "auto-save/USER_20260506_200545.md",
-        "feathers/feather_004_本地技能包迭代全览.md",
-        "auto-save/USER_20260506_172529.md",
         "feathers/feather_001_20260504_会话复盘.md",
-        "auto-save/USER_20260506_203848.md",
-        "auto-save/USER_20260507_210412.md",
-        "feathers/feather_002_工具使用手册.md",
-        "auto-save/USER_20260506_204305.md",
-        "auto-save/USER_20260508_160059.md",
+        "feathers/feather_004_本地技能包迭代全览.md",
         "auto-save/USER_20260506_165420.md",
-        "auto-save/USER_20260506_171659.md"
+        "auto-save/USER_20260506_174854.md",
+        "auto-save/USER_20260506_181455.md",
+        "auto-save/USER_20260506_203848.md",
+        "auto-save/USER_20260506_162418.md",
+        "auto-save/USER_20260506_200545.md",
+        "auto-save/USER_20260506_171659.md",
+        "auto-save/USER_20260506_160708.md",
+        "auto-save/USER_20260508_160059.md",
+        "auto-save/USER_20260507_210412.md",
+        "auto-save/USER_20260506_204305.md",
+        "auto-save/USER_20260506_172529.md",
+        "feathers/feather_002_工具使用手册.md"
       ],
       "first_seen_in": "feathers/feather_001_20260504_会话复盘.md",
       "sample_lines": [
@@ -242,30 +283,30 @@
     "Edge": {
       "mention_count": 24,
       "source_files": [
-        "auto-save/USER_20260506_200545.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260506_174854.md",
-        "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/USER_20260506_174854.md",
+        "auto-save/MEMORY_20260507_210412.md",
         "auto-save/USER_20260506_165420.md",
+        "auto-save/MEMORY_20260506_203848.md",
+        "auto-save/USER_20260506_162418.md",
+        "auto-save/USER_20260506_160708.md",
+        "auto-save/USER_20260507_210412.md",
+        "auto-save/USER_20260506_204305.md",
+        "auto-save/USER_20260506_172529.md",
+        "auto-save/USER_20260506_203848.md",
+        "auto-save/USER_20260508_160059.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/USER_20260506_181455.md",
+        "auto-save/USER_20260506_171659.md",
+        "auto-save/MEMORY_20260508_160059.md",
         "auto-save/MEMORY_20260506_171659.md",
         "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/USER_20260506_172529.md",
-        "auto-save/USER_20260506_204305.md",
-        "auto-save/MEMORY_20260506_162418.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/USER_20260508_160059.md",
-        "auto-save/USER_20260506_160708.md",
-        "auto-save/USER_20260506_174854.md",
-        "auto-save/USER_20260506_162418.md",
-        "auto-save/USER_20260506_181455.md",
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "auto-save/USER_20260506_203848.md",
-        "auto-save/USER_20260507_210412.md",
-        "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/USER_20260506_171659.md"
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/USER_20260506_200545.md",
+        "auto-save/MEMORY_20260506_181455.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_160708.md",
       "sample_lines": [
@@ -286,24 +327,51 @@
         }
       ]
     },
+    "Chrome": {
+      "mention_count": 21,
+      "source_files": [
+        "feathers/feather_001_20260504_会话复盘.md",
+        "feathers/feather_051_羽渡尘脑图总览.md",
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "feathers/feather_002_工具使用手册.md"
+      ],
+      "first_seen_in": "feathers/feather_001_20260504_会话复盘.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_001_20260504_会话复盘.md",
+          "line": 3,
+          "text": "tags: [初始搭建, CodeX, Chrome, OpenClaw, 羽渡尘, Ollama, NVIDIA]"
+        },
+        {
+          "file": "feathers/feather_001_20260504_会话复盘.md",
+          "line": 22,
+          "text": "- **Chrome** → 从 Windows AppData 发现 → 可用 `--dump-dom` 绕过反爬"
+        },
+        {
+          "file": "feathers/feather_001_20260504_会话复盘.md",
+          "line": 52,
+          "text": "- Chrome `--dump-dom` 比无头浏览器更抗反爬"
+        }
+      ]
+    },
     "OpenClaw": {
       "mention_count": 20,
       "source_files": [
-        "auto-save/USER_20260506_160708.md",
-        "auto-save/USER_20260506_174854.md",
-        "auto-save/USER_20260506_162418.md",
-        "auto-save/USER_20260506_181455.md",
-        "auto-save/USER_20260506_200545.md",
-        "feathers/feather_004_本地技能包迭代全览.md",
-        "auto-save/USER_20260506_172529.md",
         "feathers/feather_001_20260504_会话复盘.md",
-        "auto-save/USER_20260506_203848.md",
-        "auto-save/USER_20260507_210412.md",
-        "feathers/feather_002_工具使用手册.md",
-        "auto-save/USER_20260506_204305.md",
-        "auto-save/USER_20260508_160059.md",
+        "feathers/feather_004_本地技能包迭代全览.md",
         "auto-save/USER_20260506_165420.md",
-        "auto-save/USER_20260506_171659.md"
+        "auto-save/USER_20260506_174854.md",
+        "auto-save/USER_20260506_181455.md",
+        "auto-save/USER_20260506_203848.md",
+        "auto-save/USER_20260506_162418.md",
+        "auto-save/USER_20260506_200545.md",
+        "auto-save/USER_20260506_171659.md",
+        "auto-save/USER_20260506_160708.md",
+        "auto-save/USER_20260508_160059.md",
+        "auto-save/USER_20260507_210412.md",
+        "auto-save/USER_20260506_204305.md",
+        "auto-save/USER_20260506_172529.md",
+        "feathers/feather_002_工具使用手册.md"
       ],
       "first_seen_in": "feathers/feather_001_20260504_会话复盘.md",
       "sample_lines": [
@@ -327,18 +395,18 @@
     "US": {
       "mention_count": 19,
       "source_files": [
-        "auto-save/USER_20260506_160708.md",
         "auto-save/USER_20260506_174854.md",
-        "auto-save/USER_20260506_162418.md",
+        "auto-save/USER_20260506_165420.md",
         "auto-save/USER_20260506_181455.md",
-        "auto-save/USER_20260506_200545.md",
-        "auto-save/USER_20260506_172529.md",
         "auto-save/USER_20260506_203848.md",
+        "auto-save/USER_20260506_162418.md",
+        "auto-save/USER_20260506_200545.md",
+        "auto-save/USER_20260506_171659.md",
+        "auto-save/USER_20260506_160708.md",
+        "auto-save/USER_20260508_160059.md",
         "auto-save/USER_20260507_210412.md",
         "auto-save/USER_20260506_204305.md",
-        "auto-save/USER_20260508_160059.md",
-        "auto-save/USER_20260506_165420.md",
-        "auto-save/USER_20260506_171659.md"
+        "auto-save/USER_20260506_172529.md"
       ],
       "first_seen_in": "auto-save/USER_20260506_160708.md",
       "sample_lines": [
@@ -359,83 +427,18 @@
         }
       ]
     },
-    "Chrome": {
-      "mention_count": 18,
-      "source_files": [
-        "feathers/feather_001_20260504_会话复盘.md",
-        "feathers/feather_002_工具使用手册.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
-      ],
-      "first_seen_in": "feathers/feather_001_20260504_会话复盘.md",
-      "sample_lines": [
-        {
-          "file": "feathers/feather_001_20260504_会话复盘.md",
-          "line": 3,
-          "text": "tags: [初始搭建, CodeX, Chrome, OpenClaw, 羽渡尘, Ollama, NVIDIA]"
-        },
-        {
-          "file": "feathers/feather_001_20260504_会话复盘.md",
-          "line": 22,
-          "text": "- **Chrome** → 从 Windows AppData 发现 → 可用 `--dump-dom` 绕过反爬"
-        },
-        {
-          "file": "feathers/feather_001_20260504_会话复盘.md",
-          "line": 52,
-          "text": "- Chrome `--dump-dom` 比无头浏览器更抗反爬"
-        }
-      ]
-    },
-    "羽渡尘": {
-      "mention_count": 18,
-      "source_files": [
-        "auto-save/USER_20260506_174854.md",
-        "auto-save/USER_20260506_181455.md",
-        "auto-save/USER_20260506_162418.md",
-        "auto-save/USER_20260506_200545.md",
-        "feathers/feather_004_本地技能包迭代全览.md",
-        "auto-save/USER_20260506_172529.md",
-        "auto-save/USER_20260506_203848.md",
-        "auto-save/USER_20260507_210412.md",
-        "auto-save/存盘日志_2026-05-08_18-26-34.md",
-        "auto-save/USER_20260506_204305.md",
-        "auto-save/SESSION_20260506_203848.md",
-        "auto-save/USER_20260508_160059.md",
-        "auto-save/USER_20260506_165420.md",
-        "auto-save/SESSION_20260506_200545.md",
-        "auto-save/USER_20260506_171659.md",
-        "auto-save/SESSION_20260507_210412.md"
-      ],
-      "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
-      "sample_lines": [
-        {
-          "file": "feathers/feather_004_本地技能包迭代全览.md",
-          "line": 11,
-          "text": "## 🪶 羽渡尘"
-        },
-        {
-          "file": "feathers/feather_004_本地技能包迭代全览.md",
-          "line": 125,
-          "text": "## 🧠 羽渡尘完整进化史（截至 2026-05-22）"
-        },
-        {
-          "file": "auto-save/SESSION_20260506_200545.md",
-          "line": 16,
-          "text": "- 羽渡尘 v1.3.0"
-        }
-      ]
-    },
     "会话结束": {
       "mention_count": 18,
       "source_files": [
-        "auto-save/SESSION_20260506_171659.md",
-        "auto-save/SESSION_20260506_162418.md",
-        "auto-save/SESSION_20260506_165420.md",
-        "auto-save/SESSION_20260506_174854.md",
-        "auto-save/SESSION_20260506_181455.md",
         "auto-save/SESSION_20260506_203848.md",
-        "auto-save/SESSION_20260506_172529.md",
+        "auto-save/SESSION_20260506_162418.md",
+        "auto-save/SESSION_20260506_174854.md",
         "auto-save/SESSION_20260506_200545.md",
-        "auto-save/SESSION_20260507_210412.md"
+        "auto-save/SESSION_20260506_165420.md",
+        "auto-save/SESSION_20260507_210412.md",
+        "auto-save/SESSION_20260506_172529.md",
+        "auto-save/SESSION_20260506_171659.md",
+        "auto-save/SESSION_20260506_181455.md"
       ],
       "first_seen_in": "auto-save/SESSION_20260506_162418.md",
       "sample_lines": [
@@ -459,20 +462,20 @@
     "Go": {
       "mention_count": 17,
       "source_files": [
-        "auto-save/USER_20260506_174854.md",
-        "auto-save/USER_20260506_181455.md",
-        "auto-save/USER_20260506_162418.md",
-        "auto-save/SESSION_20260506_160708.md",
-        "auto-save/SESSION_20260506_162418.md",
-        "feathers/feather_004_本地技能包迭代全览.md",
-        "feathers/用户设备清单.md",
         "feathers/feather_001_20260504_会话复盘.md",
-        "auto-save/USER_20260506_172529.md",
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "auto-save/USER_20260506_165420.md",
+        "auto-save/USER_20260506_174854.md",
         "feathers/feather_002_工具使用手册.md",
         "auto-save/SESSION_20260506_181455.md",
+        "auto-save/USER_20260506_181455.md",
+        "auto-save/SESSION_20260506_162418.md",
+        "auto-save/USER_20260506_162418.md",
+        "auto-save/SESSION_20260506_160708.md",
+        "auto-save/USER_20260506_171659.md",
         "auto-save/SESSION_20260506_172529.md",
-        "auto-save/USER_20260506_165420.md",
-        "auto-save/USER_20260506_171659.md"
+        "auto-save/USER_20260506_172529.md",
+        "feathers/用户设备清单.md"
       ],
       "first_seen_in": "feathers/feather_001_20260504_会话复盘.md",
       "sample_lines": [
@@ -496,18 +499,18 @@
     "Docker": {
       "mention_count": 16,
       "source_files": [
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/MEMORY_20260506_174854.md",
         "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_165420.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/MEMORY_20260508_160059.md",
         "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260506_162418.md"
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/MEMORY_20260506_181455.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "auto-save/MEMORY_20260506_171659.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_160708.md",
       "sample_lines": [
@@ -531,18 +534,18 @@
     "v4.4.10": {
       "mention_count": 16,
       "source_files": [
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/MEMORY_20260506_174854.md",
         "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_165420.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/MEMORY_20260508_160059.md",
         "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260506_162418.md"
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/MEMORY_20260506_181455.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "auto-save/MEMORY_20260506_171659.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_160708.md",
       "sample_lines": [
@@ -566,18 +569,18 @@
     "功能": {
       "mention_count": 16,
       "source_files": [
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/MEMORY_20260506_174854.md",
         "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_165420.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/MEMORY_20260508_160059.md",
         "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260506_162418.md"
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/MEMORY_20260506_181455.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "auto-save/MEMORY_20260506_171659.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_160708.md",
       "sample_lines": [
@@ -601,18 +604,18 @@
     "本工具箱": {
       "mention_count": 16,
       "source_files": [
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/MEMORY_20260506_174854.md",
         "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_165420.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/MEMORY_20260508_160059.md",
         "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260506_162418.md"
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/MEMORY_20260506_181455.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "auto-save/MEMORY_20260506_171659.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_160708.md",
       "sample_lines": [
@@ -636,15 +639,15 @@
     "WSL": {
       "mention_count": 15,
       "source_files": [
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260508_160059.md",
         "feathers/feather_004_本地技能包迭代全览.md",
-        "feathers/用户设备清单.md",
+        "auto-save/MEMORY_20260507_210412.md",
         "feathers/feather_002_工具使用手册.md",
         "auto-save/SESSION_20260506_181455.md",
         "auto-save/SESSION_20260506_203848.md",
-        "auto-save/MEMORY_20260506_203848.md"
+        "auto-save/MEMORY_20260506_203848.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/MEMORY_20260508_160059.md",
+        "feathers/用户设备清单.md"
       ],
       "first_seen_in": "feathers/feather_002_工具使用手册.md",
       "sample_lines": [
@@ -668,20 +671,20 @@
     "MCP": {
       "mention_count": 14,
       "source_files": [
-        "auto-save/USER_20260506_160708.md",
-        "auto-save/USER_20260506_174854.md",
-        "auto-save/USER_20260506_162418.md",
-        "auto-save/USER_20260506_181455.md",
-        "auto-save/USER_20260506_200545.md",
-        "auto-save/USER_20260506_172529.md",
         "feathers/feather_001_20260504_会话复盘.md",
-        "auto-save/USER_20260506_203848.md",
-        "auto-save/USER_20260507_210412.md",
-        "feathers/feather_002_工具使用手册.md",
-        "auto-save/USER_20260506_204305.md",
-        "auto-save/USER_20260508_160059.md",
+        "auto-save/USER_20260506_174854.md",
         "auto-save/USER_20260506_165420.md",
-        "auto-save/USER_20260506_171659.md"
+        "auto-save/USER_20260506_181455.md",
+        "auto-save/USER_20260506_203848.md",
+        "auto-save/USER_20260506_162418.md",
+        "auto-save/USER_20260506_200545.md",
+        "auto-save/USER_20260506_171659.md",
+        "auto-save/USER_20260506_160708.md",
+        "auto-save/USER_20260508_160059.md",
+        "auto-save/USER_20260507_210412.md",
+        "auto-save/USER_20260506_204305.md",
+        "auto-save/USER_20260506_172529.md",
+        "feathers/feather_002_工具使用手册.md"
       ],
       "first_seen_in": "feathers/feather_001_20260504_会话复盘.md",
       "sample_lines": [
@@ -705,19 +708,19 @@
     "CPU": {
       "mention_count": 14,
       "source_files": [
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/MEMORY_20260506_174854.md",
         "auto-save/MEMORY_20260506_172529.md",
-        "auto-save/MEMORY_20260506_203848.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_165420.md",
+        "auto-save/MEMORY_20260506_174854.md",
         "feathers/feather_049_大家伙配置讨论_5月26日.md",
-        "auto-save/MEMORY_20260506_162418.md"
+        "auto-save/MEMORY_20260508_160059.md",
+        "auto-save/MEMORY_20260506_203848.md",
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/MEMORY_20260506_181455.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "auto-save/MEMORY_20260506_171659.md"
       ],
       "first_seen_in": "feathers/feather_049_大家伙配置讨论_5月26日.md",
       "sample_lines": [
@@ -741,19 +744,19 @@
     "技能": {
       "mention_count": 13,
       "source_files": [
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/MEMORY_20260506_174854.md",
         "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_165420.md",
         "feathers/3Blue1Brown可视化教程资源索引.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/MEMORY_20260508_160059.md",
         "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260506_162418.md"
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/MEMORY_20260506_181455.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "auto-save/MEMORY_20260506_171659.md"
       ],
       "first_seen_in": "feathers/3Blue1Brown可视化教程资源索引.md",
       "sample_lines": [
@@ -771,6 +774,32 @@
           "file": "auto-save/MEMORY_20260506_162418.md",
           "line": 7,
           "text": "用户使用教材《模拟电子技术基础》童诗白 第四版，已创建 analog-electronics-tutor 技能。毕业设计对比麒麟990(N7)与A16(N4)的PMIC鲁棒性。"
+        }
+      ]
+    },
+    "实体": {
+      "mention_count": 13,
+      "source_files": [
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "feathers/feather_051_羽渡尘脑图总览.md",
+        "feathers/feather_049_大家伙配置讨论_5月26日.md"
+      ],
+      "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_004_本地技能包迭代全览.md",
+          "line": 26,
+          "text": "- v4.1.0 实体链接（5月22日）"
+        },
+        {
+          "file": "feathers/feather_004_本地技能包迭代全览.md",
+          "line": 27,
+          "text": "- 648 个实体，45 文件覆盖"
+        },
+        {
+          "file": "feathers/feather_004_本地技能包迭代全览.md",
+          "line": 30,
+          "text": "- 高频实体自动排前"
         }
       ]
     },
@@ -803,8 +832,8 @@
     "v1.0.0": {
       "mention_count": 12,
       "source_files": [
-        "auto-save/SESSION_20260506_203848.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "auto-save/SESSION_20260506_203848.md"
       ],
       "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
       "sample_lines": [
@@ -828,18 +857,18 @@
     "一键部署": {
       "mention_count": 12,
       "source_files": [
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/MEMORY_20260506_174854.md",
         "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_165420.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/MEMORY_20260508_160059.md",
         "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260506_162418.md"
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/MEMORY_20260506_181455.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "auto-save/MEMORY_20260506_171659.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_160708.md",
       "sample_lines": [
@@ -863,18 +892,18 @@
     "命令启动": {
       "mention_count": 12,
       "source_files": [
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/MEMORY_20260506_174854.md",
         "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_165420.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/MEMORY_20260508_160059.md",
         "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260506_162418.md"
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/MEMORY_20260506_181455.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "auto-save/MEMORY_20260506_171659.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_160708.md",
       "sample_lines": [
@@ -898,18 +927,18 @@
     "常维护靠": {
       "mention_count": 12,
       "source_files": [
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/MEMORY_20260506_174854.md",
         "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_165420.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/MEMORY_20260508_160059.md",
         "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260506_162418.md"
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/MEMORY_20260506_181455.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "auto-save/MEMORY_20260506_171659.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_160708.md",
       "sample_lines": [
@@ -933,18 +962,18 @@
     "性能测试": {
       "mention_count": 12,
       "source_files": [
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/MEMORY_20260506_174854.md",
         "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_165420.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/MEMORY_20260508_160059.md",
         "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260506_162418.md"
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/MEMORY_20260506_181455.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "auto-save/MEMORY_20260506_171659.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_160708.md",
       "sample_lines": [
@@ -968,18 +997,18 @@
     "群控制等": {
       "mention_count": 12,
       "source_files": [
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/MEMORY_20260506_174854.md",
         "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_165420.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/MEMORY_20260508_160059.md",
         "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260506_162418.md"
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/MEMORY_20260506_181455.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "auto-save/MEMORY_20260506_171659.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_160708.md",
       "sample_lines": [
@@ -1003,18 +1032,18 @@
     "只有": {
       "mention_count": 12,
       "source_files": [
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/MEMORY_20260506_174854.md",
         "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_165420.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/MEMORY_20260508_160059.md",
         "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260506_162418.md"
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/MEMORY_20260506_181455.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "auto-save/MEMORY_20260506_171659.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_160708.md",
       "sample_lines": [
@@ -1038,18 +1067,18 @@
     "源很有限": {
       "mention_count": 12,
       "source_files": [
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/MEMORY_20260506_174854.md",
         "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_165420.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/MEMORY_20260508_160059.md",
         "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260506_162418.md"
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/MEMORY_20260506_181455.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "auto-save/MEMORY_20260506_171659.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_160708.md",
       "sample_lines": [
@@ -1073,18 +1102,18 @@
     "用户的": {
       "mention_count": 12,
       "source_files": [
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/MEMORY_20260506_174854.md",
         "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_165420.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/MEMORY_20260508_160059.md",
         "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260506_162418.md"
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/MEMORY_20260506_181455.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "auto-save/MEMORY_20260506_171659.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_160708.md",
       "sample_lines": [
@@ -1108,18 +1137,18 @@
     "要悠着点": {
       "mention_count": 12,
       "source_files": [
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/MEMORY_20260506_174854.md",
         "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_165420.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/MEMORY_20260508_160059.md",
         "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260506_162418.md"
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/MEMORY_20260506_181455.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "auto-save/MEMORY_20260506_171659.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_160708.md",
       "sample_lines": [
@@ -1143,18 +1172,18 @@
     "Hermes Agent": {
       "mention_count": 12,
       "source_files": [
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/MEMORY_20260506_174854.md",
         "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_165420.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/MEMORY_20260508_160059.md",
         "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260506_162418.md"
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/MEMORY_20260506_181455.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "auto-save/MEMORY_20260506_171659.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_160708.md",
       "sample_lines": [
@@ -1178,18 +1207,18 @@
     "地服务器": {
       "mention_count": 12,
       "source_files": [
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/MEMORY_20260506_174854.md",
         "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_165420.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/MEMORY_20260508_160059.md",
         "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260506_162418.md"
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/MEMORY_20260506_181455.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "auto-save/MEMORY_20260506_171659.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_160708.md",
       "sample_lines": [
@@ -1213,18 +1242,18 @@
     "搭建本地服务器": {
       "mention_count": 12,
       "source_files": [
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/MEMORY_20260506_174854.md",
         "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_165420.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/MEMORY_20260508_160059.md",
         "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260506_162418.md"
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/MEMORY_20260506_181455.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "auto-save/MEMORY_20260506_171659.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_160708.md",
       "sample_lines": [
@@ -1248,18 +1277,18 @@
     "源大模型": {
       "mention_count": 12,
       "source_files": [
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/MEMORY_20260506_174854.md",
         "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_165420.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/MEMORY_20260508_160059.md",
         "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260506_162418.md"
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/MEMORY_20260506_181455.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "auto-save/MEMORY_20260506_171659.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_160708.md",
       "sample_lines": [
@@ -1283,18 +1312,18 @@
     "等开源大模型": {
       "mention_count": 12,
       "source_files": [
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/MEMORY_20260506_174854.md",
         "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_165420.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/MEMORY_20260508_160059.md",
         "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260506_162418.md"
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/MEMORY_20260506_181455.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "auto-save/MEMORY_20260506_171659.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_160708.md",
       "sample_lines": [
@@ -1318,18 +1347,18 @@
     "迁移过去": {
       "mention_count": 12,
       "source_files": [
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/MEMORY_20260506_174854.md",
         "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_165420.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/MEMORY_20260508_160059.md",
         "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260506_162418.md"
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/MEMORY_20260506_181455.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "auto-save/MEMORY_20260506_171659.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_160708.md",
       "sample_lines": [
@@ -1353,18 +1382,18 @@
     "预算入手": {
       "mention_count": 12,
       "source_files": [
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/MEMORY_20260506_174854.md",
         "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_165420.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/MEMORY_20260508_160059.md",
         "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260506_162418.md"
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/MEMORY_20260506_181455.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "auto-save/MEMORY_20260506_171659.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_160708.md",
       "sample_lines": [
@@ -1388,18 +1417,18 @@
     "已创建": {
       "mention_count": 12,
       "source_files": [
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/MEMORY_20260506_174854.md",
         "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_165420.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/MEMORY_20260508_160059.md",
         "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260506_162418.md"
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/MEMORY_20260506_181455.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "auto-save/MEMORY_20260506_171659.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_160708.md",
       "sample_lines": [
@@ -1423,18 +1452,18 @@
     "童诗白": {
       "mention_count": 12,
       "source_files": [
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/MEMORY_20260506_174854.md",
         "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_165420.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/MEMORY_20260508_160059.md",
         "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260506_162418.md"
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/MEMORY_20260506_181455.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "auto-save/MEMORY_20260506_171659.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_160708.md",
       "sample_lines": [
@@ -1458,18 +1487,18 @@
     "第四版": {
       "mention_count": 12,
       "source_files": [
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/MEMORY_20260506_174854.md",
         "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_165420.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/MEMORY_20260508_160059.md",
         "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260506_162418.md"
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/MEMORY_20260506_181455.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "auto-save/MEMORY_20260506_171659.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_160708.md",
       "sample_lines": [
@@ -1493,18 +1522,18 @@
     "鲁棒性": {
       "mention_count": 12,
       "source_files": [
-        "auto-save/MEMORY_20260506_171659.md",
-        "auto-save/MEMORY_20260506_165420.md",
-        "auto-save/MEMORY_20260506_160708.md",
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/MEMORY_20260506_174854.md",
         "auto-save/MEMORY_20260506_172529.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_165420.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/MEMORY_20260508_160059.md",
         "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260506_162418.md"
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/MEMORY_20260506_181455.md",
+        "auto-save/MEMORY_20260506_160708.md",
+        "auto-save/MEMORY_20260506_162418.md",
+        "auto-save/MEMORY_20260506_171659.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_160708.md",
       "sample_lines": [
@@ -1528,18 +1557,18 @@
     "Loves Fu": {
       "mention_count": 12,
       "source_files": [
-        "auto-save/USER_20260506_160708.md",
         "auto-save/USER_20260506_174854.md",
-        "auto-save/USER_20260506_162418.md",
+        "auto-save/USER_20260506_165420.md",
         "auto-save/USER_20260506_181455.md",
-        "auto-save/USER_20260506_200545.md",
-        "auto-save/USER_20260506_172529.md",
         "auto-save/USER_20260506_203848.md",
+        "auto-save/USER_20260506_162418.md",
+        "auto-save/USER_20260506_200545.md",
+        "auto-save/USER_20260506_171659.md",
+        "auto-save/USER_20260506_160708.md",
+        "auto-save/USER_20260508_160059.md",
         "auto-save/USER_20260507_210412.md",
         "auto-save/USER_20260506_204305.md",
-        "auto-save/USER_20260508_160059.md",
-        "auto-save/USER_20260506_165420.md",
-        "auto-save/USER_20260506_171659.md"
+        "auto-save/USER_20260506_172529.md"
       ],
       "first_seen_in": "auto-save/USER_20260506_160708.md",
       "sample_lines": [
@@ -1563,18 +1592,18 @@
     "RackNerd": {
       "mention_count": 12,
       "source_files": [
-        "auto-save/USER_20260506_160708.md",
         "auto-save/USER_20260506_174854.md",
-        "auto-save/USER_20260506_162418.md",
+        "auto-save/USER_20260506_165420.md",
         "auto-save/USER_20260506_181455.md",
-        "auto-save/USER_20260506_200545.md",
-        "auto-save/USER_20260506_172529.md",
         "auto-save/USER_20260506_203848.md",
+        "auto-save/USER_20260506_162418.md",
+        "auto-save/USER_20260506_200545.md",
+        "auto-save/USER_20260506_171659.md",
+        "auto-save/USER_20260506_160708.md",
+        "auto-save/USER_20260508_160059.md",
         "auto-save/USER_20260507_210412.md",
         "auto-save/USER_20260506_204305.md",
-        "auto-save/USER_20260508_160059.md",
-        "auto-save/USER_20260506_165420.md",
-        "auto-save/USER_20260506_171659.md"
+        "auto-save/USER_20260506_172529.md"
       ],
       "first_seen_in": "auto-save/USER_20260506_160708.md",
       "sample_lines": [
@@ -1598,18 +1627,18 @@
     "WhatsApp": {
       "mention_count": 12,
       "source_files": [
-        "auto-save/USER_20260506_160708.md",
         "auto-save/USER_20260506_174854.md",
-        "auto-save/USER_20260506_162418.md",
+        "auto-save/USER_20260506_165420.md",
         "auto-save/USER_20260506_181455.md",
-        "auto-save/USER_20260506_200545.md",
-        "auto-save/USER_20260506_172529.md",
         "auto-save/USER_20260506_203848.md",
+        "auto-save/USER_20260506_162418.md",
+        "auto-save/USER_20260506_200545.md",
+        "auto-save/USER_20260506_171659.md",
+        "auto-save/USER_20260506_160708.md",
+        "auto-save/USER_20260508_160059.md",
         "auto-save/USER_20260507_210412.md",
         "auto-save/USER_20260506_204305.md",
-        "auto-save/USER_20260508_160059.md",
-        "auto-save/USER_20260506_165420.md",
-        "auto-save/USER_20260506_171659.md"
+        "auto-save/USER_20260506_172529.md"
       ],
       "first_seen_in": "auto-save/USER_20260506_160708.md",
       "sample_lines": [
@@ -1633,15 +1662,15 @@
     "片羽毛": {
       "mention_count": 11,
       "source_files": [
-        "auto-save/SESSION_20260506_160708.md",
-        "auto-save/SESSION_20260506_171659.md",
-        "feathers/feather_003_EIE完整培养方案与书单.md",
-        "feathers/feather_004_本地技能包迭代全览.md",
         "feathers/feather_001_20260504_会话复盘.md",
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "feathers/feather_003_EIE完整培养方案与书单.md",
         "auto-save/存盘日志_2026-05-08_18-26-34.md",
-        "feathers/feather_002_工具使用手册.md",
         "auto-save/SESSION_20260506_181455.md",
-        "auto-save/SESSION_20260506_172529.md"
+        "auto-save/SESSION_20260506_160708.md",
+        "auto-save/SESSION_20260506_172529.md",
+        "auto-save/SESSION_20260506_171659.md",
+        "feathers/feather_002_工具使用手册.md"
       ],
       "first_seen_in": "feathers/feather_001_20260504_会话复盘.md",
       "sample_lines": [
@@ -1666,16 +1695,16 @@
       "mention_count": 11,
       "source_files": [
         "auto-save/USER_20260506_174854.md",
+        "auto-save/USER_20260506_165420.md",
         "auto-save/USER_20260506_181455.md",
+        "auto-save/USER_20260506_203848.md",
         "auto-save/USER_20260506_162418.md",
         "auto-save/USER_20260506_200545.md",
-        "auto-save/USER_20260506_172529.md",
-        "auto-save/USER_20260506_203848.md",
+        "auto-save/USER_20260506_171659.md",
+        "auto-save/USER_20260508_160059.md",
         "auto-save/USER_20260507_210412.md",
         "auto-save/USER_20260506_204305.md",
-        "auto-save/USER_20260508_160059.md",
-        "auto-save/USER_20260506_165420.md",
-        "auto-save/USER_20260506_171659.md"
+        "auto-save/USER_20260506_172529.md"
       ],
       "first_seen_in": "auto-save/USER_20260506_162418.md",
       "sample_lines": [
@@ -1724,8 +1753,8 @@
     "课程": {
       "mention_count": 10,
       "source_files": [
-        "feathers/3Blue1Brown可视化教程资源索引.md",
-        "feathers/feather_003_EIE完整培养方案与书单.md"
+        "feathers/feather_003_EIE完整培养方案与书单.md",
+        "feathers/3Blue1Brown可视化教程资源索引.md"
       ],
       "first_seen_in": "feathers/3Blue1Brown可视化教程资源索引.md",
       "sample_lines": [
@@ -1749,10 +1778,10 @@
     "概率论": {
       "mention_count": 10,
       "source_files": [
-        "feathers/3Blue1Brown可视化教程资源索引.md",
+        "auto-save/存盘日志_2026-05-08_18-26-34.md",
         "feathers/feather_003_EIE完整培养方案与书单.md",
-        "feathers/教材更新日志-2026-05-08-高数与概率论.md",
-        "auto-save/存盘日志_2026-05-08_18-26-34.md"
+        "feathers/3Blue1Brown可视化教程资源索引.md",
+        "feathers/教材更新日志-2026-05-08-高数与概率论.md"
       ],
       "first_seen_in": "feathers/3Blue1Brown可视化教程资源索引.md",
       "sample_lines": [
@@ -1776,16 +1805,16 @@
     "RTX": {
       "mention_count": 10,
       "source_files": [
-        "auto-save/USER_20260506_181455.md",
-        "auto-save/USER_20260506_200545.md",
-        "feathers/feather_004_本地技能包迭代全览.md",
-        "feathers/用户设备清单.md",
         "feathers/feather_001_20260504_会话复盘.md",
-        "auto-save/USER_20260506_203848.md",
-        "auto-save/USER_20260507_210412.md",
+        "feathers/feather_004_本地技能包迭代全览.md",
         "feathers/feather_002_工具使用手册.md",
+        "auto-save/USER_20260506_181455.md",
+        "auto-save/USER_20260506_203848.md",
+        "auto-save/USER_20260506_200545.md",
+        "auto-save/USER_20260508_160059.md",
+        "auto-save/USER_20260507_210412.md",
         "auto-save/USER_20260506_204305.md",
-        "auto-save/USER_20260508_160059.md"
+        "feathers/用户设备清单.md"
       ],
       "first_seen_in": "feathers/feather_001_20260504_会话复盘.md",
       "sample_lines": [
@@ -1809,16 +1838,16 @@
     "RTX 4070": {
       "mention_count": 10,
       "source_files": [
-        "auto-save/USER_20260506_181455.md",
-        "auto-save/USER_20260506_200545.md",
-        "feathers/feather_004_本地技能包迭代全览.md",
-        "feathers/用户设备清单.md",
         "feathers/feather_001_20260504_会话复盘.md",
-        "auto-save/USER_20260506_203848.md",
-        "auto-save/USER_20260507_210412.md",
+        "feathers/feather_004_本地技能包迭代全览.md",
         "feathers/feather_002_工具使用手册.md",
+        "auto-save/USER_20260506_181455.md",
+        "auto-save/USER_20260506_203848.md",
+        "auto-save/USER_20260506_200545.md",
+        "auto-save/USER_20260508_160059.md",
+        "auto-save/USER_20260507_210412.md",
         "auto-save/USER_20260506_204305.md",
-        "auto-save/USER_20260508_160059.md"
+        "feathers/用户设备清单.md"
       ],
       "first_seen_in": "feathers/feather_001_20260504_会话复盘.md",
       "sample_lines": [
@@ -1843,8 +1872,8 @@
       "mention_count": 10,
       "source_files": [
         "feathers/feather_003_EIE完整培养方案与书单.md",
-        "feathers/教材更新日志-2026-05-08-高数与概率论.md",
-        "auto-save/存盘日志_2026-05-08_18-26-34.md"
+        "auto-save/存盘日志_2026-05-08_18-26-34.md",
+        "feathers/教材更新日志-2026-05-08-高数与概率论.md"
       ],
       "first_seen_in": "feathers/feather_003_EIE完整培养方案与书单.md",
       "sample_lines": [
@@ -1868,8 +1897,8 @@
     "版本": {
       "mention_count": 10,
       "source_files": [
-        "feathers/教材更新日志-2026-05-08-高数与概率论.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "feathers/教材更新日志-2026-05-08-高数与概率论.md"
       ],
       "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
       "sample_lines": [
@@ -1893,10 +1922,10 @@
     "v1.1.0": {
       "mention_count": 9,
       "source_files": [
-        "auto-save/会话日志_2026-05-08_23-30-00.md",
-        "feathers/3Blue1Brown可视化教程资源索引.md",
+        "feathers/feather_004_本地技能包迭代全览.md",
         "auto-save/SESSION_20260506_203848.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "auto-save/会话日志_2026-05-08_23-30-00.md",
+        "feathers/3Blue1Brown可视化教程资源索引.md"
       ],
       "first_seen_in": "feathers/3Blue1Brown可视化教程资源索引.md",
       "sample_lines": [
@@ -1991,43 +2020,18 @@
         }
       ]
     },
-    "实体": {
-      "mention_count": 9,
-      "source_files": [
-        "feathers/feather_049_大家伙配置讨论_5月26日.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
-      ],
-      "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
-      "sample_lines": [
-        {
-          "file": "feathers/feather_004_本地技能包迭代全览.md",
-          "line": 26,
-          "text": "- v4.1.0 实体链接（5月22日）"
-        },
-        {
-          "file": "feathers/feather_004_本地技能包迭代全览.md",
-          "line": 27,
-          "text": "- 648 个实体，45 文件覆盖"
-        },
-        {
-          "file": "feathers/feather_004_本地技能包迭代全览.md",
-          "line": 30,
-          "text": "- 高频实体自动排前"
-        }
-      ]
-    },
     "羽毛库": {
       "mention_count": 9,
       "source_files": [
-        "auto-save/SESSION_20260506_172529.md",
-        "auto-save/SESSION_20260506_171659.md",
+        "feathers/feather_049_大家伙配置讨论_5月26日.md",
         "auto-save/SESSION_20260506_162418.md",
-        "auto-save/SESSION_20260506_165420.md",
         "auto-save/SESSION_20260506_174854.md",
         "auto-save/会话日志_2026-05-08_23-30-00.md",
-        "feathers/feather_049_大家伙配置讨论_5月26日.md",
         "auto-save/SESSION_20260506_200545.md",
-        "auto-save/SESSION_20260507_210412.md"
+        "auto-save/SESSION_20260506_165420.md",
+        "auto-save/SESSION_20260507_210412.md",
+        "auto-save/SESSION_20260506_172529.md",
+        "auto-save/SESSION_20260506_171659.md"
       ],
       "first_seen_in": "feathers/feather_049_大家伙配置讨论_5月26日.md",
       "sample_lines": [
@@ -2052,8 +2056,8 @@
       "mention_count": 8,
       "source_files": [
         "feathers/feather_001_20260504_会话复盘.md",
-        "auto-save/SESSION_20260506_160708.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "auto-save/SESSION_20260506_160708.md"
       ],
       "first_seen_in": "feathers/feather_001_20260504_会话复盘.md",
       "sample_lines": [
@@ -2098,11 +2102,37 @@
         }
       ]
     },
+    "FTS5": {
+      "mention_count": 8,
+      "source_files": [
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "feathers/feather_051_羽渡尘脑图总览.md",
+        "auto-save/SESSION_20260507_210412.md"
+      ],
+      "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_004_本地技能包迭代全览.md",
+          "line": 17,
+          "text": "- v2.0.0 SQLite FTS5 全文搜索引擎"
+        },
+        {
+          "file": "feathers/feather_004_本地技能包迭代全览.md",
+          "line": 54,
+          "text": "- 四路召回：实体 + 图谱 + FTS5 + 向量"
+        },
+        {
+          "file": "feathers/feather_004_本地技能包迭代全览.md",
+          "line": 130,
+          "text": "| v0   | SQLite FTS5 关键词搜索 | 自研 |"
+        }
+      ]
+    },
     "v2.0.0": {
       "mention_count": 8,
       "source_files": [
-        "auto-save/SESSION_20260506_203848.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "auto-save/SESSION_20260506_203848.md"
       ],
       "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
       "sample_lines": [
@@ -2126,14 +2156,14 @@
     "Windows Explorer": {
       "mention_count": 8,
       "source_files": [
-        "auto-save/MEMORY_20260506_200545.md",
-        "auto-save/MEMORY_20260507_210412.md",
-        "auto-save/MEMORY_20260506_181455.md",
-        "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260508_160059.md",
-        "auto-save/MEMORY_20260506_174854.md",
         "auto-save/MEMORY_20260506_172529.md",
-        "auto-save/MEMORY_20260506_203848.md"
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_174854.md",
+        "auto-save/MEMORY_20260506_203848.md",
+        "auto-save/MEMORY_20260506_200545.md",
+        "auto-save/MEMORY_20260506_204305.md",
+        "auto-save/MEMORY_20260506_181455.md",
+        "auto-save/MEMORY_20260508_160059.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_172529.md",
       "sample_lines": [
@@ -2157,10 +2187,10 @@
     "BBR": {
       "mention_count": 8,
       "source_files": [
-        "auto-save/MEMORY_20260507_210412.md",
         "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260508_160059.md"
+        "auto-save/MEMORY_20260508_160059.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_203848.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_203848.md",
       "sample_lines": [
@@ -2184,10 +2214,10 @@
     "命令": {
       "mention_count": 8,
       "source_files": [
-        "auto-save/MEMORY_20260507_210412.md",
         "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260508_160059.md"
+        "auto-save/MEMORY_20260508_160059.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_203848.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_203848.md",
       "sample_lines": [
@@ -2211,10 +2241,10 @@
     "应用": {
       "mention_count": 8,
       "source_files": [
-        "auto-save/MEMORY_20260507_210412.md",
         "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260508_160059.md"
+        "auto-save/MEMORY_20260508_160059.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_203848.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_203848.md",
       "sample_lines": [
@@ -2238,10 +2268,10 @@
     "系统工具": {
       "mention_count": 8,
       "source_files": [
-        "auto-save/MEMORY_20260507_210412.md",
         "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260508_160059.md"
+        "auto-save/MEMORY_20260508_160059.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_203848.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_203848.md",
       "sample_lines": [
@@ -2265,11 +2295,11 @@
     "会话复盘": {
       "mention_count": 7,
       "source_files": [
-        "auto-save/SESSION_20260506_160708.md",
-        "auto-save/SESSION_20260506_171659.md",
+        "feathers/feather_001_20260504_会话复盘.md",
         "auto-save/SESSION_20260506_162418.md",
+        "auto-save/SESSION_20260506_160708.md",
         "auto-save/SESSION_20260506_165420.md",
-        "feathers/feather_001_20260504_会话复盘.md"
+        "auto-save/SESSION_20260506_171659.md"
       ],
       "first_seen_in": "feathers/feather_001_20260504_会话复盘.md",
       "sample_lines": [
@@ -2294,8 +2324,8 @@
       "mention_count": 7,
       "source_files": [
         "feathers/feather_001_20260504_会话复盘.md",
-        "feathers/feather_002_工具使用手册.md",
-        "auto-save/SESSION_20260506_162418.md"
+        "auto-save/SESSION_20260506_162418.md",
+        "feathers/feather_002_工具使用手册.md"
       ],
       "first_seen_in": "feathers/feather_001_20260504_会话复盘.md",
       "sample_lines": [
@@ -2319,10 +2349,10 @@
     "使用手册": {
       "mention_count": 7,
       "source_files": [
-        "auto-save/SESSION_20260506_160708.md",
-        "auto-save/SESSION_20260506_171659.md",
         "auto-save/SESSION_20260506_162418.md",
+        "auto-save/SESSION_20260506_160708.md",
         "auto-save/SESSION_20260506_165420.md",
+        "auto-save/SESSION_20260506_171659.md",
         "feathers/feather_002_工具使用手册.md"
       ],
       "first_seen_in": "feathers/feather_002_工具使用手册.md",
@@ -2366,6 +2396,34 @@
           "file": "feathers/feather_003_EIE完整培养方案与书单.md",
           "line": 8,
           "text": "# 🪶 第3片羽毛 · EIE 完整培养方案"
+        }
+      ]
+    },
+    "Linux": {
+      "mention_count": 7,
+      "source_files": [
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "feathers/feather_003_EIE完整培养方案与书单.md",
+        "auto-save/存盘日志_2026-05-08_18-26-34.md",
+        "feathers/教材更新日志-2026-05-08-高数与概率论.md",
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_003_EIE完整培养方案与书单.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_003_EIE完整培养方案与书单.md",
+          "line": 78,
+          "text": "| **嵌入式系统** | ARM/Linux 驱动开发 |"
+        },
+        {
+          "file": "feathers/feather_004_本地技能包迭代全览.md",
+          "line": 93,
+          "text": "- v2.0.0 WSL Linux Chrome 直连（5月10日）"
+        },
+        {
+          "file": "feathers/feather_004_本地技能包迭代全览.md",
+          "line": 98,
+          "text": "- 最终方案：Linux Chrome 专用，Windows Chrome 不动"
         }
       ]
     },
@@ -2421,8 +2479,8 @@
       "mention_count": 6,
       "source_files": [
         "feathers/feather_001_20260504_会话复盘.md",
-        "feathers/feather_002_工具使用手册.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "feathers/feather_002_工具使用手册.md"
       ],
       "first_seen_in": "feathers/feather_001_20260504_会话复盘.md",
       "sample_lines": [
@@ -2471,8 +2529,8 @@
     "AI": {
       "mention_count": 6,
       "source_files": [
-        "feathers/feather_003_EIE完整培养方案与书单.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "feathers/feather_003_EIE完整培养方案与书单.md"
       ],
       "first_seen_in": "feathers/feather_003_EIE完整培养方案与书单.md",
       "sample_lines": [
@@ -2517,55 +2575,27 @@
         }
       ]
     },
-    "Linux": {
+    "USER": {
       "mention_count": 6,
       "source_files": [
-        "feathers/feather_003_EIE完整培养方案与书单.md",
-        "feathers/教材更新日志-2026-05-08-高数与概率论.md",
-        "feathers/feather_004_本地技能包迭代全览.md",
-        "auto-save/存盘日志_2026-05-08_18-26-34.md"
+        "feathers/feather_051_羽渡尘脑图总览.md"
       ],
-      "first_seen_in": "feathers/feather_003_EIE完整培养方案与书单.md",
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
       "sample_lines": [
         {
-          "file": "feathers/feather_003_EIE完整培养方案与书单.md",
-          "line": 78,
-          "text": "| **嵌入式系统** | ARM/Linux 驱动开发 |"
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 49,
+          "text": "USER.md"
         },
         {
-          "file": "feathers/feather_004_本地技能包迭代全览.md",
-          "line": 93,
-          "text": "- v2.0.0 WSL Linux Chrome 直连（5月10日）"
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 52,
+          "text": "user-iron-laws"
         },
         {
-          "file": "feathers/feather_004_本地技能包迭代全览.md",
-          "line": 98,
-          "text": "- 最终方案：Linux Chrome 专用，Windows Chrome 不动"
-        }
-      ]
-    },
-    "FTS5": {
-      "mention_count": 6,
-      "source_files": [
-        "auto-save/SESSION_20260507_210412.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
-      ],
-      "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
-      "sample_lines": [
-        {
-          "file": "feathers/feather_004_本地技能包迭代全览.md",
-          "line": 17,
-          "text": "- v2.0.0 SQLite FTS5 全文搜索引擎"
-        },
-        {
-          "file": "feathers/feather_004_本地技能包迭代全览.md",
-          "line": 54,
-          "text": "- 四路召回：实体 + 图谱 + FTS5 + 向量"
-        },
-        {
-          "file": "feathers/feather_004_本地技能包迭代全览.md",
-          "line": 130,
-          "text": "| v0   | SQLite FTS5 关键词搜索 | 自研 |"
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 85,
+          "text": "USER[USER.md<br/>你的画像]"
         }
       ]
     },
@@ -2597,9 +2627,9 @@
     "MIT": {
       "mention_count": 5,
       "source_files": [
-        "feathers/3Blue1Brown可视化教程资源索引.md",
+        "feathers/feather_004_本地技能包迭代全览.md",
         "feathers/feather_003_EIE完整培养方案与书单.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "feathers/3Blue1Brown可视化教程资源索引.md"
       ],
       "first_seen_in": "feathers/3Blue1Brown可视化教程资源索引.md",
       "sample_lines": [
@@ -2624,8 +2654,8 @@
       "mention_count": 5,
       "source_files": [
         "feathers/feather_001_20260504_会话复盘.md",
-        "auto-save/SESSION_20260506_181455.md",
-        "auto-save/SESSION_20260506_162418.md"
+        "auto-save/SESSION_20260506_162418.md",
+        "auto-save/SESSION_20260506_181455.md"
       ],
       "first_seen_in": "feathers/feather_001_20260504_会话复盘.md",
       "sample_lines": [
@@ -2700,9 +2730,9 @@
       "mention_count": 5,
       "source_files": [
         "feathers/feather_001_20260504_会话复盘.md",
+        "auto-save/SESSION_20260506_162418.md",
         "auto-save/SESSION_20260506_181455.md",
-        "auto-save/SESSION_20260506_160708.md",
-        "auto-save/SESSION_20260506_162418.md"
+        "auto-save/SESSION_20260506_160708.md"
       ],
       "first_seen_in": "feathers/feather_001_20260504_会话复盘.md",
       "sample_lines": [
@@ -2727,9 +2757,9 @@
       "mention_count": 5,
       "source_files": [
         "feathers/feather_001_20260504_会话复盘.md",
+        "auto-save/SESSION_20260506_162418.md",
         "auto-save/SESSION_20260506_181455.md",
-        "auto-save/SESSION_20260506_160708.md",
-        "auto-save/SESSION_20260506_162418.md"
+        "auto-save/SESSION_20260506_160708.md"
       ],
       "first_seen_in": "feathers/feather_001_20260504_会话复盘.md",
       "sample_lines": [
@@ -2754,9 +2784,9 @@
       "mention_count": 5,
       "source_files": [
         "feathers/feather_001_20260504_会话复盘.md",
+        "auto-save/SESSION_20260506_162418.md",
         "auto-save/SESSION_20260506_181455.md",
-        "auto-save/SESSION_20260506_160708.md",
-        "auto-save/SESSION_20260506_162418.md"
+        "auto-save/SESSION_20260506_160708.md"
       ],
       "first_seen_in": "feathers/feather_001_20260504_会话复盘.md",
       "sample_lines": [
@@ -2780,10 +2810,10 @@
     "操作系统": {
       "mention_count": 5,
       "source_files": [
-        "feathers/feather_003_EIE完整培养方案与书单.md",
         "feathers/教材更新日志-2026-05-08-高数与概率论.md",
-        "feathers/feather_002_工具使用手册.md",
-        "auto-save/存盘日志_2026-05-08_18-26-34.md"
+        "feathers/feather_003_EIE完整培养方案与书单.md",
+        "auto-save/存盘日志_2026-05-08_18-26-34.md",
+        "feathers/feather_002_工具使用手册.md"
       ],
       "first_seen_in": "feathers/feather_002_工具使用手册.md",
       "sample_lines": [
@@ -2904,9 +2934,9 @@
     "振刀": {
       "mention_count": 5,
       "source_files": [
+        "feathers/feather_004_本地技能包迭代全览.md",
         "auto-save/SESSION_20260506_203848.md",
-        "auto-save/SESSION_20260506_200545.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "auto-save/SESSION_20260506_200545.md"
       ],
       "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
       "sample_lines": [
@@ -2951,6 +2981,33 @@
         }
       ]
     },
+    "AMD": {
+      "mention_count": 5,
+      "source_files": [
+        "feathers/feather_050_华为韬定律.md",
+        "feathers/feather_051_羽渡尘脑图总览.md",
+        "auto-save/会话日志_2026-05-08_23-30-00.md",
+        "feathers/feather_049_大家伙配置讨论_5月26日.md"
+      ],
+      "first_seen_in": "feathers/feather_049_大家伙配置讨论_5月26日.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_049_大家伙配置讨论_5月26日.md",
+          "line": 14,
+          "text": "- **CPU**: AMD EPYC 75F3（32C/64T，Zen3，4.0GHz加速）"
+        },
+        {
+          "file": "feathers/feather_050_华为韬定律.md",
+          "line": 59,
+          "text": "- Intel/AMD 槟城岗位也在做类似的方向"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 75,
+          "text": "Intel_AMD"
+        }
+      ]
+    },
     "定律": {
       "mention_count": 5,
       "source_files": [
@@ -2972,6 +3029,30 @@
           "file": "feathers/feather_050_华为韬定律.md",
           "line": 8,
           "text": "# 华为韬(τ)定律（ISCAS 2026）"
+        }
+      ]
+    },
+    "画像": {
+      "mention_count": 5,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 25,
+          "text": "L3_画像"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 50,
+          "text": "你的画像"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 85,
+          "text": "USER[USER.md<br/>你的画像]"
         }
       ]
     },
@@ -3002,9 +3083,9 @@
     "系列": {
       "mention_count": 4,
       "source_files": [
+        "feathers/feather_004_本地技能包迭代全览.md",
         "feathers/3Blue1Brown可视化教程资源索引.md",
-        "feathers/feather_049_大家伙配置讨论_5月26日.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "feathers/feather_049_大家伙配置讨论_5月26日.md"
       ],
       "first_seen_in": "feathers/3Blue1Brown可视化教程资源索引.md",
       "sample_lines": [
@@ -3028,8 +3109,8 @@
     "高等数学": {
       "mention_count": 4,
       "source_files": [
-        "feathers/3Blue1Brown可视化教程资源索引.md",
-        "feathers/feather_003_EIE完整培养方案与书单.md"
+        "feathers/feather_003_EIE完整培养方案与书单.md",
+        "feathers/3Blue1Brown可视化教程资源索引.md"
       ],
       "first_seen_in": "feathers/3Blue1Brown可视化教程资源索引.md",
       "sample_lines": [
@@ -3054,8 +3135,8 @@
       "mention_count": 4,
       "source_files": [
         "feathers/feather_001_20260504_会话复盘.md",
-        "feathers/feather_002_工具使用手册.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "feathers/feather_002_工具使用手册.md"
       ],
       "first_seen_in": "feathers/feather_001_20260504_会话复盘.md",
       "sample_lines": [
@@ -3097,6 +3178,32 @@
           "file": "feathers/feather_001_20260504_会话复盘.md",
           "line": 46,
           "text": "- [ ] 豆包接入研究"
+        }
+      ]
+    },
+    "计组": {
+      "mention_count": 4,
+      "source_files": [
+        "feathers/feather_003_EIE完整培养方案与书单.md",
+        "feathers/feather_051_羽渡尘脑图总览.md",
+        "feathers/feather_002_工具使用手册.md"
+      ],
+      "first_seen_in": "feathers/feather_002_工具使用手册.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_002_工具使用手册.md",
+          "line": 53,
+          "text": "- **有教材:** 数电/模电/操作系统/计组 PDF"
+        },
+        {
+          "file": "feathers/feather_003_EIE完整培养方案与书单.md",
+          "line": 88,
+          "text": "- `计算机组成原理（第3版）（唐朔飞）.pdf` — 计组"
+        },
+        {
+          "file": "feathers/feather_003_EIE完整培养方案与书单.md",
+          "line": 131,
+          "text": "计算机：计组 + OS + 网络（你已有）"
         }
       ]
     },
@@ -3226,8 +3333,8 @@
       "mention_count": 4,
       "source_files": [
         "feathers/feather_003_EIE完整培养方案与书单.md",
-        "auto-save/SESSION_20260506_181455.md",
-        "auto-save/SESSION_20260506_165420.md"
+        "auto-save/SESSION_20260506_165420.md",
+        "auto-save/SESSION_20260506_181455.md"
       ],
       "first_seen_in": "feathers/feather_003_EIE完整培养方案与书单.md",
       "sample_lines": [
@@ -3272,6 +3379,33 @@
         }
       ]
     },
+    "C++": {
+      "mention_count": 4,
+      "source_files": [
+        "auto-save/存盘日志_2026-05-08_18-26-34.md",
+        "feathers/feather_003_EIE完整培养方案与书单.md",
+        "feathers/feather_051_羽渡尘脑图总览.md",
+        "feathers/教材更新日志-2026-05-08-高数与概率论.md"
+      ],
+      "first_seen_in": "feathers/feather_003_EIE完整培养方案与书单.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_003_EIE完整培养方案与书单.md",
+          "line": 93,
+          "text": "- `C++.Primer.5th.Edition_2013.pdf` — C++"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 72,
+          "text": "C_C++_Linux"
+        },
+        {
+          "file": "feathers/教材更新日志-2026-05-08-高数与概率论.md",
+          "line": 32,
+          "text": "- ✅ C 语言 / C++"
+        }
+      ]
+    },
     "个月": {
       "mention_count": 4,
       "source_files": [
@@ -3299,9 +3433,9 @@
     "v1.3.0": {
       "mention_count": 4,
       "source_files": [
+        "feathers/feather_004_本地技能包迭代全览.md",
         "auto-save/SESSION_20260506_203848.md",
-        "auto-save/SESSION_20260506_200545.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "auto-save/SESSION_20260506_200545.md"
       ],
       "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
       "sample_lines": [
@@ -3325,9 +3459,9 @@
     "v2.1.0": {
       "mention_count": 4,
       "source_files": [
-        "auto-save/会话日志_2026-05-08_23-30-00.md",
+        "feathers/feather_004_本地技能包迭代全览.md",
         "auto-save/存盘日志_2026-05-08_18-26-34.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "auto-save/会话日志_2026-05-08_23-30-00.md"
       ],
       "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
       "sample_lines": [
@@ -3351,8 +3485,8 @@
     "维护医生": {
       "mention_count": 4,
       "source_files": [
-        "auto-save/SESSION_20260506_203848.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "auto-save/SESSION_20260506_203848.md"
       ],
       "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
       "sample_lines": [
@@ -3376,9 +3510,9 @@
     "货比三家": {
       "mention_count": 4,
       "source_files": [
+        "feathers/feather_004_本地技能包迭代全览.md",
         "auto-save/SESSION_20260506_203848.md",
-        "auto-save/SESSION_20260506_200545.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "auto-save/SESSION_20260506_200545.md"
       ],
       "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
       "sample_lines": [
@@ -3402,9 +3536,9 @@
     "私教": {
       "mention_count": 4,
       "source_files": [
+        "feathers/feather_004_本地技能包迭代全览.md",
         "auto-save/SESSION_20260506_203848.md",
-        "auto-save/SESSION_20260506_200545.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "auto-save/SESSION_20260506_200545.md"
       ],
       "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
       "sample_lines": [
@@ -3446,32 +3580,6 @@
           "file": "feathers/feather_004_本地技能包迭代全览.md",
           "line": 122,
           "text": "- eie-tutor → eie-csdiy-roadmap（v1.3.0 合并，更名为 eie 全能体系）"
-        }
-      ]
-    },
-    "AMD": {
-      "mention_count": 4,
-      "source_files": [
-        "feathers/feather_050_华为韬定律.md",
-        "auto-save/会话日志_2026-05-08_23-30-00.md",
-        "feathers/feather_049_大家伙配置讨论_5月26日.md"
-      ],
-      "first_seen_in": "feathers/feather_049_大家伙配置讨论_5月26日.md",
-      "sample_lines": [
-        {
-          "file": "feathers/feather_049_大家伙配置讨论_5月26日.md",
-          "line": 14,
-          "text": "- **CPU**: AMD EPYC 75F3（32C/64T，Zen3，4.0GHz加速）"
-        },
-        {
-          "file": "feathers/feather_050_华为韬定律.md",
-          "line": 59,
-          "text": "- Intel/AMD 槟城岗位也在做类似的方向"
-        },
-        {
-          "file": "auto-save/会话日志_2026-05-08_23-30-00.md",
-          "line": 13,
-          "text": "- 中英双语 README，目标 Intel & AMD Penang"
         }
       ]
     },
@@ -3544,6 +3652,129 @@
           "file": "feathers/feather_049_大家伙配置讨论_5月26日.md",
           "line": 25,
           "text": "- 75F3的256MB L3缓存+8通道DDR4，内存频率对游戏影响很小"
+        }
+      ]
+    },
+    "MEMORY": {
+      "mention_count": 4,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md",
+        "feathers/feather_049_大家伙配置讨论_5月26日.md"
+      ],
+      "first_seen_in": "feathers/feather_049_大家伙配置讨论_5月26日.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_049_大家伙配置讨论_5月26日.md",
+          "line": 50,
+          "text": "- 命中率降3%原因：MEMORY.md更新（大家伙配置新内容）+ Win升级重启"
+        },
+        {
+          "file": "feathers/feather_049_大家伙配置讨论_5月26日.md",
+          "line": 53,
+          "text": "- MEMORY.md（Hermes原生速记本）→ 记住了用户信息"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 46,
+          "text": "MEMORY.md"
+        }
+      ]
+    },
+    "Intel": {
+      "mention_count": 4,
+      "source_files": [
+        "feathers/feather_050_华为韬定律.md",
+        "feathers/feather_051_羽渡尘脑图总览.md",
+        "auto-save/会话日志_2026-05-08_23-30-00.md"
+      ],
+      "first_seen_in": "feathers/feather_050_华为韬定律.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_050_华为韬定律.md",
+          "line": 59,
+          "text": "- Intel/AMD 槟城岗位也在做类似的方向"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 75,
+          "text": "Intel_AMD"
+        },
+        {
+          "file": "auto-save/会话日志_2026-05-08_23-30-00.md",
+          "line": 13,
+          "text": "- 中英双语 README，目标 Intel & AMD Penang"
+        }
+      ]
+    },
+    "羽毛": {
+      "mention_count": 4,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 14,
+          "text": "L0_羽毛"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 24,
+          "text": "跨羽毛连接"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 55,
+          "text": "D盘羽毛库"
+        }
+      ]
+    },
+    "OBS": {
+      "mention_count": 4,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 59,
+          "text": "Obsidian"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 101,
+          "text": "OBS[Obsidian<br/>图谱视图]"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 108,
+          "text": "USER --> OBS"
+        }
+      ]
+    },
+    "钱学森": {
+      "mention_count": 4,
+      "source_files": [
+        "feathers/feather_052_工程控制论入库.md"
+      ],
+      "first_seen_in": "feathers/feather_052_工程控制论入库.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_052_工程控制论入库.md",
+          "line": 2,
+          "text": "title: \"工程控制论 钱学森 入库\""
+        },
+        {
+          "file": "feathers/feather_052_工程控制论入库.md",
+          "line": 3,
+          "text": "tags: [控制论, 钱学森, 教材, 反馈, 系统论]"
+        },
+        {
+          "file": "feathers/feather_052_工程控制论入库.md",
+          "line": 10,
+          "text": "- 作者：钱学森（Hsue Shen Tsien）"
         }
       ]
     },
@@ -3624,10 +3855,10 @@
     "上都有": {
       "mention_count": 4,
       "source_files": [
-        "auto-save/MEMORY_20260507_210412.md",
         "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260508_160059.md"
+        "auto-save/MEMORY_20260508_160059.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_203848.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_203848.md",
       "sample_lines": [
@@ -3651,10 +3882,10 @@
     "文命令如": {
       "mention_count": 4,
       "source_files": [
-        "auto-save/MEMORY_20260507_210412.md",
         "auto-save/MEMORY_20260506_204305.md",
-        "auto-save/MEMORY_20260506_203848.md",
-        "auto-save/MEMORY_20260508_160059.md"
+        "auto-save/MEMORY_20260508_160059.md",
+        "auto-save/MEMORY_20260507_210412.md",
+        "auto-save/MEMORY_20260506_203848.md"
       ],
       "first_seen_in": "auto-save/MEMORY_20260506_203848.md",
       "sample_lines": [
@@ -3679,8 +3910,8 @@
       "mention_count": 4,
       "source_files": [
         "auto-save/SESSION_20260506_171659.md",
-        "auto-save/SESSION_20260506_162418.md",
-        "auto-save/SESSION_20260506_165420.md"
+        "auto-save/SESSION_20260506_165420.md",
+        "auto-save/SESSION_20260506_162418.md"
       ],
       "first_seen_in": "auto-save/SESSION_20260506_162418.md",
       "sample_lines": [
@@ -3705,9 +3936,9 @@
       "mention_count": 4,
       "source_files": [
         "auto-save/SESSION_20260506_203848.md",
-        "auto-save/SESSION_20260506_172529.md",
         "auto-save/SESSION_20260506_162418.md",
-        "auto-save/SESSION_20260506_181455.md"
+        "auto-save/SESSION_20260506_181455.md",
+        "auto-save/SESSION_20260506_172529.md"
       ],
       "first_seen_in": "auto-save/SESSION_20260506_162418.md",
       "sample_lines": [
@@ -3731,10 +3962,10 @@
     "本次更新": {
       "mention_count": 4,
       "source_files": [
-        "auto-save/SESSION_20260506_200545.md",
+        "auto-save/SESSION_20260506_165420.md",
         "auto-save/SESSION_20260506_174854.md",
         "auto-save/SESSION_20260507_210412.md",
-        "auto-save/SESSION_20260506_165420.md"
+        "auto-save/SESSION_20260506_200545.md"
       ],
       "first_seen_in": "auto-save/SESSION_20260506_165420.md",
       "sample_lines": [
@@ -3758,10 +3989,10 @@
     "个锚点": {
       "mention_count": 4,
       "source_files": [
-        "auto-save/SESSION_20260506_172529.md",
-        "auto-save/SESSION_20260506_200545.md",
         "auto-save/SESSION_20260506_174854.md",
-        "auto-save/SESSION_20260507_210412.md"
+        "auto-save/SESSION_20260507_210412.md",
+        "auto-save/SESSION_20260506_172529.md",
+        "auto-save/SESSION_20260506_200545.md"
       ],
       "first_seen_in": "auto-save/SESSION_20260506_172529.md",
       "sample_lines": [
@@ -3785,10 +4016,10 @@
     "次存盘": {
       "mention_count": 4,
       "source_files": [
-        "auto-save/SESSION_20260506_172529.md",
-        "auto-save/SESSION_20260506_200545.md",
         "auto-save/SESSION_20260506_174854.md",
-        "auto-save/SESSION_20260507_210412.md"
+        "auto-save/SESSION_20260507_210412.md",
+        "auto-save/SESSION_20260506_172529.md",
+        "auto-save/SESSION_20260506_200545.md"
       ],
       "first_seen_in": "auto-save/SESSION_20260506_172529.md",
       "sample_lines": [
@@ -3812,8 +4043,8 @@
     "CF": {
       "mention_count": 4,
       "source_files": [
-        "auto-save/会话日志_2026-05-08_23-30-00.md",
         "auto-save/存盘日志_2026-05-08_18-26-34.md",
+        "auto-save/会话日志_2026-05-08_23-30-00.md",
         "auto-save/SESSION_20260508_160059.md"
       ],
       "first_seen_in": "auto-save/SESSION_20260508_160059.md",
@@ -3838,8 +4069,8 @@
     "可视化": {
       "mention_count": 3,
       "source_files": [
-        "feathers/3Blue1Brown可视化教程资源索引.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "feathers/3Blue1Brown可视化教程资源索引.md"
       ],
       "first_seen_in": "feathers/3Blue1Brown可视化教程资源索引.md",
       "sample_lines": [
@@ -3888,8 +4119,8 @@
       "mention_count": 3,
       "source_files": [
         "feathers/feather_001_20260504_会话复盘.md",
-        "feathers/feather_002_工具使用手册.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "feathers/feather_002_工具使用手册.md"
       ],
       "first_seen_in": "feathers/feather_001_20260504_会话复盘.md",
       "sample_lines": [
@@ -3939,8 +4170,8 @@
       "mention_count": 3,
       "source_files": [
         "feathers/feather_001_20260504_会话复盘.md",
-        "feathers/feather_002_工具使用手册.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "feathers/feather_002_工具使用手册.md"
       ],
       "first_seen_in": "feathers/feather_001_20260504_会话复盘.md",
       "sample_lines": [
@@ -4010,31 +4241,6 @@
         }
       ]
     },
-    "计组": {
-      "mention_count": 3,
-      "source_files": [
-        "feathers/feather_003_EIE完整培养方案与书单.md",
-        "feathers/feather_002_工具使用手册.md"
-      ],
-      "first_seen_in": "feathers/feather_002_工具使用手册.md",
-      "sample_lines": [
-        {
-          "file": "feathers/feather_002_工具使用手册.md",
-          "line": 53,
-          "text": "- **有教材:** 数电/模电/操作系统/计组 PDF"
-        },
-        {
-          "file": "feathers/feather_003_EIE完整培养方案与书单.md",
-          "line": 88,
-          "text": "- `计算机组成原理（第3版）（唐朔飞）.pdf` — 计组"
-        },
-        {
-          "file": "feathers/feather_003_EIE完整培养方案与书单.md",
-          "line": 131,
-          "text": "计算机：计组 + OS + 网络（你已有）"
-        }
-      ]
-    },
     "推荐教材": {
       "mention_count": 3,
       "source_files": [
@@ -4087,9 +4293,9 @@
     "Python": {
       "mention_count": 3,
       "source_files": [
-        "auto-save/SESSION_20260507_210412.md",
+        "feathers/feather_004_本地技能包迭代全览.md",
         "feathers/feather_003_EIE完整培养方案与书单.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "auto-save/SESSION_20260507_210412.md"
       ],
       "first_seen_in": "feathers/feather_003_EIE完整培养方案与书单.md",
       "sample_lines": [
@@ -4425,32 +4631,6 @@
         }
       ]
     },
-    "C++": {
-      "mention_count": 3,
-      "source_files": [
-        "feathers/feather_003_EIE完整培养方案与书单.md",
-        "feathers/教材更新日志-2026-05-08-高数与概率论.md",
-        "auto-save/存盘日志_2026-05-08_18-26-34.md"
-      ],
-      "first_seen_in": "feathers/feather_003_EIE完整培养方案与书单.md",
-      "sample_lines": [
-        {
-          "file": "feathers/feather_003_EIE完整培养方案与书单.md",
-          "line": 93,
-          "text": "- `C++.Primer.5th.Edition_2013.pdf` — C++"
-        },
-        {
-          "file": "feathers/教材更新日志-2026-05-08-高数与概率论.md",
-          "line": 32,
-          "text": "- ✅ C 语言 / C++"
-        },
-        {
-          "file": "auto-save/存盘日志_2026-05-08_18-26-34.md",
-          "line": 25,
-          "text": "- C++ Primer 40MB"
-        }
-      ]
-    },
     "本地": {
       "mention_count": 3,
       "source_files": [
@@ -4478,8 +4658,8 @@
     "迭代全览": {
       "mention_count": 3,
       "source_files": [
-        "auto-save/SESSION_20260506_200545.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "auto-save/SESSION_20260506_200545.md"
       ],
       "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
       "sample_lines": [
@@ -4548,6 +4728,31 @@
         }
       ]
     },
+    "分层记忆": {
+      "mention_count": 3,
+      "source_files": [
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_004_本地技能包迭代全览.md",
+          "line": 19,
+          "text": "- v3.0.0 分层记忆 L0→L1→L2→L3（5月14日）"
+        },
+        {
+          "file": "feathers/feather_004_本地技能包迭代全览.md",
+          "line": 133,
+          "text": "| v3   | L0→L1→L2→L3 分层记忆 | TencentDB Agent Memory |"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 13,
+          "text": "分层记忆"
+        }
+      ]
+    },
     "Agent Memory": {
       "mention_count": 3,
       "source_files": [
@@ -4569,6 +4774,31 @@
           "file": "feathers/feather_004_本地技能包迭代全览.md",
           "line": 157,
           "text": "| TencentDB Agent Memory | 分层存储 L0→L3 |"
+        }
+      ]
+    },
+    "溯源链": {
+      "mention_count": 3,
+      "source_files": [
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_004_本地技能包迭代全览.md",
+          "line": 22,
+          "text": "- v4.0.0 符号化压缩 + 溯源链（5月22日）"
+        },
+        {
+          "file": "feathers/feather_004_本地技能包迭代全览.md",
+          "line": 134,
+          "text": "| v4   | 符号化压缩 + 溯源链 | 自研 |"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 21,
+          "text": "溯源链"
         }
       ]
     },
@@ -4668,6 +4898,31 @@
         }
       ]
     },
+    "知识图谱": {
+      "mention_count": 3,
+      "source_files": [
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_004_本地技能包迭代全览.md",
+          "line": 34,
+          "text": "- 参考 Graphiti 时序知识图谱"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 2,
+          "text": "title: \"羽渡尘知识图谱 — 脑图总览\""
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 8,
+          "text": "# 羽渡尘知识图谱"
+        }
+      ]
+    },
     "关系图谱": {
       "mention_count": 3,
       "source_files": [
@@ -4716,11 +4971,61 @@
         }
       ]
     },
+    "版本控制": {
+      "mention_count": 3,
+      "source_files": [
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_004_本地技能包迭代全览.md",
+          "line": 47,
+          "text": "- v5.3.0 记忆版本控制（5月22日）"
+        },
+        {
+          "file": "feathers/feather_004_本地技能包迭代全览.md",
+          "line": 141,
+          "text": "| v5.3 | 记忆版本控制 + 变更追踪 | Git-like |"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 17,
+          "text": "Git版本控制"
+        }
+      ]
+    },
+    "四路召回": {
+      "mention_count": 3,
+      "source_files": [
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_004_本地技能包迭代全览.md",
+          "line": 54,
+          "text": "- 四路召回：实体 + 图谱 + FTS5 + 向量"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 30,
+          "text": "四路召回"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 96,
+          "text": "RET[四路召回<br/>实体+图谱+FTS5+向量]"
+        }
+      ]
+    },
     "更名为": {
       "mention_count": 3,
       "source_files": [
-        "auto-save/SESSION_20260506_181455.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "auto-save/SESSION_20260506_181455.md"
       ],
       "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
       "sample_lines": [
@@ -4910,28 +5215,147 @@
         }
       ]
     },
-    "Intel": {
+    "对齐": {
       "mention_count": 3,
       "source_files": [
-        "feathers/feather_050_华为韬定律.md",
-        "auto-save/会话日志_2026-05-08_23-30-00.md"
+        "feathers/feather_051_羽渡尘脑图总览.md"
       ],
-      "first_seen_in": "feathers/feather_050_华为韬定律.md",
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
       "sample_lines": [
         {
-          "file": "feathers/feather_050_华为韬定律.md",
-          "line": 59,
-          "text": "- Intel/AMD 槟城岗位也在做类似的方向"
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 40,
+          "text": "缓存对齐"
         },
         {
-          "file": "auto-save/会话日志_2026-05-08_23-30-00.md",
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 97,
+          "text": "CACHE[缓存对齐<br/>命中率>99%]"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 116,
+          "text": "1. **羽渡尘**是你的记忆引擎——分层、检索、对齐"
+        }
+      ]
+    },
+    "MEMO": {
+      "mention_count": 3,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 46,
+          "text": "MEMORY.md"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 87,
+          "text": "MEMO[MEMORY.md<br/>576字快照窗口]"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 110,
+          "text": "MEMO -->|自动注入| RET"
+        }
+      ]
+    },
+    "快照窗口": {
+      "mention_count": 3,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 47,
+          "text": "羽渡尘快照窗口"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 87,
+          "text": "MEMO[MEMORY.md<br/>576字快照窗口]"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 117,
+          "text": "2. **你**是系统的核心——画像、铁律、快照窗口全围绕你"
+        }
+      ]
+    },
+    "LAWS": {
+      "mention_count": 3,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 52,
+          "text": "user-iron-laws"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 86,
+          "text": "LAWS[user-iron-laws<br/>铁律刻入SSD]"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 109,
+          "text": "LAWS --> TUI"
+        }
+      ]
+    },
+    "RET": {
+      "mention_count": 3,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 96,
+          "text": "RET[四路召回<br/>实体+图谱+FTS5+向量]"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 107,
+          "text": "L0 --> RET --> CACHE"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 110,
+          "text": "MEMO -->|自动注入| RET"
+        }
+      ]
+    },
+    "程控制论": {
+      "mention_count": 3,
+      "source_files": [
+        "feathers/feather_052_工程控制论入库.md"
+      ],
+      "first_seen_in": "feathers/feather_052_工程控制论入库.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_052_工程控制论入库.md",
+          "line": 2,
+          "text": "title: \"工程控制论 钱学森 入库\""
+        },
+        {
+          "file": "feathers/feather_052_工程控制论入库.md",
+          "line": 8,
+          "text": "# 工程控制论"
+        },
+        {
+          "file": "feathers/feather_052_工程控制论入库.md",
           "line": 13,
-          "text": "- 中英双语 README，目标 Intel & AMD Penang"
-        },
-        {
-          "file": "auto-save/会话日志_2026-05-08_23-30-00.md",
-          "line": 19,
-          "text": "- 目标槟城 Intel/AMD，所有项目中英双语"
+          "text": "- 文件：教材库/工程控制论_钱学森.pdf（13MB，252页）"
         }
       ]
     },
@@ -5012,8 +5436,8 @@
     "传记": {
       "mention_count": 3,
       "source_files": [
-        "auto-save/存盘日志_2026-05-08_18-26-34.md",
-        "feathers/符华传记·云墨丹心-赤鸢仙人五万年.md"
+        "feathers/符华传记·云墨丹心-赤鸢仙人五万年.md",
+        "auto-save/存盘日志_2026-05-08_18-26-34.md"
       ],
       "first_seen_in": "feathers/符华传记·云墨丹心-赤鸢仙人五万年.md",
       "sample_lines": [
@@ -5134,8 +5558,8 @@
       "mention_count": 3,
       "source_files": [
         "auto-save/SESSION_20260506_171659.md",
-        "auto-save/SESSION_20260506_162418.md",
-        "auto-save/SESSION_20260506_165420.md"
+        "auto-save/SESSION_20260506_165420.md",
+        "auto-save/SESSION_20260506_162418.md"
       ],
       "first_seen_in": "auto-save/SESSION_20260506_162418.md",
       "sample_lines": [
@@ -5203,8 +5627,8 @@
     "来源": {
       "mention_count": 2,
       "source_files": [
-        "feathers/3Blue1Brown可视化教程资源索引.md",
-        "feathers/符华传记·云墨丹心-赤鸢仙人五万年.md"
+        "feathers/符华传记·云墨丹心-赤鸢仙人五万年.md",
+        "feathers/3Blue1Brown可视化教程资源索引.md"
       ],
       "first_seen_in": "feathers/3Blue1Brown可视化教程资源索引.md",
       "sample_lines": [
@@ -5536,8 +5960,8 @@
     "主力": {
       "mention_count": 2,
       "source_files": [
-        "feathers/feather_002_工具使用手册.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "feathers/feather_002_工具使用手册.md"
       ],
       "first_seen_in": "feathers/feather_002_工具使用手册.md",
       "sample_lines": [
@@ -5864,8 +6288,8 @@
     "OS": {
       "mention_count": 2,
       "source_files": [
-        "feathers/feather_003_EIE完整培养方案与书单.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "feathers/feather_003_EIE完整培养方案与书单.md"
       ],
       "first_seen_in": "feathers/feather_003_EIE完整培养方案与书单.md",
       "sample_lines": [
@@ -5922,8 +6346,8 @@
     "用户偏好": {
       "mention_count": 2,
       "source_files": [
-        "auto-save/SESSION_20260506_181455.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "auto-save/SESSION_20260506_181455.md"
       ],
       "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
       "sample_lines": [
@@ -5961,8 +6385,8 @@
     "全文搜索引擎": {
       "mention_count": 2,
       "source_files": [
-        "auto-save/SESSION_20260507_210412.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "auto-save/SESSION_20260507_210412.md"
       ],
       "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
       "sample_lines": [
@@ -6016,45 +6440,7 @@
         }
       ]
     },
-    "分层记忆": {
-      "mention_count": 2,
-      "source_files": [
-        "feathers/feather_004_本地技能包迭代全览.md"
-      ],
-      "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
-      "sample_lines": [
-        {
-          "file": "feathers/feather_004_本地技能包迭代全览.md",
-          "line": 19,
-          "text": "- v3.0.0 分层记忆 L0→L1→L2→L3（5月14日）"
-        },
-        {
-          "file": "feathers/feather_004_本地技能包迭代全览.md",
-          "line": 133,
-          "text": "| v3   | L0→L1→L2→L3 分层记忆 | TencentDB Agent Memory |"
-        }
-      ]
-    },
     "号化压缩": {
-      "mention_count": 2,
-      "source_files": [
-        "feathers/feather_004_本地技能包迭代全览.md"
-      ],
-      "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
-      "sample_lines": [
-        {
-          "file": "feathers/feather_004_本地技能包迭代全览.md",
-          "line": 22,
-          "text": "- v4.0.0 符号化压缩 + 溯源链（5月22日）"
-        },
-        {
-          "file": "feathers/feather_004_本地技能包迭代全览.md",
-          "line": 134,
-          "text": "| v4   | 符号化压缩 + 溯源链 | 自研 |"
-        }
-      ]
-    },
-    "溯源链": {
       "mention_count": 2,
       "source_files": [
         "feathers/feather_004_本地技能包迭代全览.md"
@@ -6282,25 +6668,6 @@
         }
       ]
     },
-    "版本控制": {
-      "mention_count": 2,
-      "source_files": [
-        "feathers/feather_004_本地技能包迭代全览.md"
-      ],
-      "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
-      "sample_lines": [
-        {
-          "file": "feathers/feather_004_本地技能包迭代全览.md",
-          "line": 47,
-          "text": "- v5.3.0 记忆版本控制（5月22日）"
-        },
-        {
-          "file": "feathers/feather_004_本地技能包迭代全览.md",
-          "line": 141,
-          "text": "| v5.3 | 记忆版本控制 + 变更追踪 | Git-like |"
-        }
-      ]
-    },
     "变更追踪": {
       "mention_count": 2,
       "source_files": [
@@ -6434,6 +6801,26 @@
         }
       ]
     },
+    "典序排序": {
+      "mention_count": 2,
+      "source_files": [
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_004_本地技能包迭代全览.md",
+          "line": 56,
+          "text": "- 字典序排序 → 缓存命中率 99.9%"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 43,
+          "text": "字典序排序"
+        }
+      ]
+    },
     "存块对齐": {
       "mention_count": 2,
       "source_files": [
@@ -6475,8 +6862,8 @@
     "缓存省钱": {
       "mention_count": 2,
       "source_files": [
-        "auto-save/SESSION_20260506_181455.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "auto-save/SESSION_20260506_181455.md"
       ],
       "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
       "sample_lines": [
@@ -6514,8 +6901,8 @@
     "钱办大事": {
       "mention_count": 2,
       "source_files": [
-        "auto-save/SESSION_20260506_181455.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "auto-save/SESSION_20260506_181455.md"
       ],
       "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
       "sample_lines": [
@@ -6534,8 +6921,8 @@
     "基于": {
       "mention_count": 2,
       "source_files": [
-        "auto-save/会话日志_2026-05-08_23-30-00.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "auto-save/会话日志_2026-05-08_23-30-00.md"
       ],
       "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
       "sample_lines": [
@@ -6554,8 +6941,8 @@
     "自学路线": {
       "mention_count": 2,
       "source_files": [
-        "auto-save/会话日志_2026-05-08_23-30-00.md",
-        "feathers/feather_004_本地技能包迭代全览.md"
+        "feathers/feather_004_本地技能包迭代全览.md",
+        "auto-save/会话日志_2026-05-08_23-30-00.md"
       ],
       "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
       "sample_lines": [
@@ -6992,25 +7379,6 @@
         }
       ]
     },
-    "MEMORY": {
-      "mention_count": 2,
-      "source_files": [
-        "feathers/feather_049_大家伙配置讨论_5月26日.md"
-      ],
-      "first_seen_in": "feathers/feather_049_大家伙配置讨论_5月26日.md",
-      "sample_lines": [
-        {
-          "file": "feathers/feather_049_大家伙配置讨论_5月26日.md",
-          "line": 50,
-          "text": "- 命中率降3%原因：MEMORY.md更新（大家伙配置新内容）+ Win升级重启"
-        },
-        {
-          "file": "feathers/feather_049_大家伙配置讨论_5月26日.md",
-          "line": 53,
-          "text": "- MEMORY.md（Hermes原生速记本）→ 记住了用户信息"
-        }
-      ]
-    },
     "省钱": {
       "mention_count": 2,
       "source_files": [
@@ -7065,6 +7433,26 @@
           "file": "feathers/feather_050_华为韬定律.md",
           "line": 54,
           "text": "## 对EIE学习的意义"
+        }
+      ]
+    },
+    "核心思想": {
+      "mention_count": 2,
+      "source_files": [
+        "feathers/feather_050_华为韬定律.md",
+        "feathers/feather_052_工程控制论入库.md"
+      ],
+      "first_seen_in": "feathers/feather_050_华为韬定律.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_050_华为韬定律.md",
+          "line": 16,
+          "text": "## 核心思想"
+        },
+        {
+          "file": "feathers/feather_052_工程控制论入库.md",
+          "line": 14,
+          "text": "- 核心思想：反馈控制、系统稳定性、闭环系统"
         }
       ]
     },
@@ -7141,6 +7529,197 @@
           "file": "feathers/feather_050_华为韬定律.md",
           "line": 52,
           "text": "- 2031年：等效 1.4nm 制程的晶体管密度"
+        }
+      ]
+    },
+    "场景": {
+      "mention_count": 2,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 22,
+          "text": "L2_场景"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 93,
+          "text": "L2[scenarios<br/>场景聚合]"
+        }
+      ]
+    },
+    "高频": {
+      "mention_count": 2,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 28,
+          "text": "高频话题排名"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 41,
+          "text": "核心兜_高频"
+        }
+      ]
+    },
+    "缓存对齐": {
+      "mention_count": 2,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 40,
+          "text": "缓存对齐"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 97,
+          "text": "CACHE[缓存对齐<br/>命中率>99%]"
+        }
+      ]
+    },
+    "你的画像": {
+      "mention_count": 2,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 50,
+          "text": "你的画像"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 85,
+          "text": "USER[USER.md<br/>你的画像]"
+        }
+      ]
+    },
+    "图谱视图": {
+      "mention_count": 2,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 60,
+          "text": "图谱视图"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 101,
+          "text": "OBS[Obsidian<br/>图谱视图]"
+        }
+      ]
+    },
+    "教材库": {
+      "mention_count": 2,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md",
+        "feathers/feather_052_工程控制论入库.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 62,
+          "text": "教材库联动"
+        },
+        {
+          "file": "feathers/feather_052_工程控制论入库.md",
+          "line": 13,
+          "text": "- 文件：教材库/工程控制论_钱学森.pdf（13MB，252页）"
+        }
+      ]
+    },
+    "CACHE": {
+      "mention_count": 2,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 97,
+          "text": "CACHE[缓存对齐<br/>命中率>99%]"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 107,
+          "text": "L0 --> RET --> CACHE"
+        }
+      ]
+    },
+    "你看到的": {
+      "mention_count": 2,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 100,
+          "text": "subgraph 你看到的"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 118,
+          "text": "3. **你看到的**是三个入口——Obsidian 看图谱、Chrome 爬东西、终端干活"
+        }
+      ]
+    },
+    "TUI": {
+      "mention_count": 2,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 103,
+          "text": "TUI[终端CLI]"
+        },
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 109,
+          "text": "LAWS --> TUI"
+        }
+      ]
+    },
+    "稳定": {
+      "mention_count": 2,
+      "source_files": [
+        "feathers/feather_052_工程控制论入库.md"
+      ],
+      "first_seen_in": "feathers/feather_052_工程控制论入库.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_052_工程控制论入库.md",
+          "line": 14,
+          "text": "- 核心思想：反馈控制、系统稳定性、闭环系统"
+        },
+        {
+          "file": "feathers/feather_052_工程控制论入库.md",
+          "line": 19,
+          "text": "- 为人处世也是控制论——反馈→调整→稳定"
         }
       ]
     },
@@ -10033,20 +10612,6 @@
         }
       ]
     },
-    "知识图谱": {
-      "mention_count": 1,
-      "source_files": [
-        "feathers/feather_004_本地技能包迭代全览.md"
-      ],
-      "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
-      "sample_lines": [
-        {
-          "file": "feathers/feather_004_本地技能包迭代全览.md",
-          "line": 34,
-          "text": "- 参考 Graphiti 时序知识图谱"
-        }
-      ]
-    },
     "v5.0.0": {
       "mention_count": 1,
       "source_files": [
@@ -10296,34 +10861,6 @@
           "file": "feathers/feather_004_本地技能包迭代全览.md",
           "line": 53,
           "text": "- v5.5.0 缓存对齐器 + 多路召回（5月22日）"
-        }
-      ]
-    },
-    "四路召回": {
-      "mention_count": 1,
-      "source_files": [
-        "feathers/feather_004_本地技能包迭代全览.md"
-      ],
-      "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
-      "sample_lines": [
-        {
-          "file": "feathers/feather_004_本地技能包迭代全览.md",
-          "line": 54,
-          "text": "- 四路召回：实体 + 图谱 + FTS5 + 向量"
-        }
-      ]
-    },
-    "典序排序": {
-      "mention_count": 1,
-      "source_files": [
-        "feathers/feather_004_本地技能包迭代全览.md"
-      ],
-      "first_seen_in": "feathers/feather_004_本地技能包迭代全览.md",
-      "sample_lines": [
-        {
-          "file": "feathers/feather_004_本地技能包迭代全览.md",
-          "line": 56,
-          "text": "- 字典序排序 → 缓存命中率 99.9%"
         }
       ]
     },
@@ -12427,20 +12964,6 @@
         }
       ]
     },
-    "核心思想": {
-      "mention_count": 1,
-      "source_files": [
-        "feathers/feather_050_华为韬定律.md"
-      ],
-      "first_seen_in": "feathers/feather_050_华为韬定律.md",
-      "sample_lines": [
-        {
-          "file": "feathers/feather_050_华为韬定律.md",
-          "line": 16,
-          "text": "## 核心思想"
-        }
-      ]
-    },
     "摩尔定律": {
       "mention_count": 1,
       "source_files": [
@@ -13026,6 +13549,678 @@
           "file": "feathers/feather_050_华为韬定律.md",
           "line": 59,
           "text": "- Intel/AMD 槟城岗位也在做类似的方向"
+        }
+      ]
+    },
+    "元数据": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 16,
+          "text": "YAML元数据"
+        }
+      ]
+    },
+    "构化事实": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 20,
+          "text": "结构化事实"
+        }
+      ]
+    },
+    "结构化": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 20,
+          "text": "结构化事实"
+        }
+      ]
+    },
+    "标签聚合": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 23,
+          "text": "按标签聚合"
+        }
+      ]
+    },
+    "羽毛连接": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 24,
+          "text": "跨羽毛连接"
+        }
+      ]
+    },
+    "条事实": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 26,
+          "text": "78条事实"
+        }
+      ]
+    },
+    "兴趣提取": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 27,
+          "text": "自动兴趣提取"
+        }
+      ]
+    },
+    "话题排名": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 28,
+          "text": "高频话题排名"
+        }
+      ]
+    },
+    "检索管线": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 29,
+          "text": "检索管线"
+        }
+      ]
+    },
+    "实体匹配": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 31,
+          "text": "实体匹配"
+        }
+      ]
+    },
+    "图谱关系": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 32,
+          "text": "图谱关系"
+        }
+      ]
+    },
+    "全文": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 33,
+          "text": "FTS5全文"
+        }
+      ]
+    },
+    "向量语义": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 34,
+          "text": "向量语义"
+        }
+      ]
+    },
+    "低频": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 42,
+          "text": "背景兜_低频"
+        }
+      ]
+    },
+    "存储系统": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 45,
+          "text": "存储系统"
+        }
+      ]
+    },
+    "动态生成": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 48,
+          "text": "576字动态生成"
+        }
+      ]
+    },
+    "个章节": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 54,
+          "text": "7个章节"
+        }
+      ]
+    },
+    "盘羽毛库": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 55,
+          "text": "D盘羽毛库"
+        }
+      ]
+    },
+    "空间": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 56,
+          "text": "506GB空间"
+        }
+      ]
+    },
+    "教材链接": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 57,
+          "text": "iCloud教材链接"
+        }
+      ]
+    },
+    "工具生态": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 58,
+          "text": "工具生态"
+        }
+      ]
+    },
+    "材库联动": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 62,
+          "text": "教材库联动"
+        }
+      ]
+    },
+    "爬虫": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 64,
+          "text": "headless爬虫"
+        }
+      ]
+    },
+    "翻墙通道": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 68,
+          "text": "翻墙通道"
+        }
+      ]
+    },
+    "你的方向": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 69,
+          "text": "你的方向"
+        }
+      ]
+    },
+    "半导体": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 70,
+          "text": "EIE半导体"
+        }
+      ]
+    },
+    "槟城计划": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 73,
+          "text": "槟城计划"
+        }
+      ]
+    },
+    "留学": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 74,
+          "text": "PSDC留学"
+        }
+      ]
+    },
+    "大家伙": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 76,
+          "text": "大家伙"
+        }
+      ]
+    },
+    "TB": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 83,
+          "text": "graph TB"
+        }
+      ]
+    },
+    "WEB": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 102,
+          "text": "WEB[Chrome headless]"
+        }
+      ]
+    },
+    "你三件事": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 114,
+          "text": "**这个脑图告诉你三件事：**"
+        }
+      ]
+    },
+    "是你的记忆引擎": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 116,
+          "text": "1. **羽渡尘**是你的记忆引擎——分层、检索、对齐"
+        }
+      ]
+    },
+    "全围绕你": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 117,
+          "text": "2. **你**是系统的核心——画像、铁律、快照窗口全围绕你"
+        }
+      ]
+    },
+    "终端干活": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_051_羽渡尘脑图总览.md"
+      ],
+      "first_seen_in": "feathers/feather_051_羽渡尘脑图总览.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_051_羽渡尘脑图总览.md",
+          "line": 118,
+          "text": "3. **你看到的**是三个入口——Obsidian 看图谱、Chrome 爬东西、终端干活"
+        }
+      ]
+    },
+    "Hsue Shen": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_052_工程控制论入库.md"
+      ],
+      "first_seen_in": "feathers/feather_052_工程控制论入库.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_052_工程控制论入库.md",
+          "line": 10,
+          "text": "- 作者：钱学森（Hsue Shen Tsien）"
+        }
+      ]
+    },
+    "作者": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_052_工程控制论入库.md"
+      ],
+      "first_seen_in": "feathers/feather_052_工程控制论入库.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_052_工程控制论入库.md",
+          "line": 10,
+          "text": "- 作者：钱学森（Hsue Shen Tsien）"
+        }
+      ]
+    },
+    "Engineering Cybernetics": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_052_工程控制论入库.md"
+      ],
+      "first_seen_in": "feathers/feather_052_工程控制论入库.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_052_工程控制论入库.md",
+          "line": 11,
+          "text": "- 英文原版：Engineering Cybernetics，1954，McGraw-Hill"
+        }
+      ]
+    },
+    "McGraw": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_052_工程控制论入库.md"
+      ],
+      "first_seen_in": "feathers/feather_052_工程控制论入库.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_052_工程控制论入库.md",
+          "line": 11,
+          "text": "- 英文原版：Engineering Cybernetics，1954，McGraw-Hill"
+        }
+      ]
+    },
+    "英文原版": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_052_工程控制论入库.md"
+      ],
+      "first_seen_in": "feathers/feather_052_工程控制论入库.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_052_工程控制论入库.md",
+          "line": 11,
+          "text": "- 英文原版：Engineering Cybernetics，1954，McGraw-Hill"
+        }
+      ]
+    },
+    "中文版": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_052_工程控制论入库.md"
+      ],
+      "first_seen_in": "feathers/feather_052_工程控制论入库.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_052_工程控制论入库.md",
+          "line": 12,
+          "text": "- 中文版：1958，科学出版社"
+        }
+      ]
+    },
+    "学出版社": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_052_工程控制论入库.md"
+      ],
+      "first_seen_in": "feathers/feather_052_工程控制论入库.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_052_工程控制论入库.md",
+          "line": 12,
+          "text": "- 中文版：1958，科学出版社"
+        }
+      ]
+    },
+    "闭环系统": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_052_工程控制论入库.md"
+      ],
+      "first_seen_in": "feathers/feather_052_工程控制论入库.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_052_工程控制论入库.md",
+          "line": 14,
+          "text": "- 核心思想：反馈控制、系统稳定性、闭环系统"
+        }
+      ]
+    },
+    "你的意义": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_052_工程控制论入库.md"
+      ],
+      "first_seen_in": "feathers/feather_052_工程控制论入库.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_052_工程控制论入库.md",
+          "line": 16,
+          "text": "## 对你的意义"
+        }
+      ]
+    },
+    "的负反馈放大器": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_052_工程控制论入库.md"
+      ],
+      "first_seen_in": "feathers/feather_052_工程控制论入库.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_052_工程控制论入库.md",
+          "line": 18,
+          "text": "- 模电里的负反馈放大器就是控制论的实例"
+        }
+      ]
+    },
+    "论的实例": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_052_工程控制论入库.md"
+      ],
+      "first_seen_in": "feathers/feather_052_工程控制论入库.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_052_工程控制论入库.md",
+          "line": 18,
+          "text": "- 模电里的负反馈放大器就是控制论的实例"
+        }
+      ]
+    },
+    "电后来读": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_052_工程控制论入库.md"
+      ],
+      "first_seen_in": "feathers/feather_052_工程控制论入库.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_052_工程控制论入库.md",
+          "line": 20,
+          "text": "- 学完模电后来读，会有\"原来如此\"的感觉"
+        }
+      ]
+    },
+    "的感觉": {
+      "mention_count": 1,
+      "source_files": [
+        "feathers/feather_052_工程控制论入库.md"
+      ],
+      "first_seen_in": "feathers/feather_052_工程控制论入库.md",
+      "sample_lines": [
+        {
+          "file": "feathers/feather_052_工程控制论入库.md",
+          "line": 20,
+          "text": "- 学完模电后来读，会有\"原来如此\"的感觉"
         }
       ]
     },
