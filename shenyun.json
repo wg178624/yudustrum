@@ -550,6 +550,20 @@
       ],
       "type": "feather",
       "summary": "工程控制论入库教材库(13MB,252页,1958版),核心:反馈控制/系统稳定性"
+    },
+    {
+      "path": "feathers/feather_053_ClaudeCode扩展体系笔记.md",
+      "title": "Claude Code 扩展体系官方文档笔记",
+      "tags": [
+        "Claude Code",
+        "Skills",
+        "Subagents",
+        "MCP",
+        "Hooks",
+        "架构参考"
+      ],
+      "type": "feather",
+      "summary": "Claude Code文档精读: 五大扩展机制(CLAUDE.md/Skills/Subagents/MCP/Hooks)设计哲学+关键参数+对羽渡尘启发"
     }
   ],
   "anchors": [],
