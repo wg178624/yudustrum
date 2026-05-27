@@ -670,6 +670,19 @@
       ],
       "type": "feather",
       "summary": "Google Antigravity官方Codelab(105min). 你主力的agent-first IDE. 覆盖安装/Agent/浏览器/规则/技能/安全"
+    },
+    {
+      "path": "feathers/feather_062_DeepSeekKV缓存官方确认.md",
+      "title": "DeepSeek KV Cache 官方文档 确认笔记",
+      "tags": [
+        "DeepSeek",
+        "KV Cache",
+        "缓存对齐",
+        "API",
+        "羽渡尘"
+      ],
+      "type": "feather",
+      "summary": "DeepSeek KV Cache官方文档精读. 缓存前缀单元完整匹配. 验证羽渡尘策略正确. 预热需1-2次MISS"
     }
   ],
   "anchors": [],
