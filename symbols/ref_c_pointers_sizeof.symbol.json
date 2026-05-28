@@ -1,0 +1,37 @@
+{
+  "session": "20260528_1942",
+  "source": "feathers/ref_c_pointers_sizeof.md",
+  "title": "ref_c_pointers_sizeof",
+  "facts": [
+    "tags: [C, 函数参考, sizeof, 指针, 内存]",
+    "头文件：`#include <stddef.h>`（sizeof 是运算符，不是函数）",
+    "sizeof(arr)      // 40 = 10 * 4",
+    "sizeof(arr) / sizeof(arr[0])  // 10，数组元素个数"
+  ],
+  "trace_ids": [
+    {
+      "trace_id": "9b260e6c35ce",
+      "line": 3,
+      "section": "content",
+      "type": "summary"
+    },
+    {
+      "trace_id": "7a22be0e23ea",
+      "line": 10,
+      "section": "content",
+      "type": "summary"
+    },
+    {
+      "trace_id": "b0f6fea0645b",
+      "line": 28,
+      "section": "content",
+      "type": "summary"
+    },
+    {
+      "trace_id": "9d991725f185",
+      "line": 29,
+      "section": "content",
+      "type": "summary"
+    }
+  ]
+}

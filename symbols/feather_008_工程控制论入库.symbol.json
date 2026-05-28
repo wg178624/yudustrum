@@ -1,0 +1,58 @@
+{
+  "session": "20260528_1942",
+  "source": "feathers/feather_008_工程控制论入库.md",
+  "title": "feather_008_工程控制论入库",
+  "facts": [
+    "作者：钱学森（Hsue Shen Tsien）",
+    "英文原版：Engineering Cybernetics，1954，McGraw-Hill",
+    "- 中文版：1958，科学出版社",
+    "文件：教材库/工程控制论_钱学森.pdf（13MB，252页）",
+    "核心思想：反馈控制、系统稳定性、闭环系统",
+    "为人处世也是控制论——反馈→调整→稳定",
+    "学完模电后来读，会有\"原来如此\"的感觉"
+  ],
+  "trace_ids": [
+    {
+      "trace_id": "6cc15703f655",
+      "line": 10,
+      "section": "",
+      "type": "fact"
+    },
+    {
+      "trace_id": "405a6bead979",
+      "line": 11,
+      "section": "",
+      "type": "fact"
+    },
+    {
+      "trace_id": "7d0ebcd81556",
+      "line": 12,
+      "section": "",
+      "type": "fact"
+    },
+    {
+      "trace_id": "180086ff6899",
+      "line": 13,
+      "section": "",
+      "type": "fact"
+    },
+    {
+      "trace_id": "6583f038ebca",
+      "line": 14,
+      "section": "",
+      "type": "fact"
+    },
+    {
+      "trace_id": "228e460d9910",
+      "line": 19,
+      "section": "对你的意义",
+      "type": "fact"
+    },
+    {
+      "trace_id": "770bbc8c8e00",
+      "line": 20,
+      "section": "对你的意义",
+      "type": "fact"
+    }
+  ]
+}

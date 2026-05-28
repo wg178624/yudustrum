@@ -1,0 +1,121 @@
+{
+  "source": "feathers/feather_023_羽渡尘完全体v5.9.md",
+  "atoms": [
+    {
+      "text": "① 多路召回",
+      "section": "六、检索管线（v5.8 — 当前）",
+      "type": "fact",
+      "trace_id": "077a0b720b47"
+    },
+    {
+      "text": "② 去重（按 entity 名称，同实体保留最优一条）",
+      "section": "六、检索管线（v5.8 — 当前）",
+      "type": "fact",
+      "trace_id": "de8ff149668a"
+    },
+    {
+      "text": "③ 字典序排序（第一优先级，确保缓存前缀稳定）",
+      "section": "六、检索管线（v5.8 — 当前）",
+      "type": "fact",
+      "trace_id": "e3fa75113104"
+    },
+    {
+      "text": "④ 轻度融合（同实体多条事实合并为连贯描述，逗号分隔）",
+      "section": "六、检索管线（v5.8 — 当前）",
+      "type": "fact",
+      "trace_id": "6410d06b31e4"
+    },
+    {
+      "text": "⑥ MD5 哈希校验 → 缓存对齐 → 命中率 >99%",
+      "section": "六、检索管线（v5.8 — 当前）",
+      "type": "fact",
+      "trace_id": "90d40309f3d4"
+    },
+    {
+      "text": "第一层：文件完整性检查（关键脚本哈希）",
+      "section": "十七、安全架构（v5.9）",
+      "type": "fact",
+      "trace_id": "9952fdbd3cc0"
+    },
+    {
+      "text": "第二层：敏感数据扫描（`grep` 身份证/API Key）",
+      "section": "十七、安全架构（v5.9）",
+      "type": "fact",
+      "trace_id": "662f3303853c"
+    },
+    {
+      "text": "第三层：依赖漏洞检测（Python 包安全公告）",
+      "section": "十七、安全架构（v5.9）",
+      "type": "fact",
+      "trace_id": "d8443d9013d4"
+    }
+  ],
+  "trace_chain": [
+    {
+      "trace_id": "077a0b720b47",
+      "fact": "① 多路召回",
+      "source_file": "feathers/feather_023_羽渡尘完全体v5.9.md",
+      "line": 141,
+      "section": "六、检索管线（v5.8 — 当前）",
+      "type": "fact"
+    },
+    {
+      "trace_id": "de8ff149668a",
+      "fact": "② 去重（按 entity 名称，同实体保留最优一条）",
+      "source_file": "feathers/feather_023_羽渡尘完全体v5.9.md",
+      "line": 147,
+      "section": "六、检索管线（v5.8 — 当前）",
+      "type": "fact"
+    },
+    {
+      "trace_id": "e3fa75113104",
+      "fact": "③ 字典序排序（第一优先级，确保缓存前缀稳定）",
+      "source_file": "feathers/feather_023_羽渡尘完全体v5.9.md",
+      "line": 149,
+      "section": "六、检索管线（v5.8 — 当前）",
+      "type": "fact"
+    },
+    {
+      "trace_id": "6410d06b31e4",
+      "fact": "④ 轻度融合（同实体多条事实合并为连贯描述，逗号分隔）",
+      "source_file": "feathers/feather_023_羽渡尘完全体v5.9.md",
+      "line": 151,
+      "section": "六、检索管线（v5.8 — 当前）",
+      "type": "fact"
+    },
+    {
+      "trace_id": "90d40309f3d4",
+      "fact": "⑥ MD5 哈希校验 → 缓存对齐 → 命中率 >99%",
+      "source_file": "feathers/feather_023_羽渡尘完全体v5.9.md",
+      "line": 159,
+      "section": "六、检索管线（v5.8 — 当前）",
+      "type": "fact"
+    },
+    {
+      "trace_id": "9952fdbd3cc0",
+      "fact": "第一层：文件完整性检查（关键脚本哈希）",
+      "source_file": "feathers/feather_023_羽渡尘完全体v5.9.md",
+      "line": 346,
+      "section": "十七、安全架构（v5.9）",
+      "type": "fact"
+    },
+    {
+      "trace_id": "662f3303853c",
+      "fact": "第二层：敏感数据扫描（`grep` 身份证/API Key）",
+      "source_file": "feathers/feather_023_羽渡尘完全体v5.9.md",
+      "line": 347,
+      "section": "十七、安全架构（v5.9）",
+      "type": "fact"
+    },
+    {
+      "trace_id": "d8443d9013d4",
+      "fact": "第三层：依赖漏洞检测（Python 包安全公告）",
+      "source_file": "feathers/feather_023_羽渡尘完全体v5.9.md",
+      "line": 348,
+      "section": "十七、安全架构（v5.9）",
+      "type": "fact"
+    }
+  ],
+  "atom_count": 8,
+  "updated": "2026-05-28T19:42:48.578150"
+}

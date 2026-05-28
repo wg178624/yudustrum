@@ -1,0 +1,16 @@
+{
+  "session": "20260528_1942",
+  "source": "feathers/feather_013_收藏夹薅下来计划.md",
+  "title": "feather_013_收藏夹薅下来计划",
+  "facts": [
+    "羽毛存的是内容本体 + 标签 + 可检索"
+  ],
+  "trace_ids": [
+    {
+      "trace_id": "85ad531c7b0e",
+      "line": 14,
+      "section": "为什么",
+      "type": "fact"
+    }
+  ]
+}

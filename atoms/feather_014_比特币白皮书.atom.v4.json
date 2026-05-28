@@ -1,0 +1,107 @@
+{
+  "source": "feathers/feather_014_比特币白皮书.md",
+  "atoms": [
+    {
+      "text": "标题：Bitcoin: A Peer-to-Peer Electronic Cash System",
+      "section": "",
+      "type": "fact",
+      "trace_id": "17d8527aabec"
+    },
+    {
+      "text": "作者：Satoshi Nakamoto（中本聪）",
+      "section": "",
+      "type": "fact",
+      "trace_id": "084346ded786"
+    },
+    {
+      "text": "- 时间：2008年10月31日",
+      "section": "",
+      "type": "fact",
+      "trace_id": "757599f05d2a"
+    },
+    {
+      "text": "文件：教材库/比特币白皮书_中本聪.pdf（180KB，9页）",
+      "section": "",
+      "type": "fact",
+      "trace_id": "493cfee3237b"
+    },
+    {
+      "text": "没有发明新技术，全是已有的（Hashcash 1997 / Merkle Tree 1979 / P2P 2000s）",
+      "section": "为什么存",
+      "type": "fact",
+      "trace_id": "7906534f6f17"
+    },
+    {
+      "text": "一个人写了一篇9页的论文，十年后价值万亿",
+      "section": "为什么存",
+      "type": "fact",
+      "trace_id": "597f40ee92fc"
+    },
+    {
+      "text": "但怎么组合、用在什么地方——才是你的价值",
+      "section": "为什么存",
+      "type": "fact",
+      "trace_id": "0d2fb30d6214"
+    }
+  ],
+  "trace_chain": [
+    {
+      "trace_id": "17d8527aabec",
+      "fact": "标题：Bitcoin: A Peer-to-Peer Electronic Cash System",
+      "source_file": "feathers/feather_014_比特币白皮书.md",
+      "line": 11,
+      "section": "",
+      "type": "fact"
+    },
+    {
+      "trace_id": "084346ded786",
+      "fact": "作者：Satoshi Nakamoto（中本聪）",
+      "source_file": "feathers/feather_014_比特币白皮书.md",
+      "line": 12,
+      "section": "",
+      "type": "fact"
+    },
+    {
+      "trace_id": "757599f05d2a",
+      "fact": "- 时间：2008年10月31日",
+      "source_file": "feathers/feather_014_比特币白皮书.md",
+      "line": 13,
+      "section": "",
+      "type": "fact"
+    },
+    {
+      "trace_id": "493cfee3237b",
+      "fact": "文件：教材库/比特币白皮书_中本聪.pdf（180KB，9页）",
+      "source_file": "feathers/feather_014_比特币白皮书.md",
+      "line": 14,
+      "section": "",
+      "type": "fact"
+    },
+    {
+      "trace_id": "7906534f6f17",
+      "fact": "没有发明新技术，全是已有的（Hashcash 1997 / Merkle Tree 1979 / P2P 2000s）",
+      "source_file": "feathers/feather_014_比特币白皮书.md",
+      "line": 19,
+      "section": "为什么存",
+      "type": "fact"
+    },
+    {
+      "trace_id": "597f40ee92fc",
+      "fact": "一个人写了一篇9页的论文，十年后价值万亿",
+      "source_file": "feathers/feather_014_比特币白皮书.md",
+      "line": 21,
+      "section": "为什么存",
+      "type": "fact"
+    },
+    {
+      "trace_id": "0d2fb30d6214",
+      "fact": "但怎么组合、用在什么地方——才是你的价值",
+      "source_file": "feathers/feather_014_比特币白皮书.md",
+      "line": 25,
+      "section": "为什么存",
+      "type": "fact"
+    }
+  ],
+  "atom_count": 7,
+  "updated": "2026-05-28T19:42:48.483848"
+}

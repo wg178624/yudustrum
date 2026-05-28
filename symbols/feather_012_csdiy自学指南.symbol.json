@@ -1,0 +1,65 @@
+{
+  "session": "20260528_1942",
+  "source": "feathers/feather_012_csdiy自学指南.md",
+  "title": "feather_012_csdiy自学指南",
+  "facts": [
+    "MIT 18.01/18.02 微积分",
+    "CSAPP（深入理解计算机系统） ← 你教材库里有",
+    "Stanford CS144 计算机网络",
+    "Berkeley CS61C 计算机组成",
+    "Nand2Tetris 从零构建计算机",
+    "官网：https://csdiy.wiki",
+    "GitHub：https://github.com/PKUFlyingPig/cs-self-learning",
+    "特点：全免费、名校公开课、有学习顺序建议"
+  ],
+  "trace_ids": [
+    {
+      "trace_id": "f5e8f1c40319",
+      "line": 22,
+      "section": "对你 EIE 方向有用的课程",
+      "type": "fact"
+    },
+    {
+      "trace_id": "e0050f52bb6a",
+      "line": 28,
+      "section": "对你 EIE 方向有用的课程",
+      "type": "fact"
+    },
+    {
+      "trace_id": "184822ff4dff",
+      "line": 30,
+      "section": "对你 EIE 方向有用的课程",
+      "type": "fact"
+    },
+    {
+      "trace_id": "e3cbbe9b9cbd",
+      "line": 34,
+      "section": "对你 EIE 方向有用的课程",
+      "type": "fact"
+    },
+    {
+      "trace_id": "b479c7389a3b",
+      "line": 35,
+      "section": "对你 EIE 方向有用的课程",
+      "type": "fact"
+    },
+    {
+      "trace_id": "62181493e184",
+      "line": 51,
+      "section": "链接",
+      "type": "fact"
+    },
+    {
+      "trace_id": "3acef08af37d",
+      "line": 52,
+      "section": "链接",
+      "type": "fact"
+    },
+    {
+      "trace_id": "207f598baf9e",
+      "line": 53,
+      "section": "链接",
+      "type": "fact"
+    }
+  ]
+}

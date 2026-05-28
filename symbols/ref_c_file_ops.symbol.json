@@ -1,0 +1,30 @@
+{
+  "session": "20260528_1942",
+  "source": "feathers/ref_c_file_ops.md",
+  "title": "ref_c_file_ops",
+  "facts": [
+    "tags: [C, 函数参考, fopen, fclose, fread, fwrite, stdio]",
+    "FILE *fopen(const char *path, const char *mode);",
+    "FILE *fp = fopen(\"data.txt\", \"r\");"
+  ],
+  "trace_ids": [
+    {
+      "trace_id": "6c029131309a",
+      "line": 3,
+      "section": "content",
+      "type": "summary"
+    },
+    {
+      "trace_id": "471710fb5de8",
+      "line": 15,
+      "section": "content",
+      "type": "summary"
+    },
+    {
+      "trace_id": "b37a03bee09b",
+      "line": 28,
+      "section": "content",
+      "type": "summary"
+    }
+  ]
+}

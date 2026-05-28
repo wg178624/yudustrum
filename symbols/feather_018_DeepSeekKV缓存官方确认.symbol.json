@@ -1,0 +1,16 @@
+{
+  "session": "20260528_1942",
+  "source": "feathers/feather_018_DeepSeekKV缓存官方确认.md",
+  "title": "feather_018_DeepSeekKV缓存官方确认",
+  "facts": [
+    "受 Sliding Window Attention 影响"
+  ],
+  "trace_ids": [
+    {
+      "trace_id": "45e46a1c8fc7",
+      "line": 17,
+      "section": "核心机制",
+      "type": "fact"
+    }
+  ]
+}

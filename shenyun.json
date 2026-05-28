@@ -63,7 +63,7 @@
     },
     {
       "name": "符华传记·云墨丹心-赤鸢仙人五万年",
-      "path": "feathers/符华传记·云墨丹心-赤鸢仙人五万年.md",
+      "path": "feathers/feather_020_符华传记·云墨丹心-赤鸢仙人五万年.md",
       "tags": [
         "符华",
         "崩坏3",
@@ -78,7 +78,7 @@
     },
     {
       "name": "教材更新日志-2026-05-08-高数与概率论",
-      "path": "feathers/教材更新日志-2026-05-08-高数与概率论.md",
+      "path": "feathers/feather_021_教材更新日志-2026-05-08-高数与概率论.md",
       "tags": [
         "教材",
         "高数",
@@ -92,7 +92,7 @@
     },
     {
       "name": "3Blue1Brown可视化教程资源索引",
-      "path": "feathers/3Blue1Brown可视化教程资源索引.md",
+      "path": "feathers/feather_019_3Blue1Brown可视化教程资源索引.md",
       "tags": [
         "3b1b",
         "可视化",
@@ -500,7 +500,7 @@
       "summary": "羽渡尘向量库 v2 上线（Ollama nomic-embed-text 768维）+ Git版本管理 + D盘冷备份 + C盘垃圾清理 + 工具盘点"
     },
     {
-      "path": "feathers/feather_049_大家伙配置讨论_5月26日.md",
+      "path": "feathers/feather_005_大家伙配置讨论_5月26日.md",
       "title": "大家伙配置讨论 5月26日",
       "tags": [
         "大家伙",
@@ -513,7 +513,7 @@
       "summary": "最终配置定案：CSE-846+H12SSL-i+75F3+7900XTX+256GB+长城双电源+PTJBOD，散热待定"
     },
     {
-      "path": "feathers/feather_050_华为韬定律.md",
+      "path": "feathers/feather_006_华为韬定律.md",
       "title": "华为韬(τ)定律 2026-05-25",
       "tags": [
         "半导体",
@@ -527,7 +527,7 @@
       "summary": "华为于ISCAS 2026发布韬(τ)定律：以时间缩微替代几何缩微，逻辑折叠技术，381款芯片量产，秋季麒麟首发"
     },
     {
-      "path": "feathers/feather_051_羽渡尘脑图总览.md",
+      "path": "feathers/feather_007_羽渡尘脑图总览.md",
       "title": "羽渡尘知识图谱 — 脑图总览",
       "tags": [
         "羽渡尘",
@@ -539,7 +539,7 @@
       "summary": "羽渡尘完整知识图谱：分层架构+检索管线+存储系统+工具生态+你的方向，含Mermaid脑图和关系图"
     },
     {
-      "path": "feathers/feather_052_工程控制论入库.md",
+      "path": "feathers/feather_008_工程控制论入库.md",
       "title": "工程控制论 钱学森 入库",
       "tags": [
         "控制论",
@@ -552,7 +552,7 @@
       "summary": "工程控制论入库教材库(13MB,252页,1958版),核心:反馈控制/系统稳定性"
     },
     {
-      "path": "feathers/feather_053_ClaudeCode扩展体系笔记.md",
+      "path": "feathers/feather_009_ClaudeCode扩展体系笔记.md",
       "title": "Claude Code 扩展体系官方文档笔记",
       "tags": [
         "Claude Code",
@@ -566,7 +566,7 @@
       "summary": "Claude Code文档精读: 五大扩展机制(CLAUDE.md/Skills/Subagents/MCP/Hooks)设计哲学+关键参数+对羽渡尘启发"
     },
     {
-      "path": "feathers/feather_054_马来西亚半导体NIMP2030.md",
+      "path": "feathers/feather_010_马来西亚半导体NIMP2030.md",
       "title": "马来西亚半导体资料 NIMP2030 + MIDA",
       "tags": [
         "槟城",
@@ -580,7 +580,7 @@
       "summary": "马来西亚NIMP2030: 半导体为国策, 全球市场580B→1T, 槟城为核心, Intel/AMD持续扩产"
     },
     {
-      "path": "feathers/feather_055_教材库学习路线图.md",
+      "path": "feathers/feather_011_教材库学习路线图.md",
       "title": "教材库学习路线图",
       "tags": [
         "EIE",
@@ -594,7 +594,7 @@
       "summary": "教材库优先级排序: T0计组→C Primer→数据结构 T1数电→模电→控制论 T2 OS→计网 T3数学/C++/无线电"
     },
     {
-      "path": "feathers/feather_056_csdiy自学指南.md",
+      "path": "feathers/feather_012_csdiy自学指南.md",
       "title": "CSDIY.wiki 计算机自学路线",
       "tags": [
         "CS自学",
@@ -607,7 +607,7 @@
       "summary": "csdiy.wiki 开源CS自学路线: 数学/系统/硬件课程,对你EIE方向有补充作用但非主线"
     },
     {
-      "path": "feathers/feather_057_收藏夹薅下来计划.md",
+      "path": "feathers/feather_013_收藏夹薅下来计划.md",
       "title": "浏览器收藏薅下来计划",
       "tags": [
         "收藏夹",
@@ -618,7 +618,7 @@
       "summary": "把浏览器收藏夹的技术内容薅下来存本地羽毛,防网站挂/网络暴毙"
     },
     {
-      "path": "feathers/feather_058_比特币白皮书.md",
+      "path": "feathers/feather_014_比特币白皮书.md",
       "title": "比特币白皮书 中本聪",
       "tags": [
         "比特币",
@@ -631,7 +631,7 @@
       "summary": "Bitcoin whitepaper 2008. 9页纸在教材库. 经典工程范本: 用已有技术(Hashcash/Merkle/P2P)拼出新东西"
     },
     {
-      "path": "feathers/feather_059_VLESS_Reality_VPN教程.md",
+      "path": "feathers/feather_015_VLESS_Reality_VPN教程.md",
       "title": "VLESS+Reality VPN 自建完整教程",
       "tags": [
         "VPN",
@@ -646,7 +646,7 @@
       "summary": "VLESS+Reality 自建VPN完整教程. 替代旧版Shadowsocks, 无需域名借用大厂伪装"
     },
     {
-      "path": "feathers/feather_060_EdgeTunnel_应急翻墙.md",
+      "path": "feathers/feather_016_EdgeTunnel_应急翻墙.md",
       "title": "EdgeTunnel CF Worker 应急翻墙备用",
       "tags": [
         "CF Worker",
@@ -659,7 +659,7 @@
       "summary": "EdgeTunnel部署指南: CF Worker做应急翻墙, V2RayN挂了时备用"
     },
     {
-      "path": "feathers/feather_061_GoogleAntigravity入门教程.md",
+      "path": "feathers/feather_017_GoogleAntigravity入门教程.md",
       "title": "Google Antigravity 官方入门教程",
       "tags": [
         "Antigravity",
@@ -672,7 +672,7 @@
       "summary": "Google Antigravity官方Codelab(105min). 你主力的agent-first IDE. 覆盖安装/Agent/浏览器/规则/技能/安全"
     },
     {
-      "path": "feathers/feather_062_DeepSeekKV缓存官方确认.md",
+      "path": "feathers/feather_018_DeepSeekKV缓存官方确认.md",
       "title": "DeepSeek KV Cache 官方文档 确认笔记",
       "tags": [
         "DeepSeek",
@@ -685,7 +685,7 @@
       "summary": "DeepSeek KV Cache官方文档精读. 缓存前缀单元完整匹配. 验证羽渡尘策略正确. 预热需1-2次MISS"
     },
     {
-      "path": "feathers/feather_063_羽渡尘完全体v5.9.md",
+      "path": "feathers/feather_023_羽渡尘完全体v5.9.md",
       "title": "羽渡尘完全体 v5.8 — 全量集成",
       "tags": [
         "羽渡尘",

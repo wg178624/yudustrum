@@ -1,11 +1,11 @@
 {
   "version": "v4",
-  "built": "2026-05-26T14:32:45.380316",
-  "total_traced_facts": 78,
+  "built": "2026-05-28T19:42:48.645150",
+  "total_traced_facts": 164,
   "top_sections": [
     {
       "section": "content",
-      "mentions": 18
+      "mentions": 32
     },
     {
       "section": "关键内容",
@@ -20,6 +20,10 @@
       "mentions": 8
     },
     {
+      "section": "基本信息",
+      "mentions": 7
+    },
+    {
       "section": "CodeX (编码代理)",
       "mentions": 5
     },
@@ -28,20 +32,16 @@
       "mentions": 5
     },
     {
-      "section": "Chrome (真身浏览器)",
-      "mentions": 3
+      "section": "MIDA 半导体报告要点 (2024-05-07)",
+      "mentions": 5
     },
     {
-      "section": "D盘已有教材 vs 需要补的",
-      "mentions": 3
+      "section": "对你 EIE 方向有用的课程",
+      "mentions": 5
     },
     {
-      "section": "基本信息",
-      "mentions": 3
-    },
-    {
-      "section": "成果与路线图",
-      "mentions": 3
+      "section": "六、检索管线（v5.8 — 当前）",
+      "mentions": 5
     }
   ],
   "interests": [
@@ -49,42 +49,6 @@
     "关键内容",
     "🪶 羽渡尘",
     "最终配置定案",
-    "CodeX (编码代理)"
-  ],
-  "contact": {
-    "email_gmail": "g176245232@gmail.com",
-    "email_qq": "1786245232@qq.com",
-    "google_apple_通用": true
-  },
-  "profile": {
-    "name": "王刚",
-    "name_en": "gang",
-    "birth": "2005-04-12",
-    "id": "362421200504120211",
-    "hometown": "江西吉安",
-    "previous_work": "武汉天马微电子（合同工，工号D2532183）",
-    "education": "中专",
-    "ideal_type": "符华/赤鸢（崩坏3）",
-    "github": "wg178624",
-    "github_org": "Luxshare-BMC",
-    "direction": "半导体/底层/C-C++/Linux，目标槟城Intel/AMD",
-    "penang_plan": "PSDC留学→USM在职本科→Intel/AMD半导体岗",
-    "philosophy": "缓存命中=稳定但不跨越阶级；主动MISS=成长但每一步都贵。自驱型，老师教的会忘，自己折腾的不会忘",
-    "evaluation_system": "夯爆了→很夯→还行→一般→拉了→拉完了",
-    "devices": {
-      "phone_main": "iPhone 15 美版（翻墙/个人）",
-      "phone_secondary": "Huawei Mate 30 Pro 4G（不翻）",
-      "pc": "机械革命极光X RTX 4070 8GB（翻墙/共享/Hermes跑WSL）",
-      "future": "MacBook + 伺服器"
-    },
-    "preferences": {
-      "workflow": "agent-first",
-      "input": "键盘优先（Tab/Enter）",
-      "language": "英文原版教材 > 中文",
-      "tools": "CLI > GUI",
-      "move_rule": "搬家≠拷贝（完整移动+清空原址）"
-    },
-    "learning_roadmap": "计组(唐朔飞)→C Primer Plus→数据结构(C语言版)→数电(阎石)→模电(童诗白)→工程控制论",
-    "trust_note": "用户信任极高（曾直接给Google密码），信任不能辜负"
-  }
+    "基本信息"
+  ]
 }

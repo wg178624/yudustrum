@@ -1,0 +1,65 @@
+{
+  "session": "20260528_1942",
+  "source": "feathers/feather_017_GoogleAntigravity入门教程.md",
+  "title": "feather_017_GoogleAntigravity入门教程",
+  "facts": [
+    "作者：Romin Irani & Mete Atamel",
+    "- 最后更新：2026年5月20日",
+    "条件：个人 Gmail 账号 + Chrome 浏览器",
+    "平台：Mac / Windows / Linux",
+    "Agent 可以自主规划、编码、浏览网页",
+    "浏览器子代理使用专门的模型（与主 agent 不同）",
+    "支持扩展程序（Chrome Extension）",
+    "Rules & Workflows 自定义 agent 行为"
+  ],
+  "trace_ids": [
+    {
+      "trace_id": "2357818b147c",
+      "line": 16,
+      "section": "基本信息",
+      "type": "fact"
+    },
+    {
+      "trace_id": "065601ced92b",
+      "line": 17,
+      "section": "基本信息",
+      "type": "fact"
+    },
+    {
+      "trace_id": "12ac8a2021dd",
+      "line": 18,
+      "section": "基本信息",
+      "type": "fact"
+    },
+    {
+      "trace_id": "8966e5615d32",
+      "line": 19,
+      "section": "基本信息",
+      "type": "fact"
+    },
+    {
+      "trace_id": "e5492d89c0ce",
+      "line": 37,
+      "section": "关键特性",
+      "type": "fact"
+    },
+    {
+      "trace_id": "b7194aee0dc6",
+      "line": 38,
+      "section": "关键特性",
+      "type": "fact"
+    },
+    {
+      "trace_id": "68fa4d6dd1a3",
+      "line": 39,
+      "section": "关键特性",
+      "type": "fact"
+    },
+    {
+      "trace_id": "29857b73a92f",
+      "line": 47,
+      "section": "跟你当前使用的关系",
+      "type": "fact"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "session": "20260528_1942",
+  "source": "feathers/ref_c_printf_scanf.md",
+  "title": "ref_c_printf_scanf",
+  "facts": [
+    "title: \"C语言函数参考 — printf/scanf\"",
+    "tags: [C, 函数参考, printf, scanf, stdio]",
+    "int printf(const char *format, ...);"
+  ],
+  "trace_ids": [
+    {
+      "trace_id": "4efeda7ed5eb",
+      "line": 2,
+      "section": "content",
+      "type": "summary"
+    },
+    {
+      "trace_id": "123802f4062c",
+      "line": 3,
+      "section": "content",
+      "type": "summary"
+    },
+    {
+      "trace_id": "48679a1365c7",
+      "line": 15,
+      "section": "content",
+      "type": "summary"
+    }
+  ]
+}

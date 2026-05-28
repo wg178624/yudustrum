@@ -1,0 +1,23 @@
+{
+  "source": "feathers/feather_011_教材库学习路线图.md",
+  "atoms": [
+    {
+      "text": "`模电` → 模拟电子技术基础_童诗白",
+      "section": "教材库文件整理",
+      "type": "fact",
+      "trace_id": "e5133290d5fb"
+    }
+  ],
+  "trace_chain": [
+    {
+      "trace_id": "e5133290d5fb",
+      "fact": "`模电` → 模拟电子技术基础_童诗白",
+      "source_file": "feathers/feather_011_教材库学习路线图.md",
+      "line": 57,
+      "section": "教材库文件整理",
+      "type": "fact"
+    }
+  ],
+  "atom_count": 1,
+  "updated": "2026-05-28T19:42:48.453815"
+}

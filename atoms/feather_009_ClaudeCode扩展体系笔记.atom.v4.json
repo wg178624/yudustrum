@@ -1,0 +1,121 @@
+{
+  "source": "feathers/feather_009_ClaudeCode扩展体系笔记.md",
+  "atoms": [
+    {
+      "text": "description 在会话启动时加载（1,536字符截断）",
+      "section": "Skills 核心设计",
+      "type": "fact",
+      "trace_id": "5503159c4695"
+    },
+    {
+      "text": "子代理预加载 skills 时完整注入",
+      "section": "Skills 核心设计",
+      "type": "fact",
+      "trace_id": "ae3a68c79aec"
+    },
+    {
+      "text": "auto-compaction 时保留最近 5000 token",
+      "section": "Skills 核心设计",
+      "type": "fact",
+      "trace_id": "40a887941533"
+    },
+    {
+      "text": "独立上下文窗口 + 自定义 system prompt",
+      "section": "Subagents 设计",
+      "type": "fact",
+      "trace_id": "9ab2c7ca36cb"
+    },
+    {
+      "text": "@path/to/file 导入其他文件（最深4层）",
+      "section": "CLAUDE.md 设计",
+      "type": "fact",
+      "trace_id": "e6f99fb4dab4"
+    },
+    {
+      "text": ".claude/rules/ 路径/文件类型限定规则",
+      "section": "CLAUDE.md 设计",
+      "type": "fact",
+      "trace_id": "cee98548fa61"
+    },
+    {
+      "text": "分层：managed > user > project > local",
+      "section": "CLAUDE.md 设计",
+      "type": "fact",
+      "trace_id": "375a9e23bdbe"
+    },
+    {
+      "text": "AGENTS.md 兼容：@AGENTS.md 导入",
+      "section": "CLAUDE.md 设计",
+      "type": "fact",
+      "trace_id": "c4620a702adc"
+    }
+  ],
+  "trace_chain": [
+    {
+      "trace_id": "5503159c4695",
+      "fact": "description 在会话启动时加载（1,536字符截断）",
+      "source_file": "feathers/feather_009_ClaudeCode扩展体系笔记.md",
+      "line": 58,
+      "section": "Skills 核心设计",
+      "type": "fact"
+    },
+    {
+      "trace_id": "ae3a68c79aec",
+      "fact": "子代理预加载 skills 时完整注入",
+      "source_file": "feathers/feather_009_ClaudeCode扩展体系笔记.md",
+      "line": 60,
+      "section": "Skills 核心设计",
+      "type": "fact"
+    },
+    {
+      "trace_id": "40a887941533",
+      "fact": "auto-compaction 时保留最近 5000 token",
+      "source_file": "feathers/feather_009_ClaudeCode扩展体系笔记.md",
+      "line": 65,
+      "section": "Skills 核心设计",
+      "type": "fact"
+    },
+    {
+      "trace_id": "9ab2c7ca36cb",
+      "fact": "独立上下文窗口 + 自定义 system prompt",
+      "source_file": "feathers/feather_009_ClaudeCode扩展体系笔记.md",
+      "line": 70,
+      "section": "Subagents 设计",
+      "type": "fact"
+    },
+    {
+      "trace_id": "e6f99fb4dab4",
+      "fact": "@path/to/file 导入其他文件（最深4层）",
+      "source_file": "feathers/feather_009_ClaudeCode扩展体系笔记.md",
+      "line": 86,
+      "section": "CLAUDE.md 设计",
+      "type": "fact"
+    },
+    {
+      "trace_id": "cee98548fa61",
+      "fact": ".claude/rules/ 路径/文件类型限定规则",
+      "source_file": "feathers/feather_009_ClaudeCode扩展体系笔记.md",
+      "line": 87,
+      "section": "CLAUDE.md 设计",
+      "type": "fact"
+    },
+    {
+      "trace_id": "375a9e23bdbe",
+      "fact": "分层：managed > user > project > local",
+      "source_file": "feathers/feather_009_ClaudeCode扩展体系笔记.md",
+      "line": 88,
+      "section": "CLAUDE.md 设计",
+      "type": "fact"
+    },
+    {
+      "trace_id": "c4620a702adc",
+      "fact": "AGENTS.md 兼容：@AGENTS.md 导入",
+      "source_file": "feathers/feather_009_ClaudeCode扩展体系笔记.md",
+      "line": 89,
+      "section": "CLAUDE.md 设计",
+      "type": "fact"
+    }
+  ],
+  "atom_count": 8,
+  "updated": "2026-05-28T19:42:48.431092"
+}

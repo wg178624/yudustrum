@@ -1,0 +1,107 @@
+{
+  "source": "feathers/feather_008_工程控制论入库.md",
+  "atoms": [
+    {
+      "text": "作者：钱学森（Hsue Shen Tsien）",
+      "section": "",
+      "type": "fact",
+      "trace_id": "6cc15703f655"
+    },
+    {
+      "text": "英文原版：Engineering Cybernetics，1954，McGraw-Hill",
+      "section": "",
+      "type": "fact",
+      "trace_id": "405a6bead979"
+    },
+    {
+      "text": "- 中文版：1958，科学出版社",
+      "section": "",
+      "type": "fact",
+      "trace_id": "7d0ebcd81556"
+    },
+    {
+      "text": "文件：教材库/工程控制论_钱学森.pdf（13MB，252页）",
+      "section": "",
+      "type": "fact",
+      "trace_id": "180086ff6899"
+    },
+    {
+      "text": "核心思想：反馈控制、系统稳定性、闭环系统",
+      "section": "",
+      "type": "fact",
+      "trace_id": "6583f038ebca"
+    },
+    {
+      "text": "为人处世也是控制论——反馈→调整→稳定",
+      "section": "对你的意义",
+      "type": "fact",
+      "trace_id": "228e460d9910"
+    },
+    {
+      "text": "学完模电后来读，会有\"原来如此\"的感觉",
+      "section": "对你的意义",
+      "type": "fact",
+      "trace_id": "770bbc8c8e00"
+    }
+  ],
+  "trace_chain": [
+    {
+      "trace_id": "6cc15703f655",
+      "fact": "作者：钱学森（Hsue Shen Tsien）",
+      "source_file": "feathers/feather_008_工程控制论入库.md",
+      "line": 10,
+      "section": "",
+      "type": "fact"
+    },
+    {
+      "trace_id": "405a6bead979",
+      "fact": "英文原版：Engineering Cybernetics，1954，McGraw-Hill",
+      "source_file": "feathers/feather_008_工程控制论入库.md",
+      "line": 11,
+      "section": "",
+      "type": "fact"
+    },
+    {
+      "trace_id": "7d0ebcd81556",
+      "fact": "- 中文版：1958，科学出版社",
+      "source_file": "feathers/feather_008_工程控制论入库.md",
+      "line": 12,
+      "section": "",
+      "type": "fact"
+    },
+    {
+      "trace_id": "180086ff6899",
+      "fact": "文件：教材库/工程控制论_钱学森.pdf（13MB，252页）",
+      "source_file": "feathers/feather_008_工程控制论入库.md",
+      "line": 13,
+      "section": "",
+      "type": "fact"
+    },
+    {
+      "trace_id": "6583f038ebca",
+      "fact": "核心思想：反馈控制、系统稳定性、闭环系统",
+      "source_file": "feathers/feather_008_工程控制论入库.md",
+      "line": 14,
+      "section": "",
+      "type": "fact"
+    },
+    {
+      "trace_id": "228e460d9910",
+      "fact": "为人处世也是控制论——反馈→调整→稳定",
+      "source_file": "feathers/feather_008_工程控制论入库.md",
+      "line": 19,
+      "section": "对你的意义",
+      "type": "fact"
+    },
+    {
+      "trace_id": "770bbc8c8e00",
+      "fact": "学完模电后来读，会有\"原来如此\"的感觉",
+      "source_file": "feathers/feather_008_工程控制论入库.md",
+      "line": 20,
+      "section": "对你的意义",
+      "type": "fact"
+    }
+  ],
+  "atom_count": 7,
+  "updated": "2026-05-28T19:42:48.419847"
+}

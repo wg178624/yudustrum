@@ -1,0 +1,65 @@
+{
+  "session": "20260528_1942",
+  "source": "feathers/feather_010_马来西亚半导体NIMP2030.md",
+  "title": "feather_010_马来西亚半导体NIMP2030",
+  "facts": [
+    "MITI (Ministry of Investment, Trade and Industry) 主管",
+    "目标：将马来西亚打造成全球半导体供应链关键节点",
+    "官方页面：miti.gov.my（当前NIMP2030子页面404，可能已更新）",
+    "全球半导体市场规模：2024年 ~US$5800亿，2030年预计达 US$1万亿",
+    "马来西亚副投资贸易部长刘镇东(Liew Chin Tong) 明确表态：",
+    "槟城(Penang)、居林(Kulim, Kedah) 是核心区域",
+    "需要建立动态、安全、有韧性的半导体供应链",
+    "Lam Research 在槟城开设自动化仓库（马来西亚最大ASRS仓储系统）"
+  ],
+  "trace_ids": [
+    {
+      "trace_id": "7186d462b8cf",
+      "line": 16,
+      "section": "NIMP 2030 (New Industrial Mast",
+      "type": "fact"
+    },
+    {
+      "trace_id": "8315a37cb10e",
+      "line": 18,
+      "section": "NIMP 2030 (New Industrial Mast",
+      "type": "fact"
+    },
+    {
+      "trace_id": "b5064fa6f19c",
+      "line": 19,
+      "section": "NIMP 2030 (New Industrial Mast",
+      "type": "fact"
+    },
+    {
+      "trace_id": "e161a1691ff4",
+      "line": 25,
+      "section": "MIDA 半导体报告要点 (2024-05-07)",
+      "type": "fact"
+    },
+    {
+      "trace_id": "1f48706f61ab",
+      "line": 26,
+      "section": "MIDA 半导体报告要点 (2024-05-07)",
+      "type": "fact"
+    },
+    {
+      "trace_id": "22b0c62294f2",
+      "line": 28,
+      "section": "MIDA 半导体报告要点 (2024-05-07)",
+      "type": "fact"
+    },
+    {
+      "trace_id": "e4681f03736f",
+      "line": 29,
+      "section": "MIDA 半导体报告要点 (2024-05-07)",
+      "type": "fact"
+    },
+    {
+      "trace_id": "a279176e6128",
+      "line": 30,
+      "section": "MIDA 半导体报告要点 (2024-05-07)",
+      "type": "fact"
+    }
+  ]
+}

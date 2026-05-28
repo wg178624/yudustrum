@@ -1,0 +1,51 @@
+{
+  "source": "feathers/ref_c_malloc_free.md",
+  "atoms": [
+    {
+      "text": "tags: [C, 函数参考, malloc, free, 内存, stdlib]",
+      "section": "content",
+      "type": "summary",
+      "trace_id": "836a8af9b404"
+    },
+    {
+      "text": "返回一个指向 `size` 字节内存的指针。失败返回 NULL。",
+      "section": "content",
+      "type": "summary",
+      "trace_id": "01900bcf03f5"
+    },
+    {
+      "text": "int *arr = malloc(10 * sizeof(int));  // 申请10个int的空间",
+      "section": "content",
+      "type": "summary",
+      "trace_id": "1ba948f19114"
+    }
+  ],
+  "trace_chain": [
+    {
+      "trace_id": "836a8af9b404",
+      "fact": "tags: [C, 函数参考, malloc, free, 内存, stdlib]",
+      "source_file": "feathers/ref_c_malloc_free.md",
+      "line": 3,
+      "section": "content",
+      "type": "summary"
+    },
+    {
+      "trace_id": "01900bcf03f5",
+      "fact": "返回一个指向 `size` 字节内存的指针。失败返回 NULL。",
+      "source_file": "feathers/ref_c_malloc_free.md",
+      "line": 18,
+      "section": "content",
+      "type": "summary"
+    },
+    {
+      "trace_id": "1ba948f19114",
+      "fact": "int *arr = malloc(10 * sizeof(int));  // 申请10个int的空间",
+      "source_file": "feathers/ref_c_malloc_free.md",
+      "line": 21,
+      "section": "content",
+      "type": "summary"
+    }
+  ],
+  "atom_count": 3,
+  "updated": "2026-05-28T19:42:48.601827"
+}

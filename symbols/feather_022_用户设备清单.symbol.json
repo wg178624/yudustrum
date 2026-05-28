@@ -1,0 +1,30 @@
+{
+  "session": "20260528_1942",
+  "source": "feathers/feather_022_用户设备清单.md",
+  "title": "feather_022_用户设备清单",
+  "facts": [
+    "| Huawei Mate 30 Pro 4G | ❌ 不能翻 | 用户个人 |",
+    "| 机械革命极光X (RTX 4070 8GB) | ✅ 能翻 | 用户+Hermes共享 |",
+    "**系统**: Windows 11 + WSL2 (Hermes 运行环境)"
+  ],
+  "trace_ids": [
+    {
+      "trace_id": "7a18123ea545",
+      "line": 12,
+      "section": "content",
+      "type": "summary"
+    },
+    {
+      "trace_id": "7ef18451eeca",
+      "line": 13,
+      "section": "content",
+      "type": "summary"
+    },
+    {
+      "trace_id": "8ab6474aee31",
+      "line": 16,
+      "section": "content",
+      "type": "summary"
+    }
+  ]
+}

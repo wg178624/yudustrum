@@ -1,0 +1,65 @@
+{
+  "source": "feathers/ref_c_pointers_sizeof.md",
+  "atoms": [
+    {
+      "text": "tags: [C, 函数参考, sizeof, 指针, 内存]",
+      "section": "content",
+      "type": "summary",
+      "trace_id": "9b260e6c35ce"
+    },
+    {
+      "text": "头文件：`#include <stddef.h>`（sizeof 是运算符，不是函数）",
+      "section": "content",
+      "type": "summary",
+      "trace_id": "7a22be0e23ea"
+    },
+    {
+      "text": "sizeof(arr)      // 40 = 10 * 4",
+      "section": "content",
+      "type": "summary",
+      "trace_id": "b0f6fea0645b"
+    },
+    {
+      "text": "sizeof(arr) / sizeof(arr[0])  // 10，数组元素个数",
+      "section": "content",
+      "type": "summary",
+      "trace_id": "9d991725f185"
+    }
+  ],
+  "trace_chain": [
+    {
+      "trace_id": "9b260e6c35ce",
+      "fact": "tags: [C, 函数参考, sizeof, 指针, 内存]",
+      "source_file": "feathers/ref_c_pointers_sizeof.md",
+      "line": 3,
+      "section": "content",
+      "type": "summary"
+    },
+    {
+      "trace_id": "7a22be0e23ea",
+      "fact": "头文件：`#include <stddef.h>`（sizeof 是运算符，不是函数）",
+      "source_file": "feathers/ref_c_pointers_sizeof.md",
+      "line": 10,
+      "section": "content",
+      "type": "summary"
+    },
+    {
+      "trace_id": "b0f6fea0645b",
+      "fact": "sizeof(arr)      // 40 = 10 * 4",
+      "source_file": "feathers/ref_c_pointers_sizeof.md",
+      "line": 28,
+      "section": "content",
+      "type": "summary"
+    },
+    {
+      "trace_id": "9d991725f185",
+      "fact": "sizeof(arr) / sizeof(arr[0])  // 10，数组元素个数",
+      "source_file": "feathers/ref_c_pointers_sizeof.md",
+      "line": 29,
+      "section": "content",
+      "type": "summary"
+    }
+  ],
+  "atom_count": 4,
+  "updated": "2026-05-28T19:42:48.613876"
+}
