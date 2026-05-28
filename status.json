@@ -1,9 +1,9 @@
 {
   "feathers": 57,
-  "entities": 1828,
+  "entities": 1329,
   "l3_facts": 164,
-  "health_score": 76,
-  "git_commits": 100,
+  "health_score": 79,
+  "git_commits": 101,
   "disk_free_gb": 452,
   "ghosts": 0,
   "textbooks": 21,
@@ -68,7 +68,7 @@
   ],
   "ghost_list": [],
   "version": "5.9.0",
-  "last_update": "2026-05-28 20:26:17",
+  "last_update": "2026-05-28 21:08:33",
   "audit_layers": {
     "结构完整": {
       "score": 25,
@@ -79,16 +79,15 @@
       "score": 15,
       "max": 25,
       "alerts": [
-        "实体 1828 (基线 900-1200) → ⚠️ 偏离基线",
+        "实体 1329 (基线 900-1200) → ⚠️ 偏离基线",
         "L3 164 条 (基线 60-100) → ⚠️ 偏离基线"
       ]
     },
     "交叉一致": {
-      "score": 9,
+      "score": 12,
       "max": 20,
       "alerts": [
-        "7 磁盘有但索引无",
-        "39 索引有但磁盘无",
+        "2 索引有但磁盘无",
         "实体与L3画像引用偏少"
       ]
     },
