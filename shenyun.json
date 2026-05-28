@@ -343,6 +343,202 @@
         "存盘",
         "auto-save"
       ]
+    },
+    {
+      "path": "feathers/README.md",
+      "title": "README",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "path": "feathers/architecture-real-state.md",
+      "title": "architecture real state",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "path": "feathers/cache-alignment-filter.md",
+      "title": "cache alignment filter",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "path": "feathers/cf-worker-scraping.md",
+      "title": "cf worker scraping",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "path": "feathers/claude-code-architecture.md",
+      "title": "claude code architecture",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "path": "feathers/control-theory-audit.md",
+      "title": "control theory audit",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "path": "feathers/database-backend.md",
+      "title": "database backend",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "path": "feathers/deep-learning-activation.md",
+      "title": "deep learning activation",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "path": "feathers/deepseek-cache-mechanics.md",
+      "title": "deepseek cache mechanics",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "path": "feathers/feather_022_用户设备清单.md",
+      "title": "feather 022 用户设备清单",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "path": "feathers/mac-migration-plan.md",
+      "title": "mac migration plan",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "path": "feathers/memory-char-limit-and-config.md",
+      "title": "memory char limit and config",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "path": "feathers/memory-hierarchy-explained.md",
+      "title": "memory hierarchy explained",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "path": "feathers/memory-systems-comparison-v4.md",
+      "title": "memory systems comparison v4",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "path": "feathers/memory-systems-implementation.md",
+      "title": "memory systems implementation",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "path": "feathers/memory-systems-research.md",
+      "title": "memory systems research",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "path": "feathers/memory-vs-user-vs-l3.md",
+      "title": "memory vs user vs l3",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "path": "feathers/mindnode-opml-export.md",
+      "title": "mindnode opml export",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "path": "feathers/obsidian-integration.md",
+      "title": "obsidian integration",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "path": "feathers/retrieve-cite-checklist.md",
+      "title": "retrieve cite checklist",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "path": "feathers/semia-skill-security-audit.md",
+      "title": "semia skill security audit",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "path": "feathers/tencentdb-agent-memory.md",
+      "title": "tencentdb agent memory",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "path": "feathers/v5-design-decisions.md",
+      "title": "v5 design decisions",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "path": "feathers/v5-functionality-audit.md",
+      "title": "v5 functionality audit",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "path": "feathers/vector-db-setup.md",
+      "title": "vector db setup",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "path": "feathers/vscode-workspace-setup.md",
+      "title": "vscode workspace setup",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "path": "feathers/wsl-dual-instance-access.md",
+      "title": "wsl dual instance access",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "path": "feathers/wsl-dual-instance.md",
+      "title": "wsl dual instance",
+      "tags": [
+        "reference"
+      ]
     }
   ],
   "anchors": [],
