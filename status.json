@@ -3,7 +3,7 @@
   "entities": 1038,
   "l3_facts": 78,
   "health_score": 86,
-  "git_commits": 85,
+  "git_commits": 86,
   "disk_free_gb": 452,
   "ghosts": 0,
   "textbooks": 21,
@@ -40,7 +40,7 @@
   ],
   "ghost_list": [],
   "version": "5.9.0",
-  "last_update": "2026-05-28 19:28:26",
+  "last_update": "2026-05-28 19:33:33",
   "audit_layers": {
     "结构完整": {
       "score": 25,
