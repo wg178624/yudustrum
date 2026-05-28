@@ -1,4 +1,4 @@
-{
+var STATUS = {
   "feathers": 28,
   "entities": 1038,
   "l3_facts": 78,
@@ -39,4 +39,4 @@
   ],
   "ghost_list": [],
   "last_update": "2026-05-28 16:13:49"
-}
+};

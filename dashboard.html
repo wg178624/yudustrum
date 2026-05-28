@@ -42,6 +42,8 @@ body{font-family:-apple-system,'Segoe UI',sans-serif;background:#0f172a;color:#e
 .ghost-badge{background:#6366f122;color:#a5b4fc;border:1px solid #6366f144}
 @media(max-width:800px){.cards{grid-template-columns:1fr 1fr}.detail-grid{grid-template-columns:1fr}.sidebar{width:60px}.sidebar .logo span,.nav-item span{display:none}}
 </style>
+<!-- 动态数据 (status.js 由 bake_dashboard.py 生成) -->
+<script src="status.js"></script>
 </head>
 <body>
 
@@ -127,12 +129,7 @@ setInterval(()=>{const d=new Date();const f=n=>String(n).padStart(2,'0');documen
 d.getFullYear()+'-'+f(d.getMonth()+1)+'-'+f(d.getDate())+' '+f(d.getHours())+':'+f(d.getMinutes())+':'+f(d.getSeconds())},1000);
 
 // 加载数据
-async function loadData(){
-try{
-document.getElementById('statusBar').innerHTML='<span>🔄 加载中...</span>';
-const r=await fetch('status.json');
-const d=await r.json();
-
+function renderData(d){
 document.getElementById('feathers').textContent=d.feathers;
 document.getElementById('entities').textContent=d.entities?.toLocaleString()||d.entities;
 document.getElementById('l3facts').textContent=d.l3_facts;
@@ -154,43 +151,42 @@ document.getElementById('healthLabel').textContent=t;
 document.getElementById('healthLabel').style.color=c;
 
 // 幽灵
-document.getElementById('ghostCount').innerHTML=(d.ghosts||0)+' 个'+(d.ghosts>0?' ⚠️':' ✅ 已修复');
-if(d.ghosts>0&&d.feather_list){
-document.getElementById('ghostList').innerHTML=d.feather_list.map(f=>'<div class="stat-row"><span class="key">'+f+'</span><span class="badge ghost-badge">待修复</span></div>').join('');
+const ghostEl=document.getElementById('ghostCount');
+ghostEl.innerHTML=(d.ghosts||0)+' 个'+(d.ghosts>0?' ⚠️':' ✅ 已修复');
+const gl=d.ghost_list||d.feather_list||[];
+if(d.ghosts>0&&gl.length){
+document.getElementById('ghostList').innerHTML=gl.map(f=>'<div class="stat-row"><span class="key">'+f+'</span><span class="badge ghost-badge">待修复</span></div>').join('');
 }else{
 document.getElementById('ghostList').innerHTML='<div style="color:#34d399">✅ 全部已修复</div>';
 }
 
 // 羽毛列表
-if(d.feather_list){
-document.getElementById('featherList').innerHTML=d.feather_list.slice().reverse().map(f=>'<div class="stat-row"><span class="key">'+f+'</span></div>').join('');
-}
+const fl=d.feather_list||[];
+document.getElementById('featherList').innerHTML=fl.slice().reverse().map(f=>'<div class="stat-row"><span class="key">'+f+'</span></div>').join('');
 
 // 幽灵页
 document.getElementById('ghostPageCount').textContent=(d.ghosts||0)+' 个';
-if(d.ghosts>0&&d.feather_list){
-document.getElementById('ghostPage').innerHTML=d.feather_list.map(f=>'<div class="stat-row"><span class="key">'+f+'</span><span class="badge ghost-badge">待修复</span></div>').join('');
-}else{
-document.getElementById('ghostPage').innerHTML='<div style="color:#34d399;text-align:center;padding:2rem">✅ 全部已修复</div>';
+document.getElementById('ghostPage').innerHTML=d.ghosts>0&&gl.length?gl.map(f=>'<div class="stat-row"><span class="key">'+f+'</span><span class="badge ghost-badge">待修复</span></div>').join(''):'<div style="color:#34d399;text-align:center;padding:2rem">✅ 全部已修复</div>';
+
+document.getElementById('textbooks').textContent=(d.textbooks||'--')+' 本';
+document.getElementById('bkTextbooks').textContent=(d.textbooks||'--')+' 本';
+document.getElementById('statusBar').innerHTML='<span>✅ 数据来源: status.js · '+d.last_update+'</span>';
 }
 
-// 教材
-let pdfCount='?';
+// 首次加载 (从 status.js 的 STATUS 变量)
+if(typeof STATUS!=='undefined'){renderData(STATUS);}else{document.getElementById('statusBar').innerHTML='<span style="color:#ef4444">❌ status.js 未加载</span>';}
+
+// 定时刷新 (尝试 fetch status.json, 失败则保留当前数据)
+async function loadData(){
 try{
-const ri=await fetch('status.json');
-const di=await ri.json();
-pdfCount='?';
-}catch(e){}
-document.getElementById('textbooks').textContent='--';
-document.getElementById('bkTextbooks').textContent='--';
+const r=await fetch('status.json');
+if(r.ok){
+const d=await r.json();
+renderData(d);
+document.getElementById('statusBar').innerHTML='<span>✅ 已刷新 · '+d.last_update+'</span>';
+}}catch(e){/* 无 HTTP 服务器时静默失败,保留当前数据 */}}
 
-document.getElementById('statusBar').innerHTML='<span>✅ 数据已更新 · '+d.last_update+'</span>';
-}catch(e){
-document.getElementById('statusBar').innerHTML='<span style="color:#ef4444">❌ 加载失败: '+e.message+'</span>';
-}}
-
-// 自动每30秒刷新 + 首次加载
-loadData();
+// 每30秒自动刷新
 setInterval(loadData,30000);
 </script>
 </body>
