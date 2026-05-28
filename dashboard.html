@@ -54,6 +54,24 @@
 </head>
 <body>
 
+<script>
+document.addEventListener('DOMContentLoaded',()=>{
+  const views={system:0,feathers:1,ghosts:2,backup:3,settings:4};
+  const titles=['📊 系统状态','🪶 羽毛列表','🔮 幽灵文件','📦 备份','⚙️ 设置'];
+
+  document.querySelectorAll('.nav-item').forEach((item,i)=>{
+    item.onclick=()=>{
+      document.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));
+      item.classList.add('active');
+      document.querySelectorAll('.page').forEach(p=>p.style.display='none');
+      const p=document.querySelector(`.page-${i}`);
+      if(p)p.style.display='block';
+      document.querySelector('.header h1').textContent=titles[i];
+    };
+  });
+});
+</script>
+
 <div class="sidebar">
   <div class="logo">🕊️ 羽渡尘<small>v5.7.4</small></div>
   <div class="nav-item active"><span>📊 系统状态</span></div>
@@ -64,9 +82,10 @@
 </div>
 
 <div class="main">
+  <div class="page page-0">
   <div class="header">
     <h1>系统状态</h1>
-    <div class="time" id="ts">2026-05-27 22:30</div>
+    <div class="time" id="ts">2026-05-27 22:40</div>
   </div>
 
   <div class="cards">
@@ -88,7 +107,7 @@
     <div class="card">
       <div class="label">📈 健康</div>
       <div class="ring-wrap">
-        <div class="ring-bg"><div class="ring-inner">82</div></div>
+        <div class="ring-bg"><div class="ring-inner">83</div></div>
         <div><div style="font-size:1.2rem;font-weight:700;color:#34d399">良好</div><div style="font-size:.8rem;color:#64748b">综合评分</div></div>
       </div>
     </div>
@@ -111,10 +130,39 @@
       <div class="stat-row"><span class="key">教材库</span><span class="val">21 本 PDF</span></div>
       <div class="stat-row"><span class="key">Git 版本</span><span class="val">61 次提交</span></div>
       <div class="stat-row"><span class="key">远程备份</span><span class="val"><span class="badge ok">GitHub ✅</span></span></div>
-      <div class="stat-row"><span class="key">上次提交</span><span class="val">17 小时前</span></div>
+      <div class="stat-row"><span class="key">上次提交</span><span class="val">今天</span></div>
       <div class="stat-row"><span class="key">存储位置</span><span class="val">D:\hermes-workspace</span></div>
     </div>
   </div>
+</div>
+
+<div class="page page-1" style="display:none">
+  <div class="header"><h1>🪶 羽毛列表</h1><div class="time">28 片 · 60 条索引</div></div>
+  <div class="panel"><div class="stat-row"><span class="key">最近羽毛</span><span class="val">061: Google Antigravity</span></div>
+  <div class="stat-row"><span class="key">最新入库</span><span class="val">062: DeepSeek KV Cache</span></div>
+  <div class="stat-row"><span class="key">C 参考</span><span class="val">5 篇（printf/malloc/字符串/文件/指针）</span></div>
+  <div class="stat-row"><span class="key">全部羽毛</span><span class="val">在 Obsidian 中按 标签 筛选</span></div></div>
+</div>
+
+<div class="page page-2" style="display:none">
+  <div class="header"><h1>🔮 幽灵文件</h1><div class="time">0 个未修复</div></div>
+  <div class="panel"><div style="color:#34d399;font-size:1.1rem;text-align:center;padding:2rem">✅ 所有幽灵文件已修复，当前无残留</div></div>
+</div>
+
+<div class="page page-3" style="display:none">
+  <div class="header"><h1>📦 备份</h1><div class="time">最后一次: 今天</div></div>
+  <div class="panel">
+    <div class="stat-row"><span class="key">本地备份（Git）</span><span class="val">61 次提交</span></div>
+    <div class="stat-row"><span class="key">远程备份</span><span class="val"><span class="badge ok">GitHub ✅</span></div>
+    <div class="stat-row"><span class="key">教材库</span><span class="val">21 本 PDF 在 D 盘</span></div>
+    <div class="stat-row"><span class="key">D 盘空余</span><span class="val">458 GB</span></div>
+  </div>
+</div>
+
+<div class="page page-4" style="display:none">
+  <div class="header"><h1>⚙️ 设置</h1><div class="time">暂无配置入口</div></div>
+  <div class="panel"><div style="color:#64748b;text-align:center;padding:2rem">设置页面开发中</div></div>
+</div>
 
   <div style="text-align:center;color:#475569;font-size:.8rem;padding:1rem">
     羽渡尘 v5.7.4 · DASHBOARD.md 同步更新 · 存盘时自动刷新
