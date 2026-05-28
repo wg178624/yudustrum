@@ -8,4 +8,4 @@ if %ERRORLEVEL% NEQ 0 (
     timeout /t 2 >nul
 )
 
-start chrome http://localhost:8080/dashboard.html
+start chrome http://localhost:8081/dashboard.html
