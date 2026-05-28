@@ -1,3 +1,9 @@
+---
+title: "vector db setup"
+tags: [reference]
+type: reference
+---
+
 # 羽渡尘向量数据库设置
 
 ## 架构

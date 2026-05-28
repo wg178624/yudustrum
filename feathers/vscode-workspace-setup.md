@@ -1,3 +1,9 @@
+---
+title: "vscode workspace setup"
+tags: [reference]
+type: reference
+---
+
 # VSCode 工作区配置（Hermes 羽渡尘）
 
 ## 位置

@@ -1,3 +1,9 @@
+---
+title: "v5 design decisions"
+tags: [reference]
+type: reference
+---
+
 # v5 设计决策记录
 
 ## 架构演进：从 v4 → v5

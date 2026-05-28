@@ -1,3 +1,9 @@
+---
+title: "memory systems comparison v4"
+tags: [reference]
+type: reference
+---
+
 # 四大 Agent 记忆系统研究（2026-05-22）
 
 ## 研究结论

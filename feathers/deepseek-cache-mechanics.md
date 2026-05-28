@@ -1,3 +1,9 @@
+---
+title: "deepseek cache mechanics"
+tags: [reference]
+type: reference
+---
+
 # DeepSeek API 缓存机制（官方确认 2026-05-23）
 
 来源：https://api-docs.deepseek.com/guides/kv_cache

@@ -1,3 +1,9 @@
+---
+title: "memory hierarchy explained"
+tags: [reference]
+type: reference
+---
+
 # 羽渡尘记忆体系·三层架构
 
 > 为什么你记得我？—— 羽渡尘是记忆系统，不是缓存系统。

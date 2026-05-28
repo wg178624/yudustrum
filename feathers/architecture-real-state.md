@@ -1,3 +1,9 @@
+---
+title: "architecture real state"
+tags: [reference]
+type: reference
+---
+
 # 羽渡尘存储架构实况（2026-05-26）
 
 ## 现状

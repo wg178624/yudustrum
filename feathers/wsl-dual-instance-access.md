@@ -1,3 +1,9 @@
+---
+title: "wsl dual instance access"
+tags: [reference]
+type: reference
+---
+
 # WSL 双实例访问
 
 ## 场景

@@ -1,3 +1,9 @@
+---
+title: "semia skill security audit"
+tags: [reference]
+type: reference
+---
+
 # Semia — Agent Skill 安全审计
 
 来源：https://github.com/berabuddies/Semia（2026-05-25 开源）

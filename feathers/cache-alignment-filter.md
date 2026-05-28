@@ -1,3 +1,9 @@
+---
+title: "cache alignment filter"
+tags: [reference]
+type: reference
+---
+
 # Cache Alignment Filter — 缓存对齐器设计文档
 
 ## 背景

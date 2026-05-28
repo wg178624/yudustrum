@@ -1,3 +1,9 @@
+---
+title: "memory char limit and config"
+tags: [reference]
+type: reference
+---
+
 # MEMORY.md 字符限制与 Hermes 记忆配置
 
 > 2026-05-26 会话中用户发现 `memory.memory_char_limit: 2200` 并询问能否扩容。

@@ -1,3 +1,9 @@
+---
+title: "deep learning activation"
+tags: [reference]
+type: reference
+---
+
 # 深度学习场景激活模式
 
 ## 背景

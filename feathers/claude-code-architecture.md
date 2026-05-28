@@ -1,3 +1,9 @@
+---
+title: "claude code architecture"
+tags: [reference]
+type: reference
+---
+
 # Claude Code 扩展体系设计参考
 
 来源：https://code.claude.com/docs/en/

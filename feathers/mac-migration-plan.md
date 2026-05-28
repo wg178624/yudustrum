@@ -1,3 +1,9 @@
+---
+title: "mac migration plan"
+tags: [reference]
+type: reference
+---
+
 # MacBook 迁移计划
 
 如果用户从 Windows/WSL 切换到 MacBook，羽渡尘和工具的迁移方案：

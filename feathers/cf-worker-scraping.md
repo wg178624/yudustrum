@@ -1,3 +1,9 @@
+---
+title: "cf worker scraping"
+tags: [reference]
+type: reference
+---
+
 # CF Worker 代理爬虫模式
 
 用户拥有一个 Cloudflare Worker 部署在 `hermes-scraper.g1786245232.workers.dev`，可以绕过目标网站对 WSL IP 的封锁。

@@ -1,3 +1,9 @@
+---
+title: "memory vs user vs l3"
+tags: [reference]
+type: reference
+---
+
 # MEMORY.md vs USER.md vs 铁律技能 vs 羽渡尘 — 四系统分工（v5.8）
 
 Hermes Agent 框架和羽渡尘之间有**四个独立的存储系统**，分工不同，不能混用。

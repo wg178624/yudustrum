@@ -1,3 +1,9 @@
+---
+title: "wsl dual instance"
+tags: [reference]
+type: reference
+---
+
 # WSL 双实例访问参考
 
 ## 环境概述

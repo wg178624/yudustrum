@@ -1,3 +1,9 @@
+---
+title: "mindnode opml export"
+tags: [reference]
+type: reference
+---
+
 # 羽渡尘 → MindNode 脑图导出
 
 ## 用途

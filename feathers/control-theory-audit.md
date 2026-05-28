@@ -1,3 +1,9 @@
+---
+title: "control theory audit"
+tags: [reference]
+type: reference
+---
+
 # 控制论审计框架
 
 将工程控制论三原则应用于软件/系统审计的通用方法。

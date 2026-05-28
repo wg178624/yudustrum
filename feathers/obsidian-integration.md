@@ -1,3 +1,9 @@
+---
+title: "obsidian integration"
+tags: [reference]
+type: reference
+---
+
 # Obsidian 集成参考
 
 ## 库路径

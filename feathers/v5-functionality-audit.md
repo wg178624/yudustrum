@@ -1,3 +1,9 @@
+---
+title: "v5 functionality audit"
+tags: [reference]
+type: reference
+---
+
 # 羽渡尘功能实用度审计（2026-05-23）
 
 ## 触发场景

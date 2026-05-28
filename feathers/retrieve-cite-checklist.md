@@ -1,3 +1,9 @@
+---
+title: "retrieve cite checklist"
+tags: [reference]
+type: reference
+---
+
 # 检索与引用快速清单
 
 当用户提出技术/工程/毕设/工具问题时，按此清单执行：
