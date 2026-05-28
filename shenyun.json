@@ -541,12 +541,20 @@
       ]
     },
     {
-      "path": "eie-learning-lab/README.md",
+      "path": "projects/eie/README.md",
       "title": "EIE 学习仓库",
       "tags": [
         "EIE",
         "学习",
         "GitHub"
+      ]
+    },
+    {
+      "path": "projects/c/lesson_01.md",
+      "title": "C语言第一课",
+      "tags": [
+        "C",
+        "学习"
       ]
     }
   ],
