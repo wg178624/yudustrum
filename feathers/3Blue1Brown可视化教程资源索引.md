@@ -1,3 +1,9 @@
+---
+title: "3Blue1Brown 可视化教程资源索引"
+tags: [3Blue1Brown, 可视化, 数学, 教程]
+type: reference
+created: 2026-05-08
+---
 # 🎨 3Blue1Brown 可视化数学教程导航（YouTube 直达版）
 
 > 来源：https://www.3blue1brown.com
