@@ -1,9 +1,9 @@
 var STATUS = {
-  "feathers": 30,
+  "feathers": 31,
   "entities": 1828,
   "l3_facts": 164,
   "health_score": 76,
-  "git_commits": 91,
+  "git_commits": 92,
   "disk_free_gb": 452,
   "ghosts": 0,
   "textbooks": 21,
@@ -33,6 +33,7 @@ var STATUS = {
     "feather_021_教材更新日志-2026-05-08-高数与概率论.md",
     "feather_022_用户设备清单.md",
     "feather_023_羽渡尘完全体v5.9.md",
+    "feather_024_存盘历史.md",
     "ref_c_file_ops.md",
     "ref_c_malloc_free.md",
     "ref_c_pointers_sizeof.md",
@@ -41,7 +42,7 @@ var STATUS = {
   ],
   "ghost_list": [],
   "version": "5.9.0",
-  "last_update": "2026-05-28 19:47:26",
+  "last_update": "2026-05-28 19:50:09",
   "audit_layers": {
     "结构完整": {
       "score": 25,

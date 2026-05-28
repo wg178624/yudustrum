@@ -334,6 +334,15 @@
       "path": "feathers/ref_c_string_ops.md",
       "title": "C语言字符串操作参考",
       "tags": []
+    },
+    {
+      "path": "feathers/feather_024_存盘历史.md",
+      "title": "羽渡尘存盘历史 (auto-save)",
+      "tags": [
+        "历史",
+        "存盘",
+        "auto-save"
+      ]
     }
   ],
   "anchors": [],
