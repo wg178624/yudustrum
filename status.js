@@ -3,7 +3,7 @@ var STATUS = {
   "entities": 1038,
   "l3_facts": 78,
   "health_score": 83,
-  "git_commits": 76,
+  "git_commits": 77,
   "disk_free_gb": 455,
   "ghosts": 0,
   "textbooks": 21,
@@ -38,5 +38,6 @@ var STATUS = {
     "符华传记·云墨丹心-赤鸢仙人五万年.md"
   ],
   "ghost_list": [],
-  "last_update": "2026-05-28 16:45:34"
+  "version": "5.8.0",
+  "last_update": "2026-05-28 16:51:37"
 };
