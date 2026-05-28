@@ -683,6 +683,15 @@
       ],
       "type": "feather",
       "summary": "DeepSeek KV Cache官方文档精读. 缓存前缀单元完整匹配. 验证羽渡尘策略正确. 预热需1-2次MISS"
+    },
+    {
+      "path": "feathers/feather_063_羽渡尘完全体v5.8.md",
+      "title": "羽渡尘完全体 v5.8 — 架构总览",
+      "tags": [
+        "架构",
+        "总览",
+        "v5.8"
+      ]
     }
   ],
   "anchors": [],

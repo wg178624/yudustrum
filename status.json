@@ -1,9 +1,9 @@
 {
-  "feathers": 28,
+  "feathers": 29,
   "entities": 1038,
   "l3_facts": 78,
   "health_score": 83,
-  "git_commits": 78,
+  "git_commits": 79,
   "disk_free_gb": 455,
   "ghosts": 0,
   "textbooks": 21,
@@ -28,6 +28,7 @@
     "feather_060_EdgeTunnel_应急翻墙.md",
     "feather_061_GoogleAntigravity入门教程.md",
     "feather_062_DeepSeekKV缓存官方确认.md",
+    "feather_063_羽渡尘完全体v5.8.md",
     "ref_c_file_ops.md",
     "ref_c_malloc_free.md",
     "ref_c_pointers_sizeof.md",
@@ -39,5 +40,5 @@
   ],
   "ghost_list": [],
   "version": "5.8.0",
-  "last_update": "2026-05-28 17:00:35"
+  "last_update": "2026-05-28 17:02:26"
 }
