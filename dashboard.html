@@ -33,8 +33,14 @@ body{font-family:-apple-system,'Segoe UI',sans-serif;background:#0f172a;color:#e
 .ok{background:#05966922;color:#34d399;border:1px solid #05966944}
 .ghost-badge{background:#6366f122;color:#a5b4fc;border:1px solid #6366f144}
 @media(max-width:800px){.cards{grid-template-columns:1fr 1fr}.detail-grid{grid-template-columns:1fr}.sidebar{width:60px}.sidebar .logo span,.nav-item span{display:none}}
-</style></head><body>
-<div class="sidebar"><div class="logo">&#x1F54A;&#xFE0F; 羽渡尘<small>v5.7.5 · 烘焙 2026-05-28 15:53</small></div>
+</style>
+<script>
+document.addEventListener('DOMContentLoaded',()=>{const t=['📊 系统状态','🪶 羽毛列表','🔮 幽灵文件','📦 备份','⚙️ 设置'];
+document.querySelectorAll('.nav-item').forEach((e,i)=>{e.onclick=()=>{document.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));e.classList.add('active');document.querySelectorAll('.page').forEach(p=>p.style.display='none');const p=document.querySelector('.page-'+i);if(p)p.style.display='block';document.querySelector('.header h1').textContent=t[i]}});
+const c=document.getElementById('clock');if(c)setInterval(()=>{const d=new Date();c.textContent=d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')+' '+String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0')},1000)});
+</script>
+</head><body>
+<div class="sidebar"><div class="logo">&#x1F54A;&#xFE0F; 羽渡尘<small>v5.7.5</small></div>
 <div class="nav-item active"><span>&#x1F4CA; 系统状态</span></div>
 <div class="nav-item"><span>&#x1FAAA; 羽毛列表</span></div>
 <div class="nav-item"><span>&#x1F52E; 幽灵文件</span></div>
@@ -42,7 +48,7 @@ body{font-family:-apple-system,'Segoe UI',sans-serif;background:#0f172a;color:#e
 <div class="nav-item"><span>&#x2699;&#xFE0F; 设置</span></div></div>
 <div class="main">
 <div class="page page-0" style="display:block">
-<div class="header"><h1>&#x1F4CA; 系统状态</h1><div class="time">2026-05-28 15:53</div></div>
+<div class="header"><h1>&#x1F4CA; 系统状态</h1><div class="time" id="clock">2026-05-28 15:57</div></div>
 <div class="cards">
 <div class="card"><div class="label">&#x1FAAA; 羽毛</div><div class="value">28</div><div class="sub">神蕴 60 条</div></div>
 <div class="card"><div class="label">&#x1F9E9; 实体</div><div class="value">1,038</div><div class="sub">可重建</div></div>
@@ -56,7 +62,7 @@ body{font-family:-apple-system,'Segoe UI',sans-serif;background:#0f172a;color:#e
 <div style="color:#34d399">&#x2705; 全部已修复</div>
 <div style="margin-top:.8rem;color:#64748b;font-size:.85rem">0 个</div></div>
 <div class="panel"><h3>&#x1F4E6; 存储</h3>
-<div class="stat-row"><span class="key">Git</span><span class="val">65 次提交</span></div>
+<div class="stat-row"><span class="key">Git</span><span class="val">66 次提交</span></div>
 <div class="stat-row"><span class="key">远程</span><span class="val"><span class="badge ok">GitHub</span></span></div>
 <div class="stat-row"><span class="key">D 盘</span><span class="val">455 GB 空余</span></div>
 <div class="stat-row"><span class="key">教材</span><span class="val">0 本 PDF</span></div></div></div></div>
@@ -67,9 +73,9 @@ body{font-family:-apple-system,'Segoe UI',sans-serif;background:#0f172a;color:#e
 <div class="header"><h1>&#x1F52E; 幽灵文件</h1><div class="time">0 个</div></div>
 <div class="panel"><div style="color:#34d399;text-align:center;padding:2rem">&#x2705; 全部已修复</div></div></div>
 <div class="page page-3" style="display:none">
-<div class="header"><h1>&#x1F4E6; 备份</h1><div class="time">2026-05-28 15:53</div></div>
+<div class="header"><h1>&#x1F4E6; 备份</h1><div class="time">2026-05-28 15:57</div></div>
 <div class="panel">
-<div class="stat-row"><span class="key">Git</span><span class="val">65 次</span></div>
+<div class="stat-row"><span class="key">Git</span><span class="val">66 次</span></div>
 <div class="stat-row"><span class="key">远程</span><span class="val"><span class="badge ok">GitHub</span></span></div>
 <div class="stat-row"><span class="key">教材库</span><span class="val">0 本</span></div>
 <div class="stat-row"><span class="key">D 盘容量</span><span class="val">455 GB</span></div></div></div>
