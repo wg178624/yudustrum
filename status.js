@@ -2,9 +2,9 @@ var STATUS = {
   "feathers": 29,
   "entities": 1038,
   "l3_facts": 78,
-  "health_score": 83,
-  "git_commits": 81,
-  "disk_free_gb": 455,
+  "health_score": 86,
+  "git_commits": 82,
+  "disk_free_gb": 452,
   "ghosts": 0,
   "textbooks": 21,
   "feather_list": [
@@ -39,6 +39,39 @@ var STATUS = {
     "符华传记·云墨丹心-赤鸢仙人五万年.md"
   ],
   "ghost_list": [],
-  "version": "5.8.0",
-  "last_update": "2026-05-28 17:16:17"
+  "version": "5.9.0",
+  "last_update": "2026-05-28 18:39:06",
+  "audit_layers": {
+    "结构完整": {
+      "score": 25,
+      "max": 25,
+      "alerts": []
+    },
+    "行为基线": {
+      "score": 25,
+      "max": 25,
+      "alerts": []
+    },
+    "交叉一致": {
+      "score": 9,
+      "max": 20,
+      "alerts": [
+        "7 磁盘有但索引无",
+        "39 索引有但磁盘无",
+        "实体与L3画像引用偏少"
+      ]
+    },
+    "趋势分析": {
+      "score": 15,
+      "max": 15,
+      "alerts": []
+    },
+    "自愈修复": {
+      "score": 12,
+      "max": 15,
+      "alerts": [
+        "无定时审计 → 问题不会自动发现"
+      ]
+    }
+  }
 };
