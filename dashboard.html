@@ -55,7 +55,7 @@
 <body>
 
 <script>
-document.addEventListener('DOMContentLoaded',()=>{
+document.addEventListener('DOMContentLoaded',async()=>{
   const views={system:0,feathers:1,ghosts:2,backup:3,settings:4};
   const titles=['📊 系统状态','🪶 羽毛列表','🔮 幽灵文件','📦 备份','⚙️ 设置'];
 
@@ -69,11 +69,50 @@ document.addEventListener('DOMContentLoaded',()=>{
       document.querySelector('.header h1').textContent=titles[i];
     };
   });
+
+  // 异步加载数据文件
+  async function loadJSON(path){
+    try{
+      const r=await fetch(path);
+      return await r.json();
+    }catch(e){return null}
+  }
+
+  // 统计羽毛
+  async function loadFeathers(){
+    // 通过 GitHub API 或直接读目录列表
+    // 用神蕴索引
+    const shenyun=await loadJSON('shenyun.json');
+    if(shenyun){
+      document.getElementById('shenyunCount').textContent=shenyun.feathers?.length||0;
+    }
+  }
+
+  // 加载实体数
+  async function loadEntities(){
+    const idx=await loadJSON('entities/entity_index.json');
+    if(idx){
+      const n=idx.entities?.length||0;
+      document.getElementById('eCount').textContent=n.toLocaleString();
+    }
+  }
+
+  // 加载 L3
+  async function loadL3(){
+    const p=await loadJSON('persona/persona.v4.json');
+    if(p){
+      document.getElementById('lCount').textContent=p.total_traced_facts||'?';
+    }
+  }
+
+  loadFeathers();
+  loadEntities();
+  loadL3();
 });
 </script>
 
 <div class="sidebar">
-  <div class="logo">🕊️ 羽渡尘<small>v5.7.4</small></div>
+  <div class="logo">🕊️ 羽渡尘<small>v5.7.5</small></div>
   <div class="nav-item active"><span>📊 系统状态</span></div>
   <div class="nav-item"><span>🪶 羽毛列表</span></div>
   <div class="nav-item"><span>🔮 幽灵文件</span></div>
