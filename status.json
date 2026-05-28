@@ -1,13 +1,14 @@
 {
-  "feathers": 29,
+  "feathers": 30,
   "entities": 1828,
   "l3_facts": 164,
   "health_score": 76,
-  "git_commits": 89,
+  "git_commits": 90,
   "disk_free_gb": 452,
   "ghosts": 0,
   "textbooks": 21,
   "feather_list": [
+    "DASHBOARD.md",
     "README.md",
     "feather_001_20260504_会话复盘.md",
     "feather_002_工具使用手册.md",
@@ -40,7 +41,7 @@
   ],
   "ghost_list": [],
   "version": "5.9.0",
-  "last_update": "2026-05-28 19:42:58",
+  "last_update": "2026-05-28 19:46:27",
   "audit_layers": {
     "结构完整": {
       "score": 25,
