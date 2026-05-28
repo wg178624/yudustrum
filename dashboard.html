@@ -176,15 +176,28 @@ document.getElementById('statusBar').innerHTML='<span>✅ 数据来源: status.j
 // 首次加载 (从 status.js 的 STATUS 变量)
 if(typeof STATUS!=='undefined'){renderData(STATUS);}else{document.getElementById('statusBar').innerHTML='<span style="color:#ef4444">❌ status.js 未加载</span>';}
 
-// 定时刷新 (尝试 fetch status.json, 失败则保留当前数据)
+// 定时刷新 (尝试 /api/refresh, 回退到 status.json)
 async function loadData(){
+try{
+let d;
+// 优先用烘焙接口
+const rr=await fetch('/api/refresh');
+if(rr.ok){
+d=await rr.json();
+delete d._bake_output; delete d._bake_error;
+renderData(d);
+document.getElementById('statusBar').innerHTML='<span>✅ 已烘焙刷新 · '+d.last_update+'</span>';
+return;
+}
+// 回退: 直接读 status.json
+}catch(e){}
 try{
 const r=await fetch('status.json');
 if(r.ok){
 const d=await r.json();
 renderData(d);
-document.getElementById('statusBar').innerHTML='<span>✅ 已刷新 · '+d.last_update+'</span>';
-}}catch(e){/* 无 HTTP 服务器时静默失败,保留当前数据 */}}
+document.getElementById('statusBar').innerHTML='<span>✅ 已读取 · '+d.last_update+'</span>';
+}}catch(e){}}
 
 // 每30秒自动刷新
 setInterval(loadData,30000);
