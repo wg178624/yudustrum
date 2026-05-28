@@ -176,12 +176,13 @@ document.getElementById('statusBar').innerHTML='<span>✅ 数据来源: status.j
 // 首次加载 (从 status.js 的 STATUS 变量)
 if(typeof STATUS!=='undefined'){renderData(STATUS);}else{document.getElementById('statusBar').innerHTML='<span style="color:#ef4444">❌ status.js 未加载</span>';}
 
-// 定时刷新 (尝试 /api/refresh, 回退到 status.json)
+// 定时刷新 (优先 API, 回退 status.json)
 async function loadData(){
 try{
 let d;
-// 优先用烘焙接口
-const rr=await fetch('/api/refresh');
+// 后端刷新接口（同时兼容 file:// 和 http://）
+const apiUrl = 'http://localhost:8080/api/refresh';
+const rr=await fetch(apiUrl);
 if(rr.ok){
 d=await rr.json();
 delete d._bake_output; delete d._bake_error;
