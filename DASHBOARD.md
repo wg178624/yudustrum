@@ -8,8 +8,8 @@ updated: 2026-05-27
 # 🕊️ 羽渡尘 系统仪表盘
 
 > 最后更新: 2026-05-27 22:50
-> 浏览器仪表盘: D:\hermes-workspace\skills\yudustream\dashboard.html
-> 一键自检+刷新: 双击 羽渡尘.bat
+> 浏览器仪表盘: http://localhost:8080/dashboard.html（双击羽渡尘.bat 启动）
+> 一键启动: 双击 羽渡尘.bat（自检→烘焙→本地服务器→自动打开）
 
 ## 存储
 

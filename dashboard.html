@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>羽渡尘 · 仪表盘</title>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>羽渡尘 · 仪表盘</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:-apple-system,'Segoe UI',sans-serif;background:#0f172a;color:#e2e8f0;display:flex;min-height:100vh}
@@ -11,17 +14,21 @@ body{font-family:-apple-system,'Segoe UI',sans-serif;background:#0f172a;color:#e
 .nav-item.active{color:#38bdf8;border-left-color:#38bdf8;background:#0f172a88}
 .nav-item:hover{color:#e2e8f0}
 .main{flex:1;padding:2rem;overflow-y:auto}
-.header{display:flex;justify-content:space-between;align-items:center;margin-bottom:2rem}
+.header{display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem}
 .header h1{font-size:1.5rem;color:#f1f5f9}
 .header .time{color:#64748b;font-size:.85rem}
+.header-actions{display:flex;align-items:center;gap:12px}
+.btn{background:#1e293b;color:#94a3b8;border:1px solid #334155;padding:6px 14px;border-radius:6px;cursor:pointer;font-size:.8rem}
+.btn:hover{background:#334155;color:#e2e8f0}
+.status-bar{display:flex;gap:1rem;color:#64748b;font-size:.8rem;margin-bottom:2rem}
 .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-bottom:2rem}
 .card{background:#1e293b;border-radius:10px;padding:1.2rem;border:1px solid #334155}
 .card .label{font-size:.75rem;color:#64748b;text-transform:uppercase;letter-spacing:.05em}
 .card .value{font-size:1.8rem;font-weight:700;margin:.4rem 0;color:#f1f5f9}
 .card .sub{font-size:.8rem;color:#64748b}
 .ring-wrap{display:flex;align-items:center;gap:12px;margin-top:.5rem}
-.ring-bg{width:60px;height:60px;border-radius:50%;background:conic-gradient(#38bdf8 0deg 298.8deg,#1e293b 298.8deg 360deg);display:flex;align-items:center;justify-content:center}
-.ring-inner{width:48px;height:48px;border-radius:50%;background:#1e293b;display:flex;align-items:center;justify-content:center;font-size:1rem;font-weight:700;color:#38bdf8}
+.ring-bg{width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center}
+.ring-inner{width:48px;height:48px;border-radius:50%;background:#1e293b;display:flex;align-items:center;justify-content:center;font-size:1rem;font-weight:700}
 .detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:2rem}
 .panel{background:#1e293b;border-radius:10px;padding:1.2rem;border:1px solid #334155}
 .panel h3{font-size:.85rem;color:#64748b;text-transform:uppercase;margin-bottom:1rem}
@@ -31,56 +38,160 @@ body{font-family:-apple-system,'Segoe UI',sans-serif;background:#0f172a;color:#e
 .stat-row .val{color:#e2e8f0}
 .badge{display:inline-block;padding:1px 7px;border-radius:4px;font-size:.75rem}
 .ok{background:#05966922;color:#34d399;border:1px solid #05966944}
+.warn{background:#d9770622;color:#fbbf24;border:1px solid #d9770644}
 .ghost-badge{background:#6366f122;color:#a5b4fc;border:1px solid #6366f144}
 @media(max-width:800px){.cards{grid-template-columns:1fr 1fr}.detail-grid{grid-template-columns:1fr}.sidebar{width:60px}.sidebar .logo span,.nav-item span{display:none}}
 </style>
-<script>
-document.addEventListener('DOMContentLoaded',()=>{const t=['📊 系统状态','🪶 羽毛列表','🔮 幽灵文件','📦 备份','⚙️ 设置'];
-document.querySelectorAll('.nav-item').forEach((e,i)=>{e.onclick=()=>{document.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));e.classList.add('active');document.querySelectorAll('.page').forEach(p=>p.style.display='none');const p=document.querySelector('.page-'+i);if(p)p.style.display='block';document.querySelector('.header h1').textContent=t[i]}});
-const c=document.getElementById('clock');if(c)setInterval(()=>{const d=new Date();c.textContent=d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')+' '+String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0')},1000)});
-</script>
-</head><body>
-<div class="sidebar"><div class="logo">&#x1F54A;&#xFE0F; 羽渡尘<small>v5.7.5</small></div>
-<div class="nav-item active"><span>&#x1F4CA; 系统状态</span></div>
-<div class="nav-item"><span>&#x1FAAA; 羽毛列表</span></div>
-<div class="nav-item"><span>&#x1F52E; 幽灵文件</span></div>
-<div class="nav-item"><span>&#x1F4E6; 备份</span></div>
-<div class="nav-item"><span>&#x2699;&#xFE0F; 设置</span></div></div>
+</head>
+<body>
+
+<div class="sidebar">
+<div class="logo">🕊️ 羽渡尘<small>v5.7.5</small></div>
+<div class="nav-item active"><span>📊 系统状态</span></div>
+<div class="nav-item"><span>🪶 羽毛列表</span></div>
+<div class="nav-item"><span>🔮 幽灵文件</span></div>
+<div class="nav-item"><span>📦 备份</span></div>
+<div class="nav-item"><span>⚙️ 设置</span></div>
+</div>
+
 <div class="main">
-<div class="page page-0" style="display:block">
-<div class="header"><h1>&#x1F4CA; 系统状态</h1><div class="time" id="clock">2026-05-28 16:00</div></div>
+<div class="header">
+<h1>📊 系统状态</h1>
+<div class="header-actions">
+<span class="time" id="clock">--</span>
+<button class="btn" onclick="loadData()">🔄 刷新</button>
+</div>
+</div>
+<div class="status-bar" id="statusBar"><span>数据加载中...</span></div>
+
+<div class="page page-0">
 <div class="cards">
-<div class="card"><div class="label">&#x1FAAA; 羽毛</div><div class="value">28</div><div class="sub">神蕴 60 条</div></div>
-<div class="card"><div class="label">&#x1F9E9; 实体</div><div class="value">1,038</div><div class="sub">可重建</div></div>
-<div class="card"><div class="label">&#x1F9D1; L3 画像</div><div class="value">78</div><div class="sub">事实溯源</div></div>
-<div class="card"><div class="label">&#x1F4C8; 健康</div>
-<div class="ring-wrap"><div class="ring-bg"><div class="ring-inner">83</div></div>
-<div><div style="font-size:1.2rem;font-weight:700;color:#34d399">良好</div>
-<div style="font-size:.8rem;color:#64748b">综合评分</div></div></div></div></div>
+<div class="card"><div class="label">🪶 羽毛</div><div class="value" id="feathers">--</div><div class="sub">神蕴索引</div></div>
+<div class="card"><div class="label">🧩 实体</div><div class="value" id="entities">--</div><div class="sub">可重建</div></div>
+<div class="card"><div class="label">🧑 L3 画像</div><div class="value" id="l3facts">--</div><div class="sub">事实溯源</div></div>
+<div class="card"><div class="label">📈 健康</div>
+<div class="ring-wrap">
+<div class="ring-bg" id="healthRing"><div class="ring-inner" id="healthScore">--</div></div>
+<div><div style="font-size:1.2rem;font-weight:700" id="healthLabel">--</div><div style="font-size:.8rem;color:#64748b">综合评分</div></div>
+</div></div></div>
+
 <div class="detail-grid">
-<div class="panel"><h3>&#x1F52E; 幽灵文件</h3>
-<div style="color:#34d399">&#x2705; 全部已修复</div>
-<div style="margin-top:.8rem;color:#64748b;font-size:.85rem">0 个</div></div>
-<div class="panel"><h3>&#x1F4E6; 存储</h3>
-<div class="stat-row"><span class="key">Git</span><span class="val">67 次提交</span></div>
-<div class="stat-row"><span class="key">远程</span><span class="val"><span class="badge ok">GitHub</span></span></div>
-<div class="stat-row"><span class="key">D 盘</span><span class="val">455 GB 空余</span></div>
-<div class="stat-row"><span class="key">教材</span><span class="val">21 本 PDF</span></div></div></div></div>
+<div class="panel"><h3>🔍 幽灵文件</h3>
+<div id="ghostList"><div style="color:#64748b">加载中...</div></div>
+<div style="margin-top:.8rem;font-size:.85rem" id="ghostCount"></div></div>
+<div class="panel"><h3>📦 存储</h3>
+<div class="stat-row"><span class="key">Git 提交</span><span class="val" id="gitCommits">--</span></div>
+<div class="stat-row"><span class="key">远程备份</span><span class="val"><span class="badge ok">GitHub</span></span></div>
+<div class="stat-row"><span class="key">D 盘空余</span><span class="val" id="diskFree">--</span></div>
+<div class="stat-row"><span class="key">教材库</span><span class="val" id="textbooks">-- 本</span></div></div></div></div>
+
 <div class="page page-1" style="display:none">
-<div class="header"><h1>&#x1FAAA; 羽毛列表</h1><div class="time">28 片</div></div>
-<div class="panel"><div class="stat-row"><span class="key">feather_056_csdiy自学指南.md</span></div><div class="stat-row"><span class="key">feather_057_收藏夹薅下来计划.md</span></div><div class="stat-row"><span class="key">feather_058_比特币白皮书.md</span></div><div class="stat-row"><span class="key">feather_059_VLESS_Reality_VPN教程.md</span></div><div class="stat-row"><span class="key">feather_060_EdgeTunnel_应急翻墙.md</span></div><div class="stat-row"><span class="key">feather_061_GoogleAntigravity入门教程.md</span></div><div class="stat-row"><span class="key">feather_062_DeepSeekKV缓存官方确认.md</span></div><div class="stat-row"><span class="key">ref_c_file_ops.md</span></div><div class="stat-row"><span class="key">ref_c_malloc_free.md</span></div><div class="stat-row"><span class="key">ref_c_pointers_sizeof.md</span></div><div class="stat-row"><span class="key">ref_c_printf_scanf.md</span></div><div class="stat-row"><span class="key">ref_c_string_ops.md</span></div><div class="stat-row"><span class="key">教材更新日志-2026-05-08-高数与概率论.md</span></div><div class="stat-row"><span class="key">用户设备清单.md</span></div><div class="stat-row"><span class="key">符华传记·云墨丹心-赤鸢仙人五万年.md</span></div></div></div>
+<div class="header"><h1>🪶 羽毛列表</h1><div class="time" id="featherCount"></div></div>
+<div class="panel" id="featherList"><div style="color:#64748b">加载中...</div></div></div>
+
 <div class="page page-2" style="display:none">
-<div class="header"><h1>&#x1F52E; 幽灵文件</h1><div class="time">0 个</div></div>
-<div class="panel"><div style="color:#34d399;text-align:center;padding:2rem">&#x2705; 全部已修复</div></div></div>
+<div class="header"><h1>🔮 幽灵文件</h1><div class="time" id="ghostPageCount"></div></div>
+<div class="panel" id="ghostPage"><div style="color:#64748b">加载中...</div></div></div>
+
 <div class="page page-3" style="display:none">
-<div class="header"><h1>&#x1F4E6; 备份</h1><div class="time">2026-05-28 16:00</div></div>
+<div class="header"><h1>📦 备份</h1><div class="time" id="backupTime"></div></div>
 <div class="panel">
-<div class="stat-row"><span class="key">Git</span><span class="val">67 次</span></div>
+<div class="stat-row"><span class="key">Git</span><span class="val" id="bkGit">--</span></div>
 <div class="stat-row"><span class="key">远程</span><span class="val"><span class="badge ok">GitHub</span></span></div>
-<div class="stat-row"><span class="key">教材库</span><span class="val">21 本</span></div>
-<div class="stat-row"><span class="key">D 盘容量</span><span class="val">455 GB</span></div></div></div>
+<div class="stat-row"><span class="key">教材库</span><span class="val" id="bkTextbooks">-- 本</span></div>
+<div class="stat-row"><span class="key">D 盘</span><span class="val" id="bkDisk">--</span></div></div></div>
+
 <div class="page page-4" style="display:none">
-<div class="header"><h1>&#x2699;&#xFE0F; 设置</h1><div class="time">-</div></div>
-<div class="panel"><div style="color:#64748b;text-align:center;padding:2rem">开发中</div></div></div>
-<div style="text-align:center;color:#475569;font-size:.8rem;padding:1rem">羽渡尘 v5.7.5 · 双击 dashboard.html 打开</div></div>
-</body></html>
+<div class="header"><h1>⚙️ 设置</h1><div class="time">-</div></div>
+<div class="panel"><div style="color:#64748b;text-align:center;padding:2rem">开发中 · 数据源: status.json</div></div></div>
+
+<div style="text-align:center;color:#475569;font-size:.75rem;padding:2rem 0 1rem">
+数据自 status.json 加载 · 自动刷新每 30s · <a href="#" onclick="loadData();return false" style="color:#38bdf8;text-decoration:none">手动刷新</a>
+</div></div>
+
+<script>
+// 导航切换
+document.querySelectorAll('.nav-item').forEach((e,i)=>{
+e.onclick=()=>{
+document.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));
+e.classList.add('active');
+document.querySelectorAll('.page').forEach(p=>p.style.display='none');
+const p=document.querySelector('.page-'+i);
+if(p)p.style.display='block';
+const t=['📊 系统状态','🪶 羽毛列表','🔮 幽灵文件','📦 备份','⚙️ 设置'];
+document.querySelector('.header h1').textContent=t[i];
+}});
+
+// 时钟
+setInterval(()=>{const d=new Date();const f=n=>String(n).padStart(2,'0');document.getElementById('clock').textContent=
+d.getFullYear()+'-'+f(d.getMonth()+1)+'-'+f(d.getDate())+' '+f(d.getHours())+':'+f(d.getMinutes())+':'+f(d.getSeconds())},1000);
+
+// 加载数据
+async function loadData(){
+try{
+document.getElementById('statusBar').innerHTML='<span>🔄 加载中...</span>';
+const r=await fetch('status.json');
+const d=await r.json();
+
+document.getElementById('feathers').textContent=d.feathers;
+document.getElementById('entities').textContent=d.entities?.toLocaleString()||d.entities;
+document.getElementById('l3facts').textContent=d.l3_facts;
+document.getElementById('gitCommits').textContent=d.git_commits;
+document.getElementById('diskFree').textContent=d.disk_free_gb+' GB';
+document.getElementById('featherCount').textContent=d.feathers+' 片';
+document.getElementById('backupTime').textContent='最后同步: '+(d.last_update||'--');
+document.getElementById('bkGit').textContent=d.git_commits+' 次';
+document.getElementById('bkDisk').textContent=d.disk_free_gb+' GB';
+
+// 健康分
+const h=Math.min(100,Math.max(0,d.health_score));
+const c=h>80?'#34d399':h>60?'#fbbf24':'#ef4444';
+const t=h>85?'极好':h>70?'良好':h>60?'一般':'需关注';
+document.getElementById('healthScore').textContent=h;
+document.getElementById('healthScore').style.color=c;
+document.getElementById('healthRing').style.background='conic-gradient('+c+' 0deg '+(h*3.6)+'deg,#1e293b '+(h*3.6)+'deg 360deg)';
+document.getElementById('healthLabel').textContent=t;
+document.getElementById('healthLabel').style.color=c;
+
+// 幽灵
+document.getElementById('ghostCount').innerHTML=(d.ghosts||0)+' 个'+(d.ghosts>0?' ⚠️':' ✅ 已修复');
+if(d.ghosts>0&&d.feather_list){
+document.getElementById('ghostList').innerHTML=d.feather_list.map(f=>'<div class="stat-row"><span class="key">'+f+'</span><span class="badge ghost-badge">待修复</span></div>').join('');
+}else{
+document.getElementById('ghostList').innerHTML='<div style="color:#34d399">✅ 全部已修复</div>';
+}
+
+// 羽毛列表
+if(d.feather_list){
+document.getElementById('featherList').innerHTML=d.feather_list.slice().reverse().map(f=>'<div class="stat-row"><span class="key">'+f+'</span></div>').join('');
+}
+
+// 幽灵页
+document.getElementById('ghostPageCount').textContent=(d.ghosts||0)+' 个';
+if(d.ghosts>0&&d.feather_list){
+document.getElementById('ghostPage').innerHTML=d.feather_list.map(f=>'<div class="stat-row"><span class="key">'+f+'</span><span class="badge ghost-badge">待修复</span></div>').join('');
+}else{
+document.getElementById('ghostPage').innerHTML='<div style="color:#34d399;text-align:center;padding:2rem">✅ 全部已修复</div>';
+}
+
+// 教材
+let pdfCount='?';
+try{
+const ri=await fetch('status.json');
+const di=await ri.json();
+pdfCount='?';
+}catch(e){}
+document.getElementById('textbooks').textContent='--';
+document.getElementById('bkTextbooks').textContent='--';
+
+document.getElementById('statusBar').innerHTML='<span>✅ 数据已更新 · '+d.last_update+'</span>';
+}catch(e){
+document.getElementById('statusBar').innerHTML='<span style="color:#ef4444">❌ 加载失败: '+e.message+'</span>';
+}}
+
+// 自动每30秒刷新 + 首次加载
+loadData();
+setInterval(loadData,30000);
+</script>
+</body>
+</html>
