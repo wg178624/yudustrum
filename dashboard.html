@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>羽渡尘 仪表盘</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, 'Segoe UI', sans-serif; background: #0f172a; color: #e2e8f0; padding: 2rem; }
+  .container { max-width: 900px; margin: 0 auto; }
+  h1 { font-size: 1.8rem; color: #38bdf8; margin-bottom: .3rem; }
+  .subtitle { color: #64748b; margin-bottom: 2rem; font-size: .9rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px,1fr)); gap: 1rem; margin-bottom: 2rem; }
+  .card { background: #1e293b; border-radius: 12px; padding: 1.2rem; border: 1px solid #334155; }
+  .card .label { font-size: .8rem; color: #64748b; text-transform: uppercase; letter-spacing: .05em; }
+  .card .val { font-size: 1.8rem; font-weight: 700; margin: .3rem 0; }
+  .card .badge { font-size: .75rem; padding: 2px 8px; border-radius: 4px; }
+  .badge-ok { background: #05966922; color: #34d399; border: 1px solid #05966944; }
+  .badge-warn { background: #d9770622; color: #fbbf24; border: 1px solid #d9770644; }
+  .badge-ghost { background: #6366f122; color: #a5b4fc; border: 1px solid #6366f144; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>🕊️ 羽渡尘</h1>
+  <div class="subtitle">最后更新: <span id="ts">2026-05-27 22:30</span></div>
+
+  <div class="grid">
+    <div class="card">
+      <div class="label">羽毛</div>
+      <div class="val" id="feathers">28</div>
+      <span class="badge badge-ok">OK</span>
+    </div>
+    <div class="card">
+      <div class="label">实体</div>
+      <div class="val" id="entities">1,038</div>
+      <span class="badge badge-ok">OK</span>
+    </div>
+    <div class="card">
+      <div class="label">L3 画像</div>
+      <div class="val" id="l3facts">78</div>
+      <span class="badge badge-ok">OK</span>
+    </div>
+    <div class="card">
+      <div class="label">系统健康</div>
+      <div class="val" id="health">82</div>
+      <span class="badge badge-ok">/100</span>
+    </div>
+  </div>
+
+  <div class="card" style="margin-bottom: 1rem;">
+    <div class="label" style="margin-bottom:.5rem;">🔮 幽灵文件</div>
+    <div id="ghosts" style="color: #a5b4fc;">4 个 · 建议存盘时修复</div>
+  </div>
+
+  <div class="card" style="margin-bottom: 1rem;">
+    <div class="label" style="margin-bottom:.5rem;">📦 备份</div>
+    <div>Git: 61 次提交 · 远程: GitHub ✅</div>
+    <div style="font-size:.8rem;color:#64748b;margin-top:.3rem;">教材库: 21 本 PDF</div>
+  </div>
+
+  <div style="text-align:center;color:#475569;font-size:.8rem;margin-top:2rem;">
+    DASHBOARD.md — 每存盘时自动刷新 | 羽渡尘 v5.7.4
+  </div>
+</div>
+</body>
+</html>
