@@ -354,13 +354,6 @@
       ]
     },
     {
-      "path": "feathers/zz_深度学习激活函数.md",
-      "title": "deep learning activation",
-      "tags": [
-        "reference"
-      ]
-    },
-    {
       "path": "feathers/zz_DeepSeek缓存机制.md",
       "title": "deepseek cache mechanics",
       "tags": [
@@ -370,13 +363,6 @@
     {
       "path": "feathers/feather_020_用户设备清单.md",
       "title": "feather 022 用户设备清单",
-      "tags": [
-        "reference"
-      ]
-    },
-    {
-      "path": "feathers/zz_Mac迁移方案.md",
-      "title": "mac migration plan",
       "tags": [
         "reference"
       ]
