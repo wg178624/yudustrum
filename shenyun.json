@@ -15,7 +15,7 @@
         "Ollama",
         "NVIDIA"
       ],
-      "path": "feathers/feather_001_20260504_会话复盘.md",
+      "path": "feathers/feather_016_早期会话复盘.md",
       "created": "2026-05-04T20:30:00+08:00",
       "summary": "从零搭建Hermes工具链 + 赤鸢世界观探讨"
     },
@@ -31,7 +31,7 @@
         "NVIDIA",
         "Obsidian"
       ],
-      "path": "feathers/feather_002_工具使用手册.md",
+      "path": "feathers/feather_003_工具使用手册.md",
       "created": "2026-05-04T20:35:00+08:00",
       "summary": "所有工具的路径、用法、认证方式汇总"
     },
@@ -44,7 +44,7 @@
         "书单",
         "教材"
       ],
-      "path": "feathers/feather_003_EIE完整培养方案与书单.md",
+      "path": "feathers/feather_005_EIE完整学习路线.md",
       "created": "2026-05-06T17:20:00+08:00",
       "summary": "EIE四年课程体系+推荐教材+自学路线"
     },
@@ -57,13 +57,13 @@
         "迭代",
         "更新日志"
       ],
-      "path": "feathers/feather_004_本地技能包迭代全览.md",
+      "path": "feathers/feather_004_羽渡尘迭代全览.md",
       "created": "2026-05-07T21:00:00+08:00",
       "summary": "7个本地技能版本历史，羽渡尘 v2.0"
     },
     {
       "name": "符华传记·云墨丹心-赤鸢仙人五万年",
-      "path": "feathers/feather_020_符华传记·云墨丹心-赤鸢仙人五万年.md",
+      "path": "feathers/feather_017_符华传记.md",
       "tags": [
         "符华",
         "崩坏3",
@@ -78,7 +78,7 @@
     },
     {
       "name": "教材更新日志-2026-05-08-高数与概率论",
-      "path": "feathers/feather_021_教材更新日志-2026-05-08-高数与概率论.md",
+      "path": "feathers/feather_012_教材更新日志.md",
       "tags": [
         "教材",
         "高数",
@@ -92,7 +92,7 @@
     },
     {
       "name": "3Blue1Brown可视化教程资源索引",
-      "path": "feathers/feather_019_3Blue1Brown可视化教程资源索引.md",
+      "path": "feathers/feather_011_3Blue1Brown可视化教程.md",
       "tags": [
         "3b1b",
         "可视化",
@@ -106,7 +106,7 @@
       "summary": "3Blue1Brown全系列B站导航：线性代数的本质/微积分的本质/神经网络/微分方程/傅里叶变换/注意力机制等"
     },
     {
-      "path": "feathers/feather_005_大家伙配置讨论_5月26日.md",
+      "path": "feathers/feather_013_大家伙配置讨论.md",
       "title": "大家伙配置讨论 5月26日",
       "tags": [
         "大家伙",
@@ -145,7 +145,7 @@
       "summary": "羽渡尘完整知识图谱：分层架构+检索管线+存储系统+工具生态+你的方向，含Mermaid脑图和关系图"
     },
     {
-      "path": "feathers/feather_009_ClaudeCode扩展体系笔记.md",
+      "path": "feathers/feather_007_ClaudeCode扩展体系.md",
       "title": "Claude Code 扩展体系官方文档笔记",
       "tags": [
         "Claude Code",
@@ -159,7 +159,7 @@
       "summary": "Claude Code文档精读: 五大扩展机制(CLAUDE.md/Skills/Subagents/MCP/Hooks)设计哲学+关键参数+对羽渡尘启发"
     },
     {
-      "path": "feathers/feather_010_马来西亚半导体NIMP2030.md",
+      "path": "feathers/feather_008_马来西亚半导体NIMP2030.md",
       "title": "马来西亚半导体资料 NIMP2030 + MIDA",
       "tags": [
         "槟城",
@@ -173,7 +173,7 @@
       "summary": "马来西亚NIMP2030: 半导体为国策, 全球市场580B→1T, 槟城为核心, Intel/AMD持续扩产"
     },
     {
-      "path": "feathers/feather_013_收藏夹薅下来计划.md",
+      "path": "feathers/feather_019_收藏夹离线化计划.md",
       "title": "浏览器收藏薅下来计划",
       "tags": [
         "收藏夹",
@@ -184,7 +184,7 @@
       "summary": "把浏览器收藏夹的技术内容薅下来存本地羽毛,防网站挂/网络暴毙"
     },
     {
-      "path": "feathers/feather_014_比特币白皮书.md",
+      "path": "feathers/feather_018_比特币白皮书.md",
       "title": "比特币白皮书 中本聪",
       "tags": [
         "比特币",
@@ -197,7 +197,7 @@
       "summary": "Bitcoin whitepaper 2008. 9页纸在教材库. 经典工程范本: 用已有技术(Hashcash/Merkle/P2P)拼出新东西"
     },
     {
-      "path": "feathers/feather_015_VLESS_Reality_VPN教程.md",
+      "path": "feathers/feather_014_VLESS_Reality翻墙教程.md",
       "title": "VLESS+Reality VPN 自建完整教程",
       "tags": [
         "VPN",
@@ -212,7 +212,7 @@
       "summary": "VLESS+Reality 自建VPN完整教程. 替代旧版Shadowsocks, 无需域名借用大厂伪装"
     },
     {
-      "path": "feathers/feather_016_EdgeTunnel_应急翻墙.md",
+      "path": "feathers/feather_015_EdgeTunnel应急翻墙.md",
       "title": "EdgeTunnel CF Worker 应急翻墙备用",
       "tags": [
         "CF Worker",
@@ -225,7 +225,7 @@
       "summary": "EdgeTunnel部署指南: CF Worker做应急翻墙, V2RayN挂了时备用"
     },
     {
-      "path": "feathers/feather_017_GoogleAntigravity入门教程.md",
+      "path": "feathers/feather_010_GoogleAntigravity入门.md",
       "title": "Google Antigravity 官方入门教程",
       "tags": [
         "Antigravity",
@@ -238,7 +238,7 @@
       "summary": "Google Antigravity官方Codelab(105min). 你主力的agent-first IDE. 覆盖安装/Agent/浏览器/规则/技能/安全"
     },
     {
-      "path": "feathers/feather_018_DeepSeekKV缓存官方确认.md",
+      "path": "feathers/feather_009_DeepSeekKV缓存机制.md",
       "title": "DeepSeek KV Cache 官方文档 确认笔记",
       "tags": [
         "DeepSeek",
@@ -251,7 +251,7 @@
       "summary": "DeepSeek KV Cache官方文档精读. 缓存前缀单元完整匹配. 验证羽渡尘策略正确. 预热需1-2次MISS"
     },
     {
-      "path": "feathers/feather_023_羽渡尘完全体v6.0.md",
+      "path": "feathers/feather_001_羽渡尘完全体v6.0.md",
       "title": "羽渡尘完全体 v6.0 — 全量集成",
       "tags": [
         "羽渡尘",
@@ -296,7 +296,7 @@
       "tags": []
     },
     {
-      "path": "feathers/feather_024_存盘历史.md",
+      "path": "feathers/feather_002_羽渡尘存盘历史.md",
       "title": "羽渡尘存盘历史 v1-v2 (合并版)",
       "tags": [
         "历史",
@@ -368,7 +368,7 @@
       ]
     },
     {
-      "path": "feathers/feather_022_用户设备清单.md",
+      "path": "feathers/feather_020_用户设备清单.md",
       "title": "feather 022 用户设备清单",
       "tags": [
         "reference"
