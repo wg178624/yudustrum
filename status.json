@@ -1,9 +1,9 @@
 {
-  "feathers": 49,
+  "feathers": 48,
   "entities": 1329,
   "l3_facts": 164,
   "health_score": 79,
-  "git_commits": 118,
+  "git_commits": 119,
   "disk_free_gb": 446,
   "ghosts": 0,
   "textbooks": 22,
@@ -11,7 +11,6 @@
     "feather_001_羽渡尘完全体v6.0.md",
     "feather_002_羽渡尘存盘历史.md",
     "feather_003_工具使用手册.md",
-    "feather_004_羽渡尘迭代全览.md",
     "feather_005_EIE完整学习路线.md",
     "feather_006_华为韬定律.md",
     "feather_007_ClaudeCode扩展体系.md",
@@ -60,7 +59,7 @@
   ],
   "ghost_list": [],
   "version": "5.9.0",
-  "last_update": "2026-05-29 21:25:59",
+  "last_update": "2026-05-29 21:27:44",
   "audit_layers": {
     "结构完整": {
       "score": 25,

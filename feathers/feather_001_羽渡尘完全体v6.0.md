@@ -5,7 +5,7 @@ type: doc
 created: 2026-05-28
 ---
 
-# 🕊️ 羽渡尘完全体 v5.9
+# 🕊️ 羽渡尘完全体 v6.0
 
 > 全量集成 — 架构 / 设计决策 / 用户画像 / 行为铁律 / 版本历史 / 成本 / 所有信息
 > 看完这一篇，你不知道的羽渡尘就不剩什么了。
@@ -319,24 +319,66 @@ DeepSeek 定价：命中¥0.02/1M / MISS¥1/1M → 差50倍。
 
 ---
 
-## 十六、当前状态快照（2026-05-28）
+## 进化路线图
 
 ```
-版本:     5.9.0
-羽毛:     29 片
-神蕴:     60 条
-实体:     1,038 个
-L3 画像:  78 条事实
+v1 记事本       → 能存能搜
+v2 搜索引擎     → 语义搜索
+v3 分层记忆     → 结构清晰
+v4 知识压缩     → 省token
+v5 缓存对齐     → 省钱(99%命中)
+v6 学习系统     → 自己读教材(OCR)
+```
+
+---
+
+## 技能清单（当前活跃，共 7 个）
+
+| 技能 | 用途 | 状态 |
+|------|------|:----:|
+| **yudustream** | 羽渡尘本体（记忆+学习+OCR+审计+仪表盘） | ✅ 核心 |
+| **roi-engine** | ROI引擎：一件事值不值得干 | ✅ |
+| **system-maint** | 系统运维：VPS+老家+K脚本 | ✅ |
+| **browser-research** | 上网搜东西：CF代理+浏览器+提取 | ✅ |
+| **user-iron-laws** | 用户铁律：行为规则 | ✅ |
+| **eie-tutor** | EIE+C语言全能私教 | ✅ |
+| **control-theory-audit** | 控制论审计框架 | ✅ |
+
+## 已合并/退役技能
+
+| 旧技能 | 去向 |
+|--------|:----:|
+| vps-management / vps-egress-routing / vps-optimization | → system-maint |
+| k-toolbox | → system-maint |
+| cloudflare-workers / wiki-research / cf-wiki-research | → browser-research |
+| c-programming-tutor / analog-electronics-tutor | → eie-tutor |
+| huo-bi-san-jia / zhendao-cache | → roi-engine |
+| yudustream-ocr | → yudustream核心 |
+| chrome-bridge | → windows-wsl-bridge（后退役） |
+
+---
+
+## 十七、当前状态快照（2026-05-29）
+
+```
+版本:     6.0.0
+羽毛:     49 片
+神蕴:     28 条
+实体:     1,329 个
+L3 画像:  164 条事实
 教材库:   21 本 PDF
 幽灵:     0 个
-健康:     86/100
+健康:     79/100
 Git:      70+ 次提交
 远程:     GitHub ✅
 后端:     Nginx(8081) + server.py(8080) ✅
 MySQL:    MariaDB 11.8 ✅
-备份:     D盘 + D:\408\ + GitHub（三层）
+备份:     D盘 + D:\408\ + GitHub（三层）✅
 缓存:     >99%
-运行天数: 20 天+
+技能数:   7 个（由13个合并）
+累计花费: ¥79.30（25天）
+日均花费: ¥3.66
+运行天数: 25 天+
 ```
 
 ---
