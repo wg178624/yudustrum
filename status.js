@@ -1,9 +1,9 @@
 var STATUS = {
-  "feathers": 50,
+  "feathers": 49,
   "entities": 1329,
   "l3_facts": 164,
   "health_score": 79,
-  "git_commits": 117,
+  "git_commits": 118,
   "disk_free_gb": 446,
   "ghosts": 0,
   "textbooks": 22,
@@ -15,7 +15,6 @@ var STATUS = {
     "feather_005_EIE完整学习路线.md",
     "feather_006_华为韬定律.md",
     "feather_007_ClaudeCode扩展体系.md",
-    "feather_007_羽渡尘脑图总览.md",
     "feather_008_马来西亚半导体NIMP2030.md",
     "feather_009_DeepSeekKV缓存机制.md",
     "feather_010_GoogleAntigravity入门.md",
@@ -61,7 +60,7 @@ var STATUS = {
   ],
   "ghost_list": [],
   "version": "5.9.0",
-  "last_update": "2026-05-29 21:22:30",
+  "last_update": "2026-05-29 21:25:59",
   "audit_layers": {
     "结构完整": {
       "score": 25,
