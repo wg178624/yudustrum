@@ -1,53 +1,92 @@
 ---
-title: 工具使用手册
-tags: [工具, CodeX, Chrome, OpenClaw, Ollama, NVIDIA, Obsidian]
+title: 工具使用手册（当前环境）
+tags: [工具, WSL, Hermes, Chrome, VPS, Obsidian]
 created: 2026-05-04T20:35:00+08:00
+updated: 2026-05-29T21:00:00+08:00
 type: feather
 ---
 
-# 🪶 第2片羽毛 · 工具使用手册
+# 🪶 第2片羽毛 · 工具使用手册（更新至 5/29）
 
-## CodeX (编码代理)
-- **位置:** VS Code 扩展 `/mnt/c/Users/j'g'f'd/.vscode/extensions/openai.chatgpt-*/bin/windows-x86_64/codex.exe`
-- **MCP Server:** 已接入 Hermes 配置
-- **执行:** `CODEX_PATH="..." && "$CODEX_PATH" exec --yolo "任务"`
-- **认证:** `codex login --device-auth` → 浏览器输码
-- **注意:** token 过期就重登，`--yolo` 绕沙箱
+## 核心工作流
 
-## Chrome (真身浏览器)
-- **位置:** `/mnt/c/Users/j'g'f'd/AppData/Local/Google/Chrome/Application/chrome.exe`
-- **用法:** `chrome.exe --headless --disable-gpu --no-sandbox --dump-dom <url>`
-- **优势:** 有用户登录态，能过 Cloudflare 反爬
-- **用户数据:** `C:\Users\j'g'f'd\AppData\Local\Google\Chrome\User Data`
+```
+你 → Hermes (DeepSeek V4 Flash)
+  → 检索羽渡尘（实体/图谱/FTS5/向量）
+  → 执行任务（终端/浏览器/Python/Git）
+  → 存盘（备份 → 烘焙 → commit）
+```
 
-## OpenClaw (AI助手邻居)
-- **位置:** WSL `/root/.nvm/versions/node/v22.22.1/bin/openclaw`
-- **版本:** 2026.5.4 (刚更新)
-- **配置:** D 盘 `/mnt/d/hermes-workspace/configs/openclaw/`
-- **Gateway端口:** 18789
-- **更新:** `npm install -g openclaw@latest`
+## 羽渡尘（记忆+学习系统）
 
-## Ollama (本地模型)
-- **模型路径:** `/mnt/d/WSL/ollama_models` (D 盘)
-- **GPU:** RTX 4070 直通 (8GB 显存)
-- **可用模型:**
-  - qwen3.5:9b (主力，6.6GB ✅ GPU)
-  - qwen2.5vl:7b (视觉，6GB ✅ GPU)
-  - gemma4:26b (17GB ❌ 显存不够)
-  - qwen3-coder:30b (18GB ❌ 显存不够)
-  - gpt-oss:20b (13GB ❌ 显存不够)
-- **API端点:** `http://127.0.0.1:11434/v1`
+| 项目 | 路径 |
+|------|------|
+| 数据根目录 | `D:\hermes-workspace\skills\yudustrum\` |
+| 羽毛库 | `feathers/`（31 片 .md） |
+| 实体索引 | `entities/entity_index.json`（1329 实体） |
+| 神蕴索引 | `shenyun.json`（28 条） |
+| 教材库 | `教材库/`（21 本 PDF） |
+| 仪表盘 | `dashboard.html`（浏览器打开） |
+| 后端 | `server.py`（端口 8080，cron @reboot） |
+| Nginx 反代 | 端口 8081，静态文件+API 代理 |
 
-## NVIDIA NIM (云端模型)
-- **API端点:** `https://integrate.api.nvidia.com/v1`
-- **API Key:** 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
-- **可用模型:**
-  - deepseek-ai/deepseek-v4-flash (主要)
-  - meta/llama-4-maverick-17b-128e-instruct
-  - qwen/qwen3-coder-480b-a35b-instruct
-  - mistralai/mistral-large
+## 运行环境
 
-## Obsidian (笔记)
-- **仓库:** `/mnt/d/iCloudDrive/iCloud~md~obsidian/`
-- **有毕设大纲:** PMIC 鲁棒性对比 (麒麟990 vs A16)
-- **有教材:** 数电/模电/操作系统/计组 PDF
+| 设备 | 名称 | 用途 |
+|:----:|:----:|------|
+| 机械革命极光X | 鸡哥/老家 | 主力开发（32GB/4070/2TB） |
+| WSL Debian 13 | — | Hermes + 羽渡尘运行 |
+| RackNerd 圣何塞 | VPS | 翻墙专用（1核/967MB） |
+
+**铁律：VPS 只管翻墙，所有开发在老家 WSL 搞。除非 VPS 坏了不进。**
+
+## 浏览器（爬虫/搜索）
+
+| 方案 | 端口 | 用途 |
+|:----:|:----:|------|
+| Linux Chrome headless | 9222 | 主力爬虫/百科/搜索（crontab @reboot） |
+| CF Worker 反代 | — | 能过的站优先用 Worker（hermes-scraper.workers.dev） |
+
+Worker 不行时回退浏览器。
+
+## 存盘流程
+
+```bash
+python3 /mnt/d/hermes-workspace/scripts/yudustream_backup.py     # 备份核心数据到 D:\408\
+python3 /mnt/d/hermes-workspace/scripts/bake_dashboard.py         # 烘焙仪表盘数据
+cd /mnt/d/hermes-workspace/skills/yudustrum && git add -A && git commit -m "💾 ..."
+```
+
+## 系统工具
+
+| 工具 | 用途 |
+|------|------|
+| `k` | kejilion.sh 系统维护（两地通用） |
+| `gcc` | C 语言编译器（14.2.0） |
+| `tesseract` | OCR（英文书直接读，中文书+预处理） |
+| `python3` | 3.13.5，主力语言 |
+| `nginx` | 仪表盘反代（端口 8081） |
+| `mariadb` | MySQL 兼容，已建 yudustrum 库 |
+
+## 学习工具
+
+| 工具 | 用途 |
+|:----:|------|
+| 计组（唐朔飞） | T0 进行中 |
+| C Primer Plus | T0 配合计组 |
+| 模电（童诗白） | T1 |
+| 数电（阎石） | T1 |
+| 工程控制论（钱学森 + 英文原版） | T1 |
+| LTSpice | 模电仿真（Windows 免费） |
+| Icarus Verilog | 数电仿真（apt install） |
+
+## 已废弃/退役
+
+| 项目 | 原因 |
+|:----|:----|
+| CodeX | 不需要编码代理 |
+| OpenClaw | 已卸载（5/10） |
+| Ollama | 本地模型不如 API 划算 |
+| NVIDIA NIM API Key | 已失效，不再使用 |
+| ChromaDB 向量搜索 | 已合并入检索管线 |
+| WhatsApp Bridge | VPS 临时残留，已清理 |
