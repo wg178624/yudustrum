@@ -15,7 +15,7 @@
         "Ollama",
         "NVIDIA"
       ],
-      "path": "feathers/feather_016_早期会话复盘.md",
+      "path": "feathers/feather_015_早期会话复盘.md",
       "created": "2026-05-04T20:30:00+08:00",
       "summary": "从零搭建Hermes工具链 + 赤鸢世界观探讨"
     },
@@ -63,7 +63,7 @@
     },
     {
       "name": "符华传记·云墨丹心-赤鸢仙人五万年",
-      "path": "feathers/feather_017_符华传记.md",
+      "path": "feathers/feather_016_符华传记.md",
       "tags": [
         "符华",
         "崩坏3",
@@ -92,7 +92,7 @@
       "summary": "3Blue1Brown全系列B站导航：线性代数的本质/微积分的本质/神经网络/微分方程/傅里叶变换/注意力机制等"
     },
     {
-      "path": "feathers/feather_013_大家伙配置讨论.md",
+      "path": "feathers/feather_012_大家伙配置讨论.md",
       "title": "大家伙配置讨论 5月26日",
       "tags": [
         "大家伙",
@@ -159,7 +159,7 @@
       "summary": "马来西亚NIMP2030: 半导体为国策, 全球市场580B→1T, 槟城为核心, Intel/AMD持续扩产"
     },
     {
-      "path": "feathers/feather_019_收藏夹离线化计划.md",
+      "path": "feathers/feather_018_收藏夹离线化计划.md",
       "title": "浏览器收藏薅下来计划",
       "tags": [
         "收藏夹",
@@ -170,7 +170,7 @@
       "summary": "把浏览器收藏夹的技术内容薅下来存本地羽毛,防网站挂/网络暴毙"
     },
     {
-      "path": "feathers/feather_018_比特币白皮书.md",
+      "path": "feathers/feather_017_比特币白皮书.md",
       "title": "比特币白皮书 中本聪",
       "tags": [
         "比特币",
@@ -183,7 +183,7 @@
       "summary": "Bitcoin whitepaper 2008. 9页纸在教材库. 经典工程范本: 用已有技术(Hashcash/Merkle/P2P)拼出新东西"
     },
     {
-      "path": "feathers/feather_014_VLESS_Reality翻墙教程.md",
+      "path": "feathers/feather_013_VLESS_Reality翻墙教程.md",
       "title": "VLESS+Reality VPN 自建完整教程",
       "tags": [
         "VPN",
@@ -198,7 +198,7 @@
       "summary": "VLESS+Reality 自建VPN完整教程. 替代旧版Shadowsocks, 无需域名借用大厂伪装"
     },
     {
-      "path": "feathers/feather_015_EdgeTunnel应急翻墙.md",
+      "path": "feathers/feather_014_EdgeTunnel应急翻墙.md",
       "title": "EdgeTunnel CF Worker 应急翻墙备用",
       "tags": [
         "CF Worker",
@@ -347,7 +347,7 @@
       ]
     },
     {
-      "path": "feathers/feather_020_用户设备清单.md",
+      "path": "feathers/feather_019_用户设备清单.md",
       "title": "feather 022 用户设备清单",
       "tags": [
         "reference"
