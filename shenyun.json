@@ -145,19 +145,6 @@
       "summary": "羽渡尘完整知识图谱：分层架构+检索管线+存储系统+工具生态+你的方向，含Mermaid脑图和关系图"
     },
     {
-      "path": "feathers/feather_008_工程控制论入库.md",
-      "title": "工程控制论 钱学森 入库",
-      "tags": [
-        "控制论",
-        "钱学森",
-        "教材",
-        "反馈",
-        "系统论"
-      ],
-      "type": "feather",
-      "summary": "工程控制论入库教材库(13MB,252页,1958版),核心:反馈控制/系统稳定性"
-    },
-    {
       "path": "feathers/feather_009_ClaudeCode扩展体系笔记.md",
       "title": "Claude Code 扩展体系官方文档笔记",
       "tags": [
@@ -184,33 +171,6 @@
       ],
       "type": "feather",
       "summary": "马来西亚NIMP2030: 半导体为国策, 全球市场580B→1T, 槟城为核心, Intel/AMD持续扩产"
-    },
-    {
-      "path": "feathers/feather_011_教材库学习路线图.md",
-      "title": "教材库学习路线图",
-      "tags": [
-        "EIE",
-        "学习路线",
-        "C",
-        "计组",
-        "模电",
-        "教材"
-      ],
-      "type": "feather",
-      "summary": "教材库优先级排序: T0计组→C Primer→数据结构 T1数电→模电→控制论 T2 OS→计网 T3数学/C++/无线电"
-    },
-    {
-      "path": "feathers/feather_012_csdiy自学指南.md",
-      "title": "CSDIY.wiki 计算机自学路线",
-      "tags": [
-        "CS自学",
-        "EIE",
-        "学习路线",
-        "公开课",
-        "教材"
-      ],
-      "type": "feather",
-      "summary": "csdiy.wiki 开源CS自学路线: 数学/系统/硬件课程,对你EIE方向有补充作用但非主线"
     },
     {
       "path": "feathers/feather_013_收藏夹薅下来计划.md",
