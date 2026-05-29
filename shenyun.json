@@ -302,7 +302,7 @@
       ]
     },
     {
-      "path": "feathers/zz_DASHBOARD.md",
+      "path": "feathers/zz_仪表盘文档.md",
       "title": "羽渡尘系统仪表盘",
       "tags": [
         "仪表盘",
@@ -345,63 +345,63 @@
       ]
     },
     {
-      "path": "feathers/zz_README.md",
+      "path": "feathers/zz_羽毛库说明.md",
       "title": "README",
       "tags": [
         "reference"
       ]
     },
     {
-      "path": "feathers/zz_architecture-real-state.md",
+      "path": "feathers/zz_羽渡尘架构现状.md",
       "title": "architecture real state",
       "tags": [
         "reference"
       ]
     },
     {
-      "path": "feathers/zz_cache-alignment-filter.md",
+      "path": "feathers/zz_缓存对齐设计.md",
       "title": "cache alignment filter",
       "tags": [
         "reference"
       ]
     },
     {
-      "path": "feathers/zz_cf-worker-scraping.md",
+      "path": "feathers/zz_CF代理爬虫方案.md",
       "title": "cf worker scraping",
       "tags": [
         "reference"
       ]
     },
     {
-      "path": "feathers/zz_claude-code-architecture.md",
+      "path": "feathers/zz_ClaudeCode架构参考.md",
       "title": "claude code architecture",
       "tags": [
         "reference"
       ]
     },
     {
-      "path": "feathers/zz_control-theory-audit.md",
+      "path": "feathers/zz_控制论审计框架.md",
       "title": "control theory audit",
       "tags": [
         "reference"
       ]
     },
     {
-      "path": "feathers/zz_database-backend.md",
+      "path": "feathers/zz_数据库方案对比.md",
       "title": "database backend",
       "tags": [
         "reference"
       ]
     },
     {
-      "path": "feathers/zz_deep-learning-activation.md",
+      "path": "feathers/zz_深度学习激活函数.md",
       "title": "deep learning activation",
       "tags": [
         "reference"
       ]
     },
     {
-      "path": "feathers/zz_deepseek-cache-mechanics.md",
+      "path": "feathers/zz_DeepSeek缓存机制.md",
       "title": "deepseek cache mechanics",
       "tags": [
         "reference"
@@ -415,126 +415,126 @@
       ]
     },
     {
-      "path": "feathers/zz_mac-migration-plan.md",
+      "path": "feathers/zz_Mac迁移方案.md",
       "title": "mac migration plan",
       "tags": [
         "reference"
       ]
     },
     {
-      "path": "feathers/zz_memory-char-limit-and-config.md",
+      "path": "feathers/zz_记忆容量与配置.md",
       "title": "memory char limit and config",
       "tags": [
         "reference"
       ]
     },
     {
-      "path": "feathers/zz_memory-hierarchy-explained.md",
+      "path": "feathers/zz_三层记忆架构详解.md",
       "title": "memory hierarchy explained",
       "tags": [
         "reference"
       ]
     },
     {
-      "path": "feathers/zz_memory-systems-comparison-v4.md",
+      "path": "feathers/zz_记忆系统方案对比.md",
       "title": "memory systems comparison v4",
       "tags": [
         "reference"
       ]
     },
     {
-      "path": "feathers/zz_memory-systems-implementation.md",
+      "path": "feathers/zz_记忆系统实现方案.md",
       "title": "memory systems implementation",
       "tags": [
         "reference"
       ]
     },
     {
-      "path": "feathers/zz_memory-systems-research.md",
+      "path": "feathers/zz_记忆系统研究资料.md",
       "title": "memory systems research",
       "tags": [
         "reference"
       ]
     },
     {
-      "path": "feathers/zz_memory-vs-user-vs-l3.md",
+      "path": "feathers/zz_记忆VS用户VSL3.md",
       "title": "memory vs user vs l3",
       "tags": [
         "reference"
       ]
     },
     {
-      "path": "feathers/zz_mindnode-opml-export.md",
+      "path": "feathers/zz_MindNode导出格式.md",
       "title": "mindnode opml export",
       "tags": [
         "reference"
       ]
     },
     {
-      "path": "feathers/zz_obsidian-integration.md",
+      "path": "feathers/zz_Obsidian集成方案.md",
       "title": "obsidian integration",
       "tags": [
         "reference"
       ]
     },
     {
-      "path": "feathers/zz_retrieve-cite-checklist.md",
+      "path": "feathers/zz_检索引用检查清单.md",
       "title": "retrieve cite checklist",
       "tags": [
         "reference"
       ]
     },
     {
-      "path": "feathers/zz_semia-skill-security-audit.md",
+      "path": "feathers/zz_Semia安全审计规则.md",
       "title": "semia skill security audit",
       "tags": [
         "reference"
       ]
     },
     {
-      "path": "feathers/zz_tencentdb-agent-memory.md",
+      "path": "feathers/zz_TencentDB架构参考.md",
       "title": "tencentdb agent memory",
       "tags": [
         "reference"
       ]
     },
     {
-      "path": "feathers/zz_v5-design-decisions.md",
+      "path": "feathers/zz_v5设计决策记录.md",
       "title": "v5 design decisions",
       "tags": [
         "reference"
       ]
     },
     {
-      "path": "feathers/zz_v5-functionality-audit.md",
+      "path": "feathers/zz_v5功能审计.md",
       "title": "v5 functionality audit",
       "tags": [
         "reference"
       ]
     },
     {
-      "path": "feathers/zz_vector-db-setup.md",
+      "path": "feathers/zz_向量数据库搭建.md",
       "title": "vector db setup",
       "tags": [
         "reference"
       ]
     },
     {
-      "path": "feathers/zz_vscode-workspace-setup.md",
+      "path": "feathers/zz_VSCode工作区配置.md",
       "title": "vscode workspace setup",
       "tags": [
         "reference"
       ]
     },
     {
-      "path": "feathers/zz_wsl-dual-instance-access.md",
+      "path": "feathers/zz_WSL双实例互访.md",
       "title": "wsl dual instance access",
       "tags": [
         "reference"
       ]
     },
     {
-      "path": "feathers/zz_wsl-dual-instance.md",
+      "path": "feathers/zz_WSL双实例方案.md",
       "title": "wsl dual instance",
       "tags": [
         "reference"
