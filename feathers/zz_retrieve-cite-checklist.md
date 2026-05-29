@@ -1,5 +1,5 @@
 ---
-title: "retrieve cite checklist"
+title: "检索引用检查清单"
 tags: [reference]
 type: reference
 ---

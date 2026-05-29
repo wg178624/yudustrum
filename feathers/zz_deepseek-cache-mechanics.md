@@ -1,5 +1,5 @@
 ---
-title: "deepseek cache mechanics"
+title: "DeepSeek KV 缓存机制详解"
 tags: [reference]
 type: reference
 ---

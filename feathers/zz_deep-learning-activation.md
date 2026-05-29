@@ -1,5 +1,5 @@
 ---
-title: "deep learning activation"
+title: "深度学习激活函数参考"
 tags: [reference]
 type: reference
 ---

@@ -1,5 +1,5 @@
 ---
-title: "claude code architecture"
+title: "Claude Code 架构参考"
 tags: [reference]
 type: reference
 ---

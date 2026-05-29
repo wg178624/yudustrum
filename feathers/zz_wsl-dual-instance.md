@@ -1,5 +1,5 @@
 ---
-title: "wsl dual instance"
+title: "WSL 双实例（Debian+Ubuntu）方案"
 tags: [reference]
 type: reference
 ---

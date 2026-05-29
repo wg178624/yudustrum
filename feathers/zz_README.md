@@ -1,5 +1,5 @@
 ---
-title: "羽渡尘 羽毛库说明"
+title: "羽毛库说明"
 tags: [README]
 type: doc
 created: 2026-05-01

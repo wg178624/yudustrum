@@ -1,5 +1,5 @@
 ---
-title: "羽渡尘 系统仪表盘"
+title: "羽渡尘系统仪表盘"
 tags: [仪表盘, 状态, 系统, 监控]
 type: dashboard
 updated: 2026-05-28

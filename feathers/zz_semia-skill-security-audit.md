@@ -1,5 +1,5 @@
 ---
-title: "semia skill security audit"
+title: "Semia 安全审计规则（写skill参考）"
 tags: [reference]
 type: reference
 ---

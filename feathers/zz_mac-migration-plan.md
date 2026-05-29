@@ -1,5 +1,5 @@
 ---
-title: "mac migration plan"
+title: "Mac 迁移方案（废弃计划）"
 tags: [reference]
 type: reference
 ---

@@ -1,5 +1,5 @@
 ---
-title: "mindnode opml export"
+title: "MindNode OPML 导出格式"
 tags: [reference]
 type: reference
 ---

@@ -1,5 +1,5 @@
 ---
-title: "wsl dual instance access"
+title: "WSL 双实例互访"
 tags: [reference]
 type: reference
 ---

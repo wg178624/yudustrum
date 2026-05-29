@@ -1,5 +1,5 @@
 ---
-title: "vscode workspace setup"
+title: "VSCode 工作区配置"
 tags: [reference]
 type: reference
 ---

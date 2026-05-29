@@ -1,5 +1,5 @@
 ---
-title: "v5 design decisions"
+title: "v5 设计决策记录"
 tags: [reference]
 type: reference
 ---

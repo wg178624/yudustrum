@@ -1,5 +1,5 @@
 ---
-title: "vector db setup"
+title: "向量数据库搭建方案"
 tags: [reference]
 type: reference
 ---

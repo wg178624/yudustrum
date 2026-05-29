@@ -1,5 +1,5 @@
 ---
-title: "memory char limit and config"
+title: "Hermes 记忆容量与配置限制"
 tags: [reference]
 type: reference
 ---

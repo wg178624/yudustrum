@@ -1,5 +1,5 @@
 ---
-title: "obsidian integration"
+title: "Obsidian 集成方案"
 tags: [reference]
 type: reference
 ---
