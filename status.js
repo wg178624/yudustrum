@@ -3,10 +3,10 @@ var STATUS = {
   "entities": 1329,
   "l3_facts": 164,
   "health_score": 79,
-  "git_commits": 103,
+  "git_commits": 104,
   "disk_free_gb": 452,
   "ghosts": 0,
-  "textbooks": 21,
+  "textbooks": 22,
   "feather_list": [
     "feather_001_20260504_会话复盘.md",
     "feather_002_工具使用手册.md",
@@ -68,7 +68,7 @@ var STATUS = {
   ],
   "ghost_list": [],
   "version": "5.9.0",
-  "last_update": "2026-05-28 22:18:31",
+  "last_update": "2026-05-29 00:14:02",
   "audit_layers": {
     "结构完整": {
       "score": 25,
