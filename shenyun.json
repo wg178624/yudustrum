@@ -77,20 +77,6 @@
       "summary": "符华五万年人生全传——逐火英桀浮生→赤鸢仙人→太虚剑派→天命名为→圣芙蕾雅班长→云墨丹心→识之律者篇"
     },
     {
-      "name": "教材更新日志-2026-05-08-高数与概率论",
-      "path": "feathers/feather_012_教材更新日志.md",
-      "tags": [
-        "教材",
-        "高数",
-        "概率论",
-        "eie-tutor",
-        "更新"
-      ],
-      "created": "2026-05-08",
-      "source": "GitHub Yoget/Tongji-University-Advanced-Mathematics",
-      "summary": "高等数学同济七版（上下册+习题全解）+ 概率论浙大四版下载入库，eie-tutor v2.1.0"
-    },
-    {
       "name": "3Blue1Brown可视化教程资源索引",
       "path": "feathers/feather_011_3Blue1Brown可视化教程.md",
       "tags": [
