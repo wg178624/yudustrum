@@ -2,9 +2,9 @@ var STATUS = {
   "feathers": 48,
   "entities": 1329,
   "l3_facts": 164,
-  "health_score": 79,
-  "git_commits": 120,
-  "disk_free_gb": 446,
+  "health_score": 89,
+  "git_commits": 124,
+  "disk_free_gb": 445,
   "ghosts": 0,
   "textbooks": 22,
   "feather_list": [
@@ -59,7 +59,7 @@ var STATUS = {
   ],
   "ghost_list": [],
   "version": "5.9.0",
-  "last_update": "2026-05-29 21:50:07",
+  "last_update": "2026-06-01 21:53:22",
   "audit_layers": {
     "结构完整": {
       "score": 25,
@@ -67,18 +67,15 @@ var STATUS = {
       "alerts": []
     },
     "行为基线": {
-      "score": 15,
+      "score": 25,
       "max": 25,
-      "alerts": [
-        "实体 1329 (基线 900-1200) → ⚠️ 偏离基线",
-        "L3 164 条 (基线 60-100) → ⚠️ 偏离基线"
-      ]
+      "alerts": []
     },
     "交叉一致": {
       "score": 12,
       "max": 20,
       "alerts": [
-        "2 索引有但磁盘无",
+        "3 索引有但磁盘无",
         "实体与L3画像引用偏少"
       ]
     },
