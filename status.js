@@ -3,8 +3,8 @@ var STATUS = {
   "entities": 1329,
   "l3_facts": 164,
   "health_score": 89,
-  "git_commits": 134,
-  "disk_free_gb": 444,
+  "git_commits": 135,
+  "disk_free_gb": 443,
   "ghosts": 0,
   "textbooks": 22,
   "feather_list": [
@@ -59,7 +59,7 @@ var STATUS = {
   ],
   "ghost_list": [],
   "version": "5.9.0",
-  "last_update": "2026-06-03 21:37:29",
+  "last_update": "2026-06-03 21:56:32",
   "audit_layers": {
     "结构完整": {
       "score": 25,
