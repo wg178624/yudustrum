@@ -1,5 +1,6 @@
 ---
 title: "VLESS+Reality VPN 自建完整教程"
+brief: "VLESS+Reality翻墙自建教程：VPS选购、xray配置、客户端设置、伪装站配置、联通全家桶推荐。"
 tags: [VPN, VPS, Reality, VLESS, 翻墙, X-ui, 网络]
 type: feather
 created: 2026-05-27

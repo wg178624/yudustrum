@@ -1,5 +1,6 @@
 ---
 title: "马来西亚半导体资料 NIMP2030 + MIDA"
+brief: "马来西亚半导体产业资料：NIMP2030国家工业计划、MIDA投资数据、槟城半导体生态、PSDC教育路径。"
 tags: [槟城, 半导体, Intel, AMD, 马来西亚, 职业规划]
 type: feather
 created: 2026-05-27

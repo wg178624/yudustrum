@@ -1,5 +1,6 @@
 ---
 title: 工具使用手册（当前环境）
+brief: "Hermes工作环境工具使用说明：文件读写、代码执行、浏览器操作、技能管理、日志处理等命令参考。"
 tags: [工具, WSL, Hermes, Chrome, VPS, Obsidian]
 created: 2026-05-04T20:35:00+08:00
 updated: 2026-05-29T21:00:00+08:00

@@ -1,5 +1,6 @@
 ---
 title: "Claude Code 扩展体系官方文档笔记"
+brief: "Claude Code工具系统笔记：插件命令、RAG技术、多语言代理、MCP工具、操作转换器等扩展体系文档笔记。"
 tags: [Claude Code, Skills, Subagents, MCP, Hooks, 架构参考]
 type: feather
 created: 2026-05-27

@@ -1,5 +1,6 @@
 ---
 title: "EdgeTunnel CF Worker 应急翻墙备用"
+brief: "EdgeTunnel CF Worker应急翻墙方案：利用Cloudflare Workers搭建备用代理，适用于VPS故障时的紧急通道。"
 tags: [CF Worker, 翻墙, EdgeTunnel, 应急, V2Ray]
 type: feather
 created: 2026-05-27

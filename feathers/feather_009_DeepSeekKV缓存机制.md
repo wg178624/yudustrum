@@ -1,5 +1,6 @@
 ---
 title: "DeepSeek KV Cache 官方文档 确认笔记"
+brief: "DeepSeek KV Cache官方文档确认笔记：前缀缓存工作原理、自动缓存对齐、多轮对话优化策略。"
 tags: [DeepSeek, KV Cache, 缓存对齐, API, 羽渡尘]
 type: feather
 created: 2026-05-27

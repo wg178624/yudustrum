@@ -1,5 +1,6 @@
 ---
 title: "大家伙配置讨论 5月26日"
+brief: "DIY工作站配置讨论：超微CSE-846机箱+H12SSL-i主板+EPYC 75F3+RTX 7900 XTX+256GB DDR4 ECC内存。¥10-15K预算。"
 tags: [大家伙, 伺服器, 硬件配置, EPYC, H12SSL-i]
 type: feather
 created: 2026-05-26

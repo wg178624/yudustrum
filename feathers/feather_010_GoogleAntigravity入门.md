@@ -1,5 +1,6 @@
 ---
 title: "Google Antigravity 官方入门教程"
+brief: "Google Antigravity游戏入门教程：关卡设计思路、基础操作、物理机制解析。"
 tags: [Antigravity, Google, IDE, agent-first, Codelab]
 type: feather
 created: 2026-05-27
