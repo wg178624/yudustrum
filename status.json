@@ -3,12 +3,12 @@
   "entities": 1329,
   "l3_facts": 164,
   "health_score": 89,
-  "git_commits": 162,
+  "git_commits": 163,
   "disk_free_gb": 442,
   "ghosts": 0,
   "textbooks": 22,
   "feather_list": [
-    "feather_001_羽渡尘完全体v6.2.md",
+    "feather_001_羽渡尘完全体v7.0.md",
     "feather_002_羽渡尘存盘历史.md",
     "feather_003_工具使用手册.md",
     "feather_005_EIE完整学习路线.md",
@@ -59,7 +59,7 @@
   ],
   "ghost_list": [],
   "version": "5.9.0",
-  "last_update": "2026-06-10 21:23:33",
+  "last_update": "2026-06-10 21:37:09",
   "audit_layers": {
     "结构完整": {
       "score": 25,

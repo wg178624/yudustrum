@@ -1,7 +1,7 @@
 ---
-title: "羽渡尘完全体 v6.2 — 全量集成"
-brief: "羽渡尘记忆系统完整架构文档：13层(L0-H)、检索管线、缓存策略、审计规范、存盘流程。技能融合7合1。v6.2以上版本参照此文档。"
-tags: [羽渡尘, 架构, 总览, v6.2, 全量]
+title: "羽渡尘完整 v7.0 — YantrikDB + 双引擎"
+brief: "羽渡尘记忆系统架构文档：双引擎(JSON备份+YantrikDB主引擎)、13层(L0-H)、时序知识图谱、矛盾检测、可解释召回、自强化、语义搜索。v7.0版本参照此文档。"
+tags: [羽渡尘, 架构, 总览, v7.0, YantrikDB, 双引擎]
 type: doc
 created: 2026-05-28
 ---
@@ -279,6 +279,17 @@ DeepSeek 定价：命中¥0.02/1M / MISS¥1/1M → 差50倍。
 | yudustream_feedback.py | 反馈权重更新 |
 | yudustream_timeline.py | 事实时间线 |
 | server.py | 仪表盘后端（http://localhost:8080）|
+
+## 版本历史
+
+### v7.0 (2026-06-10) — YantrikDB 全量迁移
+- **引擎**: 从 JSON/FTS5/RRF → YantrikDB 时序知识图谱
+- **速度**: 211ms → 49ms（×4.3 倍），结果 0.9 条 → 5 条/次
+- **新能力**: 矛盾检测、可解释召回、自强化、语义搜索
+- **全量迁移**: 48 片羽毛 + 1414 图谱边 + 135 实体迁入 YantrikDB
+- **仪表盘**: 套用 mnemosyne-dashboard 暗色 UI + 极光效果 + 玻璃卡片
+- **图谱**: 搜索过滤 + 点击聚焦 + 详情面板（Obsidian 风格）
+- **双引擎**: 旧系统（yudustream_v5_cache_backup.py）保留为备胎
 
 ---
 
