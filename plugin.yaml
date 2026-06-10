@@ -1,8 +1,10 @@
 name: yudustream
-version: 1.0.0
-description: "羽渡尘 — 王刚的AI记忆系统。YantrikDB时序知识图谱引擎，48羽毛+1414图谱边+135实体。矛盾检测+可解释召回+自强化。本插件注册 recall 工具和自动存盘 hooks。"
+version: 1.1.0
+description: "羽渡尘 — 王刚的AI记忆系统。YantrikDB引擎，6工具+4hooks。自动检索每条消息，自动存盘。"
 pip_dependencies:
   - yantrikdb>=0.7.6
 hooks:
+  - on_message
+  - on_session_start
   - on_session_end
   - on_pre_compress
