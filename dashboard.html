@@ -71,8 +71,112 @@ body{font-family:Inter,-apple-system,'Segoe UI',sans-serif;background:var(--bg);
 .edge.dim{opacity:.04!important}
 .nodeText.dim{opacity:.12!important}
 </style>
-<script src="status.js"></script>
-<script src="graph_data.js"></script>
+<script>var STATUS = {
+  "feathers": 48,
+  "entities": 1329,
+  "l3_facts": 164,
+  "health_score": 89,
+  "git_commits": 162,
+  "disk_free_gb": 442,
+  "ghosts": 0,
+  "textbooks": 22,
+  "feather_list": [
+    "feather_001_羽渡尘完全体v6.2.md",
+    "feather_002_羽渡尘存盘历史.md",
+    "feather_003_工具使用手册.md",
+    "feather_005_EIE完整学习路线.md",
+    "feather_006_华为韬定律.md",
+    "feather_007_ClaudeCode扩展体系.md",
+    "feather_008_马来西亚半导体NIMP2030.md",
+    "feather_009_DeepSeekKV缓存机制.md",
+    "feather_010_GoogleAntigravity入门.md",
+    "feather_011_3Blue1Brown可视化教程.md",
+    "feather_012_大家伙配置讨论.md",
+    "feather_013_VLESS_Reality翻墙教程.md",
+    "feather_014_EdgeTunnel应急翻墙.md",
+    "feather_015_早期会话复盘.md",
+    "feather_016_符华传记.md",
+    "feather_017_比特币白皮书.md",
+    "feather_018_收藏夹离线化计划.md",
+    "ref_c_file_ops.md",
+    "ref_c_malloc_free.md",
+    "ref_c_pointers_sizeof.md",
+    "ref_c_printf_scanf.md",
+    "ref_c_string_ops.md",
+    "zz_CF代理爬虫方案.md",
+    "zz_ClaudeCode架构参考.md",
+    "zz_DeepSeek缓存机制.md",
+    "zz_MindNode导出格式.md",
+    "zz_Obsidian集成方案.md",
+    "zz_Semia安全审计规则.md",
+    "zz_TencentDB架构参考.md",
+    "zz_VSCode工作区配置.md",
+    "zz_WSL双实例互访.md",
+    "zz_WSL双实例方案.md",
+    "zz_v5功能审计.md",
+    "zz_v5设计决策记录.md",
+    "zz_三层记忆架构详解.md",
+    "zz_仪表盘文档.md",
+    "zz_向量数据库搭建.md",
+    "zz_控制论审计框架.md",
+    "zz_数据库方案对比.md",
+    "zz_检索引用检查清单.md",
+    "zz_缓存对齐设计.md",
+    "zz_羽毛库说明.md",
+    "zz_羽渡尘架构现状.md",
+    "zz_记忆VS用户VSL3.md",
+    "zz_记忆容量与配置.md",
+    "zz_记忆系统实现方案.md",
+    "zz_记忆系统方案对比.md",
+    "zz_记忆系统研究资料.md"
+  ],
+  "ghost_list": [],
+  "version": "5.9.0",
+  "last_update": "2026-06-10 21:22:23",
+  "audit_layers": {
+    "结构完整": {
+      "score": 25,
+      "max": 25,
+      "alerts": []
+    },
+    "行为基线": {
+      "score": 25,
+      "max": 25,
+      "alerts": []
+    },
+    "交叉一致": {
+      "score": 12,
+      "max": 20,
+      "alerts": [
+        "3 索引有但磁盘无",
+        "实体与L3画像引用偏少"
+      ]
+    },
+    "趋势分析": {
+      "score": 15,
+      "max": 15,
+      "alerts": []
+    },
+    "自愈修复": {
+      "score": 12,
+      "max": 15,
+      "alerts": [
+        "无定时审计 → 问题不会自动发现"
+      ]
+    }
+  },
+  "yantrikdb": {
+    "active": 48,
+    "entities": 135,
+    "edges": 1414,
+    "conflicts": 0,
+    "vec_index": 48,
+    "db_file_mb": 2.9
+  }
+};
+</script>
+<script>var GRAPH_DATA = {"nodes": [{"id": "Hermes", "weight": 437}, {"id": "VPS", "weight": 433}, {"id": "Edge", "weight": 378}, {"id": "DeepSeek", "weight": 103}, {"id": "EIE", "weight": 41}, {"id": "Ollama", "weight": 55}, {"id": "OpenClaw", "weight": 55}, {"id": "MCP", "weight": 55}, {"id": "羽渡尘", "weight": 13}, {"id": "Docker", "weight": 48}, {"id": "v4.4.10", "weight": 48}, {"id": "功能", "weight": 48}, {"id": "本工具箱", "weight": 48}, {"id": "技能", "weight": 36}, {"id": "一键部署", "weight": 36}, {"id": "命令启动", "weight": 36}, {"id": "常维护靠", "weight": 36}, {"id": "性能测试", "weight": 36}, {"id": "群控制等", "weight": 36}, {"id": "CPU", "weight": 36}, {"id": "只有", "weight": 36}, {"id": "源很有限", "weight": 36}, {"id": "用户的", "weight": 36}, {"id": "要悠着点", "weight": 36}, {"id": "Hermes Agent", "weight": 36}, {"id": "地服务器", "weight": 36}, {"id": "搭建本地服务器", "weight": 36}, {"id": "源大模型", "weight": 36}, {"id": "等开源大模型", "weight": 36}, {"id": "迁移过去", "weight": 36}, {"id": "预算入手", "weight": 36}, {"id": "已创建", "weight": 36}, {"id": "童诗白", "weight": 36}, {"id": "第四版", "weight": 36}, {"id": "鲁棒性", "weight": 36}], "links": [{"s": "Hermes", "t": "VPS", "w": 26}, {"s": "Edge", "t": "Hermes", "w": 24}, {"s": "Edge", "t": "VPS", "w": 24}, {"s": "DeepSeek", "t": "Hermes", "w": 19}, {"s": "DeepSeek", "t": "VPS", "w": 18}, {"s": "DeepSeek", "t": "Edge", "w": 18}, {"s": "EIE", "t": "Hermes", "w": 14}, {"s": "Hermes", "t": "Ollama", "w": 14}, {"s": "Hermes", "t": "OpenClaw", "w": 14}, {"s": "Hermes", "t": "MCP", "w": 14}, {"s": "EIE", "t": "VPS", "w": 14}, {"s": "Ollama", "t": "OpenClaw", "w": 14}, {"s": "MCP", "t": "Ollama", "w": 14}, {"s": "MCP", "t": "OpenClaw", "w": 14}, {"s": "Ollama", "t": "VPS", "w": 13}, {"s": "OpenClaw", "t": "VPS", "w": 13}, {"s": "MCP", "t": "VPS", "w": 13}, {"s": "EIE", "t": "羽渡尘", "w": 13}, {"s": "Docker", "t": "Hermes", "w": 12}, {"s": "Hermes", "t": "v4.4.10", "w": 12}, {"s": "Hermes", "t": "功能", "w": 12}, {"s": "Hermes", "t": "本工具箱", "w": 12}, {"s": "Hermes", "t": "技能", "w": 12}, {"s": "Hermes", "t": "一键部署", "w": 12}, {"s": "Hermes", "t": "命令启动", "w": 12}, {"s": "Hermes", "t": "常维护靠", "w": 12}, {"s": "Hermes", "t": "性能测试", "w": 12}, {"s": "Hermes", "t": "群控制等", "w": 12}, {"s": "CPU", "t": "Hermes", "w": 12}, {"s": "Hermes", "t": "只有", "w": 12}, {"s": "Hermes", "t": "源很有限", "w": 12}, {"s": "Hermes", "t": "用户的", "w": 12}, {"s": "Hermes", "t": "要悠着点", "w": 12}, {"s": "Hermes", "t": "Hermes Agent", "w": 12}, {"s": "Hermes", "t": "地服务器", "w": 12}, {"s": "Hermes", "t": "搭建本地服务器", "w": 12}, {"s": "Hermes", "t": "源大模型", "w": 12}, {"s": "Hermes", "t": "等开源大模型", "w": 12}, {"s": "Hermes", "t": "迁移过去", "w": 12}, {"s": "Hermes", "t": "预算入手", "w": 12}, {"s": "Hermes", "t": "已创建", "w": 12}, {"s": "Hermes", "t": "童诗白", "w": 12}, {"s": "Hermes", "t": "第四版", "w": 12}, {"s": "Hermes", "t": "鲁棒性", "w": 12}, {"s": "Docker", "t": "VPS", "w": 12}, {"s": "VPS", "t": "v4.4.10", "w": 12}, {"s": "VPS", "t": "功能", "w": 12}, {"s": "VPS", "t": "本工具箱", "w": 12}, {"s": "VPS", "t": "技能", "w": 12}, {"s": "VPS", "t": "一键部署", "w": 12}, {"s": "VPS", "t": "命令启动", "w": 12}, {"s": "VPS", "t": "常维护靠", "w": 12}, {"s": "VPS", "t": "性能测试", "w": 12}, {"s": "VPS", "t": "群控制等", "w": 12}, {"s": "CPU", "t": "VPS", "w": 12}, {"s": "VPS", "t": "只有", "w": 12}, {"s": "VPS", "t": "源很有限", "w": 12}, {"s": "VPS", "t": "用户的", "w": 12}, {"s": "VPS", "t": "要悠着点", "w": 12}, {"s": "Hermes Agent", "t": "VPS", "w": 12}, {"s": "VPS", "t": "地服务器", "w": 12}, {"s": "VPS", "t": "搭建本地服务器", "w": 12}, {"s": "VPS", "t": "源大模型", "w": 12}, {"s": "VPS", "t": "等开源大模型", "w": 12}, {"s": "VPS", "t": "迁移过去", "w": 12}, {"s": "VPS", "t": "预算入手", "w": 12}, {"s": "VPS", "t": "已创建", "w": 12}, {"s": "VPS", "t": "童诗白", "w": 12}, {"s": "VPS", "t": "第四版", "w": 12}, {"s": "VPS", "t": "鲁棒性", "w": 12}, {"s": "Docker", "t": "Edge", "w": 12}, {"s": "Edge", "t": "v4.4.10", "w": 12}, {"s": "Edge", "t": "功能", "w": 12}, {"s": "Edge", "t": "本工具箱", "w": 12}, {"s": "Edge", "t": "技能", "w": 12}, {"s": "Edge", "t": "一键部署", "w": 12}, {"s": "Edge", "t": "命令启动", "w": 12}, {"s": "Edge", "t": "常维护靠", "w": 12}, {"s": "Edge", "t": "性能测试", "w": 12}, {"s": "Edge", "t": "群控制等", "w": 12}, {"s": "CPU", "t": "Edge", "w": 12}, {"s": "Edge", "t": "只有", "w": 12}, {"s": "Edge", "t": "源很有限", "w": 12}, {"s": "Edge", "t": "用户的", "w": 12}, {"s": "Edge", "t": "要悠着点", "w": 12}, {"s": "Edge", "t": "Hermes Agent", "w": 12}, {"s": "Edge", "t": "地服务器", "w": 12}, {"s": "Edge", "t": "搭建本地服务器", "w": 12}, {"s": "Edge", "t": "源大模型", "w": 12}, {"s": "Edge", "t": "等开源大模型", "w": 12}, {"s": "Edge", "t": "迁移过去", "w": 12}, {"s": "Edge", "t": "预算入手", "w": 12}, {"s": "Edge", "t": "已创建", "w": 12}, {"s": "Edge", "t": "童诗白", "w": 12}, {"s": "Edge", "t": "第四版", "w": 12}, {"s": "Edge", "t": "鲁棒性", "w": 12}, {"s": "DeepSeek", "t": "Docker", "w": 12}, {"s": "DeepSeek", "t": "v4.4.10", "w": 12}, {"s": "DeepSeek", "t": "功能", "w": 12}, {"s": "DeepSeek", "t": "本工具箱", "w": 12}], "types": {"Hermes": "entity", "VPS": "entity", "Edge": "entity", "DeepSeek": "entity", "EIE": "entity", "Ollama": "entity", "OpenClaw": "entity", "MCP": "entity", "羽渡尘": "entity", "Docker": "entity", "v4.4.10": "entity", "功能": "entity", "本工具箱": "entity", "技能": "entity", "一键部署": "entity", "命令启动": "entity", "常维护靠": "entity", "性能测试": "entity", "群控制等": "entity", "CPU": "entity", "只有": "entity", "源很有限": "entity", "用户的": "entity", "要悠着点": "entity", "Hermes Agent": "entity", "地服务器": "entity", "搭建本地服务器": "entity", "源大模型": "entity", "等开源大模型": "entity", "迁移过去": "entity", "预算入手": "entity", "已创建": "entity", "童诗白": "entity", "第四版": "entity", "鲁棒性": "entity"}};
+</script>
 </head>
 <body>
 <div class="aurora aurora-one"></div>
