@@ -48,7 +48,7 @@ body{font-family:Inter,-apple-system,'Segoe UI',sans-serif;background:var(--bg);
 .primary-btn{border-color:rgba(124,124,255,.45);background:linear-gradient(135deg,#6668ff,#7b55ff);box-shadow:0 14px 34px rgba(101,92,255,.22);color:#fff}
 .detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
 .time{color:var(--faint);font-size:12px}
-#graph-svg{width:100%;height:500px;border-radius:12px;border:1px solid var(--line);background:var(--bg)}
+#graph-svg{width:100%;height:500px;display:block}
 .timeline-item{display:flex;gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}
 .timeline-item:last-child{border:none}
 .timeline-dot{width:10px;height:10px;border-radius:50%;margin-top:4px;flex-shrink:0;box-shadow:0 0 12px}
@@ -326,21 +326,24 @@ node_g.attr('cx',d=>d.x).attr('cy',d=>d.y);
 label.attr('x',d=>d.x).attr('y',d=>d.y);
 });
 document.getElementById('graphStats').textContent=nodes.length+' 节点, '+links.length+' 条边';
+window._graphNodes=nodes;
+window._graphLinks=links;
 }
-window._graphNodes=null;
-window._graphLinks=null;
 
 function filterGraph(val){
-const svg=document.getElementById('graph-svg');
 const q=val.toLowerCase().trim();
+const nodes=window._graphNodes;
+if(!nodes){return;}
 if(!q){resetGraph();return;}
-svg.querySelectorAll('circle').forEach((c,i)=>{
+const circles=document.querySelectorAll('circle');
+const texts=document.querySelectorAll('text');
+circles.forEach((c,i)=>{
 const name=nodes[i]?nodes[i].id:'';
 const match=name.toLowerCase().includes(q);
 c.classList.toggle('dim',!match);
-svg.querySelectorAll('text')[i].classList.toggle('dim',!match);
-svg.querySelectorAll('line').forEach(l=>l.classList.toggle('dim',true));
+if(texts[i])texts[i].classList.toggle('dim',!match);
 });
+document.querySelectorAll('line').forEach(l=>l.classList.toggle('dim',true));
 }
 
 function focusNode(id){
