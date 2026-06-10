@@ -3,9 +3,9 @@ var STATUS = {
   "entities": 1329,
   "l3_facts": 164,
   "health_score": 89,
-  "git_commits": 144,
+  "git_commits": 145,
   "disk_free_gb": 443,
-  "ghosts": 1,
+  "ghosts": 0,
   "textbooks": 22,
   "feather_list": [
     "feather_001_羽渡尘完全体v6.2.md",
@@ -57,11 +57,9 @@ var STATUS = {
     "zz_记忆系统方案对比.md",
     "zz_记忆系统研究资料.md"
   ],
-  "ghost_list": [
-    "feather_002_羽渡尘存盘历史.md"
-  ],
+  "ghost_list": [],
   "version": "5.9.0",
-  "last_update": "2026-06-10 19:56:35",
+  "last_update": "2026-06-10 19:59:05",
   "audit_layers": {
     "结构完整": {
       "score": 25,
