@@ -54,6 +54,7 @@ body{font-family:-apple-system,'Segoe UI',sans-serif;background:#0f172a;color:#e
 @media(max-width:800px){.cards{grid-template-columns:1fr 1fr}.detail-grid{grid-template-columns:1fr}.sidebar{width:60px}.sidebar .logo span,.nav-item span{display:none}}
 </style>
 <script src="status.js"></script>
+<script src="graph_data.js"></script>
 </head>
 <body>
 
@@ -206,24 +207,16 @@ document.getElementById('statusBar').innerHTML='<span>✅ 数据来源: status.j
 }
 
 // 图谱渲染
-async function renderGraph(){
+function renderGraph(){
 if(document.getElementById('graph-svg').__rendered)return;
 document.getElementById('graph-svg').__rendered=true;
-try{
-const r=await fetch('graph/cooccurrence_graph.json');
-if(!r.ok)throw 'not found';
-const g=await r.json();
-const nodes=[],links=[];
-const nodeSet=new Set();
-// 从图谱提取节点和边
-(g.edges||[]).forEach(e=>{
-const s=e.source||e.from;
-const t=e.target||e.to;
-if(s&&t){
-if(!nodeSet.has(s)){nodeSet.add(s);nodes.push({id:s,group:e.type||'entity'})}
-if(!nodeSet.has(t)){nodeSet.add(t);nodes.push({id:t,group:e.type||'entity'})}
-links.push({source:s,target:t,weight:e.weight||1})
-}});
+if(typeof GRAPH_DATA==='undefined'){
+document.getElementById('graphPanel').innerHTML='<div style="color:#64748b;text-align:center;padding:2rem">图谱数据未加载</div>';
+return;
+}
+const g=GRAPH_DATA;
+const nodes=g.nodes.map(n=>({id:n.id,group:g.types[n.id]||'entity'}));
+const links=g.links.map(l=>({source:l.s,target:l.t,weight:l.w}));
 if(nodes.length<2){
 document.getElementById('graphPanel').innerHTML='<div style="color:#64748b;text-align:center;padding:2rem">图谱数据不足 (节点 < 2)</div>';
 return;
@@ -240,9 +233,6 @@ const tooltip=document.getElementById('nodeTooltip');
 node_g.on('mouseover',(e,d)=>{tooltip.style.display='block';tooltip.innerHTML='<b>'+d.id+'</b><br>'+d.group;}).on('mousemove',e=>{tooltip.style.left=e.pageX-200+'px';tooltip.style.top=e.pageY-40+'px'}).on('mouseout',()=>{tooltip.style.display='none'});
 simulation.on('tick',()=>{link.attr('x1',d=>d.source.x).attr('y1',d=>d.source.y).attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);node_g.attr('cx',d=>d.x).attr('cy',d=>d.y);label.attr('x',d=>d.x).attr('y',d=>d.y)});
 document.getElementById('graphPanel').querySelector('h3')?.remove();
-}catch(e){
-document.getElementById('graphPanel').innerHTML='<div style="color:#64748b;text-align:center;padding:2rem">图谱数据不可用</div>';
-}
 }
 
 // 时间轴
