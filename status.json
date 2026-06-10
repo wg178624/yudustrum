@@ -3,7 +3,7 @@
   "entities": 1329,
   "l3_facts": 164,
   "health_score": 89,
-  "git_commits": 154,
+  "git_commits": 155,
   "disk_free_gb": 442,
   "ghosts": 0,
   "textbooks": 22,
@@ -59,7 +59,7 @@
   ],
   "ghost_list": [],
   "version": "5.9.0",
-  "last_update": "2026-06-10 20:35:46",
+  "last_update": "2026-06-10 20:38:46",
   "audit_layers": {
     "结构完整": {
       "score": 25,
@@ -93,11 +93,11 @@
     }
   },
   "yantrikdb": {
-    "active": 17,
+    "active": 48,
     "entities": 135,
     "edges": 1414,
     "conflicts": 0,
-    "vec_index": 17,
-    "db_file_mb": 2.5
+    "vec_index": 48,
+    "db_file_mb": 2.9
   }
 }
