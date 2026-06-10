@@ -4,10 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>羽渡尘 · 仪表盘</title>
+<script src="https://d3js.org/d3.v7.min.js"></script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:-apple-system,'Segoe UI',sans-serif;background:#0f172a;color:#e2e8f0;display:flex;min-height:100vh}
-.sidebar{width:220px;background:#1e293b;padding:1.5rem 0;border-right:1px solid #334155;flex-shrink:0}
+.sidebar{width:220px;background:#1e293b;padding:1.5rem 0;border-right:1px solid #334155;flex-shrink:0;overflow-y:auto}
 .sidebar .logo{padding:0 1.5rem 1.5rem;font-size:1.2rem;font-weight:700;color:#38bdf8;border-bottom:1px solid #334155;margin-bottom:1rem}
 .sidebar .logo small{display:block;font-size:.7rem;color:#64748b;font-weight:400}
 .nav-item{display:flex;align-items:center;gap:10px;padding:.75rem 1.5rem;color:#94a3b8;cursor:pointer;font-size:.9rem;border-left:3px solid transparent;transition:.15s}
@@ -20,7 +21,7 @@ body{font-family:-apple-system,'Segoe UI',sans-serif;background:#0f172a;color:#e
 .header-actions{display:flex;align-items:center;gap:12px}
 .btn{background:#1e293b;color:#94a3b8;border:1px solid #334155;padding:6px 14px;border-radius:6px;cursor:pointer;font-size:.8rem}
 .btn:hover{background:#334155;color:#e2e8f0}
-.status-bar{display:flex;gap:1rem;color:#64748b;font-size:.8rem;margin-bottom:2rem}
+.status-bar{display:flex;gap:1rem;color:#64748b;font-size:.8rem;margin-bottom:2rem;flex-wrap:wrap}
 .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-bottom:2rem}
 .card{background:#1e293b;border-radius:10px;padding:1.2rem;border:1px solid #334155}
 .card .label{font-size:.75rem;color:#64748b;text-transform:uppercase;letter-spacing:.05em}
@@ -31,7 +32,7 @@ body{font-family:-apple-system,'Segoe UI',sans-serif;background:#0f172a;color:#e
 .ring-inner{width:48px;height:48px;border-radius:50%;background:#1e293b;display:flex;align-items:center;justify-content:center;font-size:1rem;font-weight:700}
 .detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:2rem}
 .panel{background:#1e293b;border-radius:10px;padding:1.2rem;border:1px solid #334155}
-.panel h3{font-size:.85rem;color:#64748b;text-transform:uppercase;margin-bottom:1rem}
+.panel h3{font-size:.85rem;color:#64748b;text-transform:uppercase;margin-bottom:1rem;letter-spacing:.05em}
 .stat-row{display:flex;justify-content:space-between;padding:.4rem 0;font-size:.85rem;border-bottom:1px solid #1e3a5f}
 .stat-row:last-child{border:none}
 .stat-row .key{color:#94a3b8}
@@ -40,18 +41,29 @@ body{font-family:-apple-system,'Segoe UI',sans-serif;background:#0f172a;color:#e
 .ok{background:#05966922;color:#34d399;border:1px solid #05966944}
 .warn{background:#d9770622;color:#fbbf24;border:1px solid #d9770644}
 .ghost-badge{background:#6366f122;color:#a5b4fc;border:1px solid #6366f144}
+#graph-svg{width:100%;height:500px;background:#0f172a;border-radius:8px;border:1px solid #334155}
+.graph-legend{display:flex;gap:1rem;margin-bottom:.5rem;flex-wrap:wrap}
+.graph-legend span{font-size:.8rem;color:#94a3b8;display:flex;align-items:center;gap:4px}
+.graph-legend .dot{width:10px;height:10px;border-radius:50%;display:inline-block}
+.node-tooltip{position:absolute;background:#1e293b;border:1px solid #334155;border-radius:6px;padding:6px 10px;font-size:.8rem;color:#e2e8f0;pointer-events:none;display:none;z-index:10}
+.timeline-item{display:flex;gap:12px;padding:.8rem 0;border-bottom:1px solid #1e3a5f}
+.timeline-item:last-child{border:none}
+.timeline-dot{width:10px;height:10px;border-radius:50%;margin-top:4px;flex-shrink:0}
+.timeline-date{font-size:.75rem;color:#64748b;min-width:100px}
+.timeline-msg{font-size:.85rem;color:#e2e8f0}
 @media(max-width:800px){.cards{grid-template-columns:1fr 1fr}.detail-grid{grid-template-columns:1fr}.sidebar{width:60px}.sidebar .logo span,.nav-item span{display:none}}
 </style>
-<!-- 动态数据 (status.js 由 bake_dashboard.py 生成) -->
 <script src="status.js"></script>
 </head>
 <body>
 
 <div class="sidebar">
-<div class="logo">🕊️ 羽渡尘<small>v6.2.0</small></div>
+<div class="logo">🕊️ 羽渡尘<small>v6.3.0</small></div>
 <div class="nav-item active"><span>📊 系统状态</span></div>
 <div class="nav-item"><span>🪶 羽毛列表</span></div>
 <div class="nav-item"><span>🔮 幽灵文件</span></div>
+<div class="nav-item"><span>🧩 知识图谱</span></div>
+<div class="nav-item"><span>📅 时间轴</span></div>
 <div class="nav-item"><span>📦 备份</span></div>
 <div class="nav-item"><span>⚙️ 设置</span></div>
 </div>
@@ -66,6 +78,7 @@ body{font-family:-apple-system,'Segoe UI',sans-serif;background:#0f172a;color:#e
 </div>
 <div class="status-bar" id="statusBar"><span>数据加载中...</span></div>
 
+<!-- 系统状态 -->
 <div class="page page-0">
 <div class="cards">
 <div class="card"><div class="label">🪶 羽毛</div><div class="value" id="feathers">--</div><div class="sub">神蕴索引</div></div>
@@ -85,17 +98,39 @@ body{font-family:-apple-system,'Segoe UI',sans-serif;background:#0f172a;color:#e
 <div class="stat-row"><span class="key">Git 提交</span><span class="val" id="gitCommits">--</span></div>
 <div class="stat-row"><span class="key">远程备份</span><span class="val"><span class="badge ok">GitHub</span></span></div>
 <div class="stat-row"><span class="key">D 盘空余</span><span class="val" id="diskFree">--</span></div>
-<div class="stat-row"><span class="key">教材库</span><span class="val" id="textbooks">-- 本</span></div></div></div></div>
+<div class="stat-row"><span class="key">教材库</span><span class="val" id="textbooks">-- 本</span></div>
+<div class="stat-row"><span class="key">审计层</span><span class="val" id="auditLayers">--</span></div></div></div></div>
 
+<!-- 羽毛列表 -->
 <div class="page page-1" style="display:none">
 <div class="header"><h1>🪶 羽毛列表</h1><div class="time" id="featherCount"></div></div>
 <div class="panel" id="featherList"><div style="color:#64748b">加载中...</div></div></div>
 
+<!-- 幽灵文件 -->
 <div class="page page-2" style="display:none">
 <div class="header"><h1>🔮 幽灵文件</h1><div class="time" id="ghostPageCount"></div></div>
 <div class="panel" id="ghostPage"><div style="color:#64748b">加载中...</div></div></div>
 
+<!-- 知识图谱 -->
 <div class="page page-3" style="display:none">
+<div class="header"><h1>🧩 知识图谱</h1><div class="time">实体关系可视化</div></div>
+<div class="graph-legend">
+<span><span class="dot" style="background:#38bdf8"></span> 实体</span>
+<span><span class="dot" style="background:#f472b6"></span> L3 画像</span>
+<span style="color:#64748b">· 拖拽节点查看关系 · 滚轮缩放</span>
+</div>
+<div class="panel" id="graphPanel" style="position:relative">
+<svg id="graph-svg"></svg>
+<div class="node-tooltip" id="nodeTooltip"></div>
+</div></div>
+
+<!-- 时间轴 -->
+<div class="page page-4" style="display:none">
+<div class="header"><h1>📅 时间轴</h1><div class="time">版本历史</div></div>
+<div class="panel" id="timelinePanel"><div style="color:#64748b">加载中...</div></div></div>
+
+<!-- 备份 -->
+<div class="page page-5" style="display:none">
 <div class="header"><h1>📦 备份</h1><div class="time" id="backupTime"></div></div>
 <div class="panel">
 <div class="stat-row"><span class="key">Git</span><span class="val" id="bkGit">--</span></div>
@@ -103,9 +138,10 @@ body{font-family:-apple-system,'Segoe UI',sans-serif;background:#0f172a;color:#e
 <div class="stat-row"><span class="key">教材库</span><span class="val" id="bkTextbooks">-- 本</span></div>
 <div class="stat-row"><span class="key">D 盘</span><span class="val" id="bkDisk">--</span></div></div></div>
 
-<div class="page page-4" style="display:none">
+<!-- 设置 -->
+<div class="page page-6" style="display:none">
 <div class="header"><h1>⚙️ 设置</h1><div class="time">-</div></div>
-<div class="panel"><div style="color:#64748b;text-align:center;padding:2rem">开发中 · 数据源: status.json</div></div></div>
+<div class="panel"><div style="color:#64748b;text-align:center;padding:2rem">羽渡尘 v6.3 · 数据源: status.json + cooccurrence_graph.json</div></div></div>
 
 <div style="text-align:center;color:#475569;font-size:.75rem;padding:2rem 0 1rem">
 数据自 status.json 加载 · 自动刷新每 30s · <a href="#" onclick="loadData();return false" style="color:#38bdf8;text-decoration:none">手动刷新</a>
@@ -113,22 +149,23 @@ body{font-family:-apple-system,'Segoe UI',sans-serif;background:#0f172a;color:#e
 
 <script>
 // 导航切换
-document.querySelectorAll('.nav-item').forEach((e,i)=>{
-e.onclick=()=>{
+const pages=['📊 系统状态','🪶 羽毛列表','🔮 幽灵文件','🧩 知识图谱','📅 时间轴','📦 备份','⚙️ 设置'];
+document.querySelectorAll('.nav-item').forEach((e,i)=>{e.onclick=()=>{
 document.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));
 e.classList.add('active');
 document.querySelectorAll('.page').forEach(p=>p.style.display='none');
 const p=document.querySelector('.page-'+i);
 if(p)p.style.display='block';
-const t=['📊 系统状态','🪶 羽毛列表','🔮 幽灵文件','📦 备份','⚙️ 设置'];
-document.querySelector('.header h1').textContent=t[i];
+document.querySelector('.header h1').textContent=pages[i];
+if(i===3)setTimeout(renderGraph,100);
+if(i===4)renderTimeline();
 }});
 
 // 时钟
 setInterval(()=>{const d=new Date();const f=n=>String(n).padStart(2,'0');document.getElementById('clock').textContent=
 d.getFullYear()+'-'+f(d.getMonth()+1)+'-'+f(d.getDate())+' '+f(d.getHours())+':'+f(d.getMinutes())+':'+f(d.getSeconds())},1000);
 
-// 加载数据
+// 渲染
 function renderData(d){
 document.getElementById('feathers').textContent=d.feathers;
 document.getElementById('entities').textContent=d.entities?.toLocaleString()||d.entities;
@@ -139,8 +176,6 @@ document.getElementById('featherCount').textContent=d.feathers+' 片';
 document.getElementById('backupTime').textContent='最后同步: '+(d.last_update||'--');
 document.getElementById('bkGit').textContent=d.git_commits+' 次';
 document.getElementById('bkDisk').textContent=d.disk_free_gb+' GB';
-
-// 健康分
 const h=Math.min(100,Math.max(0,d.health_score));
 const c=h>80?'#34d399':h>60?'#fbbf24':'#ef4444';
 const t=h>85?'极好':h>70?'良好':h>60?'一般':'需关注';
@@ -149,58 +184,97 @@ document.getElementById('healthScore').style.color=c;
 document.getElementById('healthRing').style.background='conic-gradient('+c+' 0deg '+(h*3.6)+'deg,#1e293b '+(h*3.6)+'deg 360deg)';
 document.getElementById('healthLabel').textContent=t;
 document.getElementById('healthLabel').style.color=c;
-
+// 审计层
+const al=d.audit_layers;
+let alHtml='';
+if(al){Object.keys(al).forEach(k=>{const v=al[k];alHtml+=`<div class="stat-row"><span class="key">${k}</span><span class="val">${v.score}/${v.max}</span></div>`})}
+document.getElementById('auditLayers').innerHTML=alHtml||'--';
 // 幽灵
-const ghostEl=document.getElementById('ghostCount');
-ghostEl.innerHTML=(d.ghosts||0)+' 个'+(d.ghosts>0?' ⚠️':' ✅ 已修复');
-const gl=d.ghost_list||d.feather_list||[];
+document.getElementById('ghostCount').innerHTML=(d.ghosts||0)+' 个'+(d.ghosts>0?' ⚠️':' ✅');
+const gl=d.ghost_list||[];
 if(d.ghosts>0&&gl.length){
 document.getElementById('ghostList').innerHTML=gl.map(f=>'<div class="stat-row"><span class="key">'+f+'</span><span class="badge ghost-badge">待修复</span></div>').join('');
-}else{
-document.getElementById('ghostList').innerHTML='<div style="color:#34d399">✅ 全部已修复</div>';
-}
-
+}else{document.getElementById('ghostList').innerHTML='<div style="color:#34d399">✅ 全部已修复</div>';}
 // 羽毛列表
 const fl=d.feather_list||[];
 document.getElementById('featherList').innerHTML=fl.slice().reverse().map(f=>'<div class="stat-row"><span class="key">'+f+'</span></div>').join('');
-
-// 幽灵页
 document.getElementById('ghostPageCount').textContent=(d.ghosts||0)+' 个';
 document.getElementById('ghostPage').innerHTML=d.ghosts>0&&gl.length?gl.map(f=>'<div class="stat-row"><span class="key">'+f+'</span><span class="badge ghost-badge">待修复</span></div>').join(''):'<div style="color:#34d399;text-align:center;padding:2rem">✅ 全部已修复</div>';
-
 document.getElementById('textbooks').textContent=(d.textbooks||'--')+' 本';
 document.getElementById('bkTextbooks').textContent=(d.textbooks||'--')+' 本';
 document.getElementById('statusBar').innerHTML='<span>✅ 数据来源: status.js · '+d.last_update+'</span>';
 }
 
-// 首次加载 (从 status.js 的 STATUS 变量)
-if(typeof STATUS!=='undefined'){renderData(STATUS);}else{document.getElementById('statusBar').innerHTML='<span style="color:#ef4444">❌ status.js 未加载</span>';}
-
-// 定时刷新 (优先 API, 回退 status.json)
-async function loadData(){
+// 图谱渲染
+async function renderGraph(){
+if(document.getElementById('graph-svg').__rendered)return;
+document.getElementById('graph-svg').__rendered=true;
 try{
-let d;
-// 后端刷新接口（同时兼容 file:// 和 http://）
-const apiUrl = 'http://localhost:8080/api/refresh';
-const rr=await fetch(apiUrl);
-if(rr.ok){
-d=await rr.json();
-delete d._bake_output; delete d._bake_error;
-renderData(d);
-document.getElementById('statusBar').innerHTML='<span>✅ 已烘焙刷新 · '+d.last_update+'</span>';
+const r=await fetch('graph/cooccurrence_graph.json');
+if(!r.ok)throw 'not found';
+const g=await r.json();
+const nodes=[],links=[];
+const nodeSet=new Set();
+// 从图谱提取节点和边
+(g.edges||[]).forEach(e=>{
+const s=e.source||e.from;
+const t=e.target||e.to;
+if(s&&t){
+if(!nodeSet.has(s)){nodeSet.add(s);nodes.push({id:s,group:e.type||'entity'})}
+if(!nodeSet.has(t)){nodeSet.add(t);nodes.push({id:t,group:e.type||'entity'})}
+links.push({source:s,target:t,weight:e.weight||1})
+}});
+if(nodes.length<2){
+document.getElementById('graphPanel').innerHTML='<div style="color:#64748b;text-align:center;padding:2rem">图谱数据不足 (节点 < 2)</div>';
 return;
 }
-// 回退: 直接读 status.json
+const svg=d3.select('#graph-svg');
+svg.selectAll('*').remove();
+const width=svg.node().clientWidth||800,height=500;
+svg.attr('viewBox',[0,0,width,height]);
+const simulation=d3.forceSimulation(nodes).force('link',d3.forceLink(links).id(d=>d.id).distance(80)).force('charge',d3.forceManyBody().strength(-150)).force('center',d3.forceCenter(width/2,height/2)).force('collision',d3.forceCollide().radius(12));
+const link=svg.append('g').selectAll('line').data(links).join('line').attr('stroke','#334155').attr('stroke-width',d=>Math.sqrt(d.weight)*0.5+0.5).attr('stroke-opacity',.5);
+const node_g=svg.append('g').selectAll('circle').data(nodes).join('circle').attr('r',10).attr('fill',d=>d.group==='persona'?'#f472b6':'#38bdf8').attr('stroke','#1e293b').attr('stroke-width',1.5).call(d3.drag().on('start',(e,d)=>{if(!e.active)simulation.alphaTarget(.3).restart();d.fx=d.x;d.fy=d.y}).on('drag',(e,d)=>{d.fx=e.x;d.fy=e.y}).on('end',(e,d)=>{if(!e.active)simulation.alphaTarget(0);d.fx=null;d.fy=null}));
+const label=svg.append('g').selectAll('text').data(nodes).join('text').text(d=>d.id.length>12?d.id.slice(0,12)+'…':d.id).attr('fill','#94a3b8').attr('font-size','10').attr('dx',12).attr('dy',3);
+const tooltip=document.getElementById('nodeTooltip');
+node_g.on('mouseover',(e,d)=>{tooltip.style.display='block';tooltip.innerHTML='<b>'+d.id+'</b><br>'+d.group;}).on('mousemove',e=>{tooltip.style.left=e.pageX-200+'px';tooltip.style.top=e.pageY-40+'px'}).on('mouseout',()=>{tooltip.style.display='none'});
+simulation.on('tick',()=>{link.attr('x1',d=>d.source.x).attr('y1',d=>d.source.y).attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);node_g.attr('cx',d=>d.x).attr('cy',d=>d.y);label.attr('x',d=>d.x).attr('y',d=>d.y)});
+document.getElementById('graphPanel').querySelector('h3')?.remove();
+}catch(e){
+document.getElementById('graphPanel').innerHTML='<div style="color:#64748b;text-align:center;padding:2rem">图谱数据不可用</div>';
+}
+}
+
+// 时间轴
+function renderTimeline(){
+const tl=document.getElementById('timelinePanel');
+if(tl.querySelector('.timeline-item'))return;
+const events=[
+{date:'2026-06-10',msg:'v6.3 brief优先加载 + meta-memory 双存策略',color:'#38bdf8'},
+{date:'2026-06-05',msg:'v6.2 H2 全线通 + sing-box 1.13.13 + WARP 看门狗',color:'#38bdf8'},
+{date:'2026-06-03',msg:'v6.1 API通信优化 + RRF混合排序 + Checkpoint',color:'#38bdf8'},
+{date:'2026-06-01',msg:'v6.0 记忆→学习系统 + OCR读教材 + 技能融合7in1',color:'#38bdf8'},
+{date:'2026-05-29',msg:'v5.9 五层审计 + 冗余备份 + Nginx反代',color:'#34d399'},
+{date:'2026-05-28',msg:'v5.8 检索管线升级 + 去重 + 字典序排序',color:'#34d399'},
+{date:'2026-05-25',msg:'v5.7 实体提取 + 图谱 + 多路召回',color:'#34d399'},
+{date:'2026-05-20',msg:'v5.6 L3画像 + 缓存对齐',color:'#34d399'},
+{date:'2026-05-15',msg:'v5.5 羽渡尘初版引导',color:'#34d399'},
+{date:'2026-05-08',msg:'v5.4 四路召回',color:'#fbbf24'},
+{date:'2026-05-04',msg:'羽渡尘项目启动',color:'#fbbf24'}
+];
+tl.innerHTML=events.map(e=>'<div class="timeline-item"><div class="timeline-dot" style="background:'+e.color+'"></div><div class="timeline-date">'+e.date+'</div><div class="timeline-msg">'+e.msg+'</div></div>').join('');
+}
+
+if(typeof STATUS!=='undefined'){renderData(STATUS);}else{document.getElementById('statusBar').innerHTML='<span style="color:#ef4444">❌ status.js 未加载</span>';}
+async function loadData(){
+try{
+const rr=await fetch('http://localhost:8080/api/refresh');
+if(rr.ok){const d=await rr.json();delete d._bake_output;delete d._bake_error;renderData(d);document.getElementById('statusBar').innerHTML='<span>✅ 已烘焙刷新 · '+d.last_update+'</span>';return;}
 }catch(e){}
 try{
 const r=await fetch('status.json');
-if(r.ok){
-const d=await r.json();
-renderData(d);
-document.getElementById('statusBar').innerHTML='<span>✅ 已读取 · '+d.last_update+'</span>';
-}}catch(e){}}
-
-// 每30秒自动刷新
+if(r.ok){const d=await r.json();renderData(d);document.getElementById('statusBar').innerHTML='<span>✅ 已读取 · '+d.last_update+'</span>';}
+}catch(e){}}
 setInterval(loadData,30000);
 </script>
 </body>
