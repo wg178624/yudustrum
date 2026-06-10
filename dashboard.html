@@ -55,6 +55,21 @@ body{font-family:Inter,-apple-system,'Segoe UI',sans-serif;background:var(--bg);
 .timeline-date{font-size:11px;color:var(--faint);min-width:90px}
 .timeline-msg{font-size:13px;color:var(--soft)}
 @media(max-width:800px){.cards{grid-template-columns:1fr 1fr}.detail-grid{grid-template-columns:1fr}.shell{grid-template-columns:1fr}.sidebar{position:relative;height:auto;border-right:0;border-bottom:1px solid var(--line)}.main{padding:16px}}
+.graph-layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:14px;align-items:stretch}
+.graph-wrap{border:1px solid var(--line);border-radius:18px;overflow:hidden;background:radial-gradient(circle at 50% 35%,rgba(124,124,255,.12),rgba(255,255,255,.02) 45%,rgba(0,0,0,.12));box-shadow:var(--shadow)}
+.graph-inspector{border:1px solid var(--line);border-radius:18px;padding:16px;background:linear-gradient(180deg,rgba(255,255,255,.055),rgba(255,255,255,.024));overflow:auto;min-height:500px}
+.inspector-kicker{font-size:10px;text-transform:uppercase;letter-spacing:.14em;color:var(--faint);font-weight:700;margin-bottom:6px}
+.graph-inspector h3{margin:0 0 6px;font-size:18px;line-height:1.1;color:var(--text)}
+.inspector-actions{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}
+.inspector-list{display:grid;gap:6px}
+.inspector-row{display:block;width:100%;text-align:left;border:1px solid var(--line);background:linear-gradient(180deg,rgba(255,255,255,.055),rgba(255,255,255,.024));border-radius:10px;padding:8px 10px;cursor:pointer;transition:.18s ease}
+.inspector-row:hover{border-color:rgba(101,214,255,.34);transform:translateY(-1px)}
+.inspector-row strong{display:block;color:var(--accent2);margin-bottom:2px;font-size:13px}
+.inspector-row span{display:block;color:var(--soft);font-size:11px;line-height:1.3}
+.node:hover,.node.selected{fill:var(--amber)!important;stroke:#fff;stroke-width:2;filter:drop-shadow(0 0 12px rgba(255,209,102,.7))}
+.dim{opacity:.12!important}
+.edge.dim{opacity:.04!important}
+.nodeText.dim{opacity:.12!important}
 </style>
 <script src="status.js"></script>
 <script src="graph_data.js"></script>
@@ -129,15 +144,26 @@ body{font-family:Inter,-apple-system,'Segoe UI',sans-serif;background:var(--bg);
 
 <!-- 知识图谱 -->
 <div class="page page-3" style="display:none">
-<div class="header"><h1>🧩 知识图谱</h1><div class="time">实体关系可视化</div></div>
-<div class="graph-legend">
-<span><span class="dot" style="background:#38bdf8"></span> 实体</span>
-<span><span class="dot" style="background:#f472b6"></span> L3 画像</span>
-<span style="color:#64748b">· 拖拽节点查看关系 · 滚轮缩放</span>
+<div class="hero" style="border:none;padding-bottom:10px">
+<h1>🧩 知识图谱</h1>
+<div class="sub">实体关系可视化 · 悬停查看 · 点击聚焦 · 搜索过滤</div>
 </div>
-<div class="panel" id="graphPanel" style="position:relative">
+<div class="toolbar">
+<input id="graphSearch" placeholder="搜索节点..." style="min-width:200px;height:36px;border-radius:10px" oninput="filterGraph(this.value)">
+<button class="btn" onclick="resetGraph()">重置</button>
+<span style="font-size:12px;color:var(--faint)" id="graphStats"></span>
+</div>
+<div class="graph-layout">
+<div class="graph-wrap">
 <svg id="graph-svg"></svg>
-<div class="node-tooltip" id="nodeTooltip"></div>
+</div>
+<div class="graph-inspector" id="graphInspector">
+<div class="inspector-kicker">节点详情</div>
+<h3 id="inspectorName">—</h3>
+<div id="inspectorInfo" style="color:var(--muted);font-size:13px">点击一个节点查看详情</div>
+<div class="inspector-actions" id="inspectorActions"></div>
+<div class="inspector-list" id="inspectorList"></div>
+</div>
 </div></div>
 
 <!-- 时间轴 -->
@@ -240,31 +266,104 @@ document.getElementById('ytStats').innerHTML='<div style="color:#64748b">Yantrik
 
 // 图谱渲染
 function renderGraph(){
-if(document.getElementById('graph-svg').__rendered)return;
-document.getElementById('graph-svg').__rendered=true;
+const svg=document.getElementById('graph-svg');
+if(!svg)return;
+svg.innerHTML='';
 if(typeof GRAPH_DATA==='undefined'){
-document.getElementById('graphPanel').innerHTML='<div style="color:#64748b;text-align:center;padding:2rem">图谱数据未加载</div>';
-return;
+document.querySelector('.graph-inspector h3').textContent='数据未加载';return;
 }
 const g=GRAPH_DATA;
-const nodes=g.nodes.map(n=>({id:n.id,group:g.types[n.id]||'entity'}));
-const links=g.links.map(l=>({source:l.s,target:l.t,weight:l.w}));
-if(nodes.length<2){
-document.getElementById('graphPanel').innerHTML='<div style="color:#64748b;text-align:center;padding:2rem">图谱数据不足 (节点 < 2)</div>';
-return;
+let nodes=g.nodes.map(n=>({id:n.id,group:g.types[n.id]||'entity'}));
+let links=g.links.map(l=>({source:l.s,target:l.t,weight:l.w}));
+if(nodes.length<2){document.querySelector('.graph-inspector h3').textContent='图谱数据不足';return;}
+
+const width=svg.clientWidth||750,height=500;
+svg.setAttribute('viewBox',[0,0,width,height]);
+
+const simulation=d3.forceSimulation(nodes)
+.force('link',d3.forceLink(links).id(d=>d.id).distance(70))
+.force('charge',d3.forceManyBody().strength(-120))
+.force('center',d3.forceCenter(width/2,height/2))
+.force('collision',d3.forceCollide().radius(10));
+
+const link=svg.append('g').selectAll('line').data(links).join('line')
+.attr('stroke','#65709d').attr('stroke-width',d=>Math.sqrt(d.weight)*0.3+0.3).attr('stroke-opacity',.5);
+
+const node_g=svg.append('g').selectAll('circle').data(nodes).join('circle')
+.attr('r',8).attr('fill',d=>d.group==='persona'?'#f472b6':'#8dd3ff')
+.attr('stroke','#eff8ff').attr('stroke-width',1)
+.call(d3.drag().on('start',(e,d)=>{if(!e.active)simulation.alphaTarget(.3).restart();d.fx=d.x;d.fy=d.y})
+.on('drag',(e,d)=>{d.fx=e.x;d.fy=e.y}).on('end',(e,d)=>{if(!e.active)simulation.alphaTarget(0);d.fx=null;d.fy=null}));
+
+const label=svg.append('g').selectAll('text').data(nodes).join('text')
+.text(d=>d.id.length>12?d.id.slice(0,12)+'…':d.id)
+.attr('fill','#e3e8f7').attr('font-size','11').attr('font-weight','560')
+.attr('dx',10).attr('dy',3).attr('paint-order','stroke').attr('stroke','#07080d').attr('stroke-width','3');
+
+// 交互: 悬停+点击
+node_g.on('mouseover',function(e,d){d3.select(this).classed('selected',true)})
+.on('mouseout',function(){d3.select(this).classed('selected',false)})
+.on('click',function(e,d){
+// 聚焦节点
+node_g.classed('dim',n=>n.id!==d.id);label.classed('dim',n=>n.id!==d.id);
+link.classed('dim',l=>l.source.id!==d.id&&l.target.id!==d.id);
+// 更新详情面板
+document.getElementById('inspectorName').textContent=d.id;
+const conn=links.filter(l=>l.source.id===d.id||l.target.id===d.id);
+document.getElementById('inspectorInfo').innerHTML='<span style="font-size:12px;color:var(--muted)">连接数: '+(conn.length)+'</span>';
+const list=document.getElementById('inspectorList');
+list.innerHTML=conn.slice(0,15).map(l=>{
+const other=l.source.id===d.id?l.target.id:l.source.id;
+return'<div class="inspector-row" onclick="focusNode(\''+other+'\')"><strong>'+other+'</strong><span>权重: '+l.weight+'</span></div>';
+}).join('');
+document.getElementById('inspectorActions').innerHTML=
+'<button class="btn" onclick="resetGraph()" style="font-size:12px;padding:5px 10px">重置</button>';
+});
+
+simulation.on('tick',()=>{
+link.attr('x1',d=>d.source.x).attr('y1',d=>d.source.y).attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);
+node_g.attr('cx',d=>d.x).attr('cy',d=>d.y);
+label.attr('x',d=>d.x).attr('y',d=>d.y);
+});
+document.getElementById('graphStats').textContent=nodes.length+' 节点, '+links.length+' 条边';
 }
-const svg=d3.select('#graph-svg');
-svg.selectAll('*').remove();
-const width=svg.node().clientWidth||800,height=500;
-svg.attr('viewBox',[0,0,width,height]);
-const simulation=d3.forceSimulation(nodes).force('link',d3.forceLink(links).id(d=>d.id).distance(80)).force('charge',d3.forceManyBody().strength(-150)).force('center',d3.forceCenter(width/2,height/2)).force('collision',d3.forceCollide().radius(12));
-const link=svg.append('g').selectAll('line').data(links).join('line').attr('stroke','#334155').attr('stroke-width',d=>Math.sqrt(d.weight)*0.5+0.5).attr('stroke-opacity',.5);
-const node_g=svg.append('g').selectAll('circle').data(nodes).join('circle').attr('r',10).attr('fill',d=>d.group==='persona'?'#f472b6':'#38bdf8').attr('stroke','#1e293b').attr('stroke-width',1.5).call(d3.drag().on('start',(e,d)=>{if(!e.active)simulation.alphaTarget(.3).restart();d.fx=d.x;d.fy=d.y}).on('drag',(e,d)=>{d.fx=e.x;d.fy=e.y}).on('end',(e,d)=>{if(!e.active)simulation.alphaTarget(0);d.fx=null;d.fy=null}));
-const label=svg.append('g').selectAll('text').data(nodes).join('text').text(d=>d.id.length>12?d.id.slice(0,12)+'…':d.id).attr('fill','#94a3b8').attr('font-size','10').attr('dx',12).attr('dy',3);
-const tooltip=document.getElementById('nodeTooltip');
-node_g.on('mouseover',(e,d)=>{tooltip.style.display='block';tooltip.innerHTML='<b>'+d.id+'</b><br>'+d.group;}).on('mousemove',e=>{tooltip.style.left=e.pageX-200+'px';tooltip.style.top=e.pageY-40+'px'}).on('mouseout',()=>{tooltip.style.display='none'});
-simulation.on('tick',()=>{link.attr('x1',d=>d.source.x).attr('y1',d=>d.source.y).attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);node_g.attr('cx',d=>d.x).attr('cy',d=>d.y);label.attr('x',d=>d.x).attr('y',d=>d.y)});
-document.getElementById('graphPanel').querySelector('h3')?.remove();
+window._graphNodes=null;
+window._graphLinks=null;
+
+function filterGraph(val){
+const svg=document.getElementById('graph-svg');
+const q=val.toLowerCase().trim();
+if(!q){resetGraph();return;}
+svg.querySelectorAll('circle').forEach((c,i)=>{
+const name=nodes[i]?nodes[i].id:'';
+const match=name.toLowerCase().includes(q);
+c.classList.toggle('dim',!match);
+svg.querySelectorAll('text')[i].classList.toggle('dim',!match);
+svg.querySelectorAll('line').forEach(l=>l.classList.toggle('dim',true));
+});
+}
+
+function focusNode(id){
+const fake={clientX:0,clientY:0};
+const circle=document.querySelector('circle[data-id="'+id+'"]');
+if(circle)circle.dispatchEvent(new MouseEvent('click',fake));
+else{
+const node=window._graphNodes.find(n=>n.id===id);
+if(node){
+const circles=document.querySelectorAll('circle');
+const idx=window._graphNodes.indexOf(node);
+if(circles[idx])circles[idx].dispatchEvent(new MouseEvent('click',fake));
+}
+}
+}
+
+function resetGraph(){
+document.querySelectorAll('.dim').forEach(el=>el.classList.remove('dim'));
+document.getElementById('inspectorName').textContent='—';
+document.getElementById('inspectorInfo').innerHTML='点击一个节点查看详情';
+document.getElementById('inspectorList').innerHTML='';
+document.getElementById('inspectorActions').innerHTML='';
+document.getElementById('graphSearch').value='';
 }
 
 // 时间轴
