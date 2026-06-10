@@ -6,67 +6,75 @@
 <title>羽渡尘 · 仪表盘</title>
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <style>
+:root{--bg:#07080d;--panel:#0d1018;--panel2:#111622;--panel3:#171d2b;--text:#f7f8ff;--soft:#d5dbef;--muted:#8b94ad;--faint:#5e667a;--line:rgba(255,255,255,.07);--accent:#7c7cff;--accent2:#65d6ff;--green:#2ee59d;--amber:#ffd166;--red:#ff6b8a;--shadow:0 24px 80px rgba(0,0,0,.45)}
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system,'Segoe UI',sans-serif;background:#0f172a;color:#e2e8f0;display:flex;min-height:100vh}
-.sidebar{width:220px;background:#1e293b;padding:1.5rem 0;border-right:1px solid #334155;flex-shrink:0;overflow-y:auto}
-.sidebar .logo{padding:0 1.5rem 1.5rem;font-size:1.2rem;font-weight:700;color:#38bdf8;border-bottom:1px solid #334155;margin-bottom:1rem}
-.sidebar .logo small{display:block;font-size:.7rem;color:#64748b;font-weight:400}
-.nav-item{display:flex;align-items:center;gap:10px;padding:.75rem 1.5rem;color:#94a3b8;cursor:pointer;font-size:.9rem;border-left:3px solid transparent;transition:.15s}
-.nav-item.active{color:#38bdf8;border-left-color:#38bdf8;background:#0f172a88}
-.nav-item:hover{color:#e2e8f0}
-.main{flex:1;padding:2rem;overflow-y:auto}
-.header{display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem}
-.header h1{font-size:1.5rem;color:#f1f5f9}
-.header .time{color:#64748b;font-size:.85rem}
-.header-actions{display:flex;align-items:center;gap:12px}
-.btn{background:#1e293b;color:#94a3b8;border:1px solid #334155;padding:6px 14px;border-radius:6px;cursor:pointer;font-size:.8rem}
-.btn:hover{background:#334155;color:#e2e8f0}
-.status-bar{display:flex;gap:1rem;color:#64748b;font-size:.8rem;margin-bottom:2rem;flex-wrap:wrap}
-.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-bottom:2rem}
-.card{background:#1e293b;border-radius:10px;padding:1.2rem;border:1px solid #334155}
-.card .label{font-size:.75rem;color:#64748b;text-transform:uppercase;letter-spacing:.05em}
-.card .value{font-size:1.8rem;font-weight:700;margin:.4rem 0;color:#f1f5f9}
-.card .sub{font-size:.8rem;color:#64748b}
-.ring-wrap{display:flex;align-items:center;gap:12px;margin-top:.5rem}
-.ring-bg{width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center}
-.ring-inner{width:48px;height:48px;border-radius:50%;background:#1e293b;display:flex;align-items:center;justify-content:center;font-size:1rem;font-weight:700}
-.detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:2rem}
-.panel{background:#1e293b;border-radius:10px;padding:1.2rem;border:1px solid #334155}
-.panel h3{font-size:.85rem;color:#64748b;text-transform:uppercase;margin-bottom:1rem;letter-spacing:.05em}
-.stat-row{display:flex;justify-content:space-between;padding:.4rem 0;font-size:.85rem;border-bottom:1px solid #1e3a5f}
+body{font-family:Inter,-apple-system,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);display:flex;min-height:100vh;letter-spacing:-.01em}
+.aurora{position:fixed;pointer-events:none;filter:blur(70px);opacity:.38;z-index:0;width:560px;height:560px}
+.aurora-one{background:radial-gradient(circle,#5358ff,transparent 62%);top:-240px;right:10vw}
+.aurora-two{background:radial-gradient(circle,#14d6ff,transparent 64%);bottom:-220px;left:18vw}
+.shell{display:grid;grid-template-columns:220px minmax(0,1fr);min-height:100vh;position:relative;z-index:1;width:100%}
+.sidebar{position:sticky;top:0;height:100vh;padding:22px 18px;border-right:1px solid var(--line);background:linear-gradient(180deg,rgba(13,16,24,.9),rgba(7,8,13,.72));backdrop-filter:blur(24px)}
+.brand{display:flex;align-items:center;gap:10px;margin-bottom:24px;padding-bottom:18px;border-bottom:1px solid var(--line)}
+.brand-mark{width:32px;font-size:30px;color:#ffb28f;text-shadow:0 0 22px rgba(255,178,143,.22)}
+.brand-name{font-size:16px;font-weight:600}
+.brand-sub{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.10em}
+.nav-item{display:flex;align-items:center;gap:10px;text-align:left;background:transparent;border:1px solid transparent;color:var(--muted);border-radius:12px;padding:11px 12px;font-weight:520;cursor:pointer;transition:.18s ease;margin-bottom:2px}
+.nav-item span{width:24px;font-size:15px}
+.nav-item.active{background:rgba(255,255,255,.045);border-color:var(--line);color:var(--text)}
+.nav-item.active span{color:var(--accent2)}
+.nav-item:hover{background:rgba(255,255,255,.04);border-color:var(--line);color:var(--text)}
+.main{padding:28px 36px;overflow-y:auto;flex:1;min-width:0}
+.hero{border-bottom:1px solid var(--line);padding-bottom:20px;margin-bottom:24px}
+.hero h1{font-size:28px;font-weight:600;margin:0}
+.hero .sub{font-size:13px;color:var(--muted);margin-top:4px}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:24px}
+.card{border:1px solid var(--line);border-radius:18px;padding:18px;background:linear-gradient(180deg,rgba(255,255,255,.07),rgba(255,255,255,.025));box-shadow:var(--shadow)}
+.card .num{font-size:32px;font-weight:700;background:linear-gradient(135deg,var(--text),#9ea6ff);-webkit-background-clip:text;color:transparent;line-height:1.1}
+.card .label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.12em;margin-top:6px}
+.panel{border:1px solid var(--line);border-radius:16px;padding:18px;background:linear-gradient(180deg,rgba(255,255,255,.055),rgba(255,255,255,.024));margin-bottom:14px}
+.panel h3{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.14em;margin-bottom:12px;font-weight:700}
+.stat-row{display:flex;justify-content:space-between;padding:7px 0;font-size:13px;border-bottom:1px solid var(--line)}
 .stat-row:last-child{border:none}
-.stat-row .key{color:#94a3b8}
-.stat-row .val{color:#e2e8f0}
-.badge{display:inline-block;padding:1px 7px;border-radius:4px;font-size:.75rem}
-.ok{background:#05966922;color:#34d399;border:1px solid #05966944}
-.warn{background:#d9770622;color:#fbbf24;border:1px solid #d9770644}
-.ghost-badge{background:#6366f122;color:#a5b4fc;border:1px solid #6366f144}
-#graph-svg{width:100%;height:500px;background:#0f172a;border-radius:8px;border:1px solid #334155}
-.graph-legend{display:flex;gap:1rem;margin-bottom:.5rem;flex-wrap:wrap}
-.graph-legend span{font-size:.8rem;color:#94a3b8;display:flex;align-items:center;gap:4px}
-.graph-legend .dot{width:10px;height:10px;border-radius:50%;display:inline-block}
-.node-tooltip{position:absolute;background:#1e293b;border:1px solid #334155;border-radius:6px;padding:6px 10px;font-size:.8rem;color:#e2e8f0;pointer-events:none;display:none;z-index:10}
-.timeline-item{display:flex;gap:12px;padding:.8rem 0;border-bottom:1px solid #1e3a5f}
+.stat-row .key{color:var(--soft)}
+.stat-row .val{color:var(--text)}
+.badge{display:inline-block;padding:2px 8px;border-radius:999px;font-size:11px;border:1px solid var(--line);background:rgba(255,255,255,.035)}
+.ok{color:var(--green);border-color:rgba(46,229,157,.3)}
+.warn{color:var(--amber);border-color:rgba(255,209,102,.3)}
+.ghost-badge{color:var(--accent2);border-color:rgba(101,214,255,.3)}
+.page{display:none}.page-0{display:block}
+.toolbar{display:flex;gap:10px;align-items:center;padding:10px 0}
+.btn{border:1px solid var(--line);background:rgba(255,255,255,.04);color:var(--text);border-radius:10px;padding:8px 14px;cursor:pointer;transition:.18s ease;font-size:13px}
+.btn:hover{border-color:rgba(255,255,255,.13);background:rgba(255,255,255,.07);transform:translateY(-1px)}
+.primary-btn{border-color:rgba(124,124,255,.45);background:linear-gradient(135deg,#6668ff,#7b55ff);box-shadow:0 14px 34px rgba(101,92,255,.22);color:#fff}
+.detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+.time{color:var(--faint);font-size:12px}
+#graph-svg{width:100%;height:500px;border-radius:12px;border:1px solid var(--line);background:var(--bg)}
+.timeline-item{display:flex;gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}
 .timeline-item:last-child{border:none}
-.timeline-dot{width:10px;height:10px;border-radius:50%;margin-top:4px;flex-shrink:0}
-.timeline-date{font-size:.75rem;color:#64748b;min-width:100px}
-.timeline-msg{font-size:.85rem;color:#e2e8f0}
-@media(max-width:800px){.cards{grid-template-columns:1fr 1fr}.detail-grid{grid-template-columns:1fr}.sidebar{width:60px}.sidebar .logo span,.nav-item span{display:none}}
+.timeline-dot{width:10px;height:10px;border-radius:50%;margin-top:4px;flex-shrink:0;box-shadow:0 0 12px}
+.timeline-date{font-size:11px;color:var(--faint);min-width:90px}
+.timeline-msg{font-size:13px;color:var(--soft)}
+@media(max-width:800px){.cards{grid-template-columns:1fr 1fr}.detail-grid{grid-template-columns:1fr}.shell{grid-template-columns:1fr}.sidebar{position:relative;height:auto;border-right:0;border-bottom:1px solid var(--line)}.main{padding:16px}}
 </style>
 <script src="status.js"></script>
 <script src="graph_data.js"></script>
 </head>
 <body>
-
+<div class="aurora aurora-one"></div>
+<div class="aurora aurora-two"></div>
+<div class="shell">
 <div class="sidebar">
-<div class="logo">🕊️ 羽渡尘<small>v6.3.0</small></div>
-<div class="nav-item active"><span>📊 系统状态</span></div>
-<div class="nav-item"><span>🪶 羽毛列表</span></div>
-<div class="nav-item"><span>🔮 幽灵文件</span></div>
-<div class="nav-item"><span>🧩 知识图谱</span></div>
-<div class="nav-item"><span>📅 时间轴</span></div>
-<div class="nav-item"><span>📦 备份</span></div>
-<div class="nav-item"><span>⚙️ 设置</span></div>
+<div class="brand">
+<div class="brand-mark">🕊</div>
+<div class="brand-name">羽渡尘<div class="brand-sub">v7.0 · YantrikDB</div></div>
+</div>
+<div class="nav-item active"><span>📊</span>系统状态</div>
+<div class="nav-item"><span>🪶</span>羽毛列表</div>
+<div class="nav-item"><span>🔮</span>幽灵文件</div>
+<div class="nav-item"><span>🧩</span>知识图谱</div>
+<div class="nav-item"><span>📅</span>时间轴</div>
+<div class="nav-item"><span>📦</span>备份</div>
+<div class="nav-item"><span>⚙️</span>设置</div>
 </div>
 
 <div class="main">
@@ -151,6 +159,7 @@ body{font-family:-apple-system,'Segoe UI',sans-serif;background:#0f172a;color:#e
 <div style="text-align:center;color:#475569;font-size:.75rem;padding:2rem 0 1rem">
 数据自 status.json 加载 · 自动刷新每 30s · <a href="#" onclick="loadData();return false" style="color:#38bdf8;text-decoration:none">手动刷新</a>
 </div></div>
+</div>
 
 <script>
 // 导航切换
