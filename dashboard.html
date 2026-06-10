@@ -100,7 +100,11 @@ body{font-family:-apple-system,'Segoe UI',sans-serif;background:#0f172a;color:#e
 <div class="stat-row"><span class="key">远程备份</span><span class="val"><span class="badge ok">GitHub</span></span></div>
 <div class="stat-row"><span class="key">D 盘空余</span><span class="val" id="diskFree">--</span></div>
 <div class="stat-row"><span class="key">教材库</span><span class="val" id="textbooks">-- 本</span></div>
-<div class="stat-row"><span class="key">审计层</span><span class="val" id="auditLayers">--</span></div></div></div></div>
+<div class="stat-row"><span class="key">审计层</span><span class="val" id="auditLayers">--</span></div></div></div>
+
+<!-- YantrikDB 状态 -->
+<div class="panel" style="margin-bottom:1rem"><h3>🧠 YantrikDB 时序知识图谱</h3>
+<div id="ytStats"><div style="color:#64748b">加载中...</div></div></div></div>
 
 <!-- 羽毛列表 -->
 <div class="page page-1" style="display:none">
@@ -204,6 +208,22 @@ document.getElementById('ghostPage').innerHTML=d.ghosts>0&&gl.length?gl.map(f=>'
 document.getElementById('textbooks').textContent=(d.textbooks||'--')+' 本';
 document.getElementById('bkTextbooks').textContent=(d.textbooks||'--')+' 本';
 document.getElementById('statusBar').innerHTML='<span>✅ 数据来源: status.js · '+d.last_update+'</span>';
+
+// YantrikDB 状态
+const yt=d.yantrikdb||{};
+if(yt.active!==undefined){
+document.getElementById('ytStats').innerHTML=
+'<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1rem">'+
+'<div><div style="font-size:1.2rem;font-weight:700;color:#38bdf8">'+yt.active+'</div><div style="font-size:.75rem;color:#64748b">活跃记忆</div></div>'+
+'<div><div style="font-size:1.2rem;font-weight:700;color:#a78bfa">'+yt.entities+'</div><div style="font-size:.75rem;color:#64748b">实体</div></div>'+
+'<div><div style="font-size:1.2rem;font-weight:700;color:#f472b6">'+yt.edges+'</div><div style="font-size:.75rem;color:#64748b">关系边</div></div>'+
+'<div><div style="font-size:1.2rem;font-weight:700;color:'+(yt.conflicts>0?'#fbbf24':'#34d399')+'">'+yt.conflicts+'</div><div style="font-size:.75rem;color:#64748b">矛盾</div></div>'+
+'<div><div style="font-size:1.2rem;font-weight:700;color:#60a5fa">'+yt.vec_index+'</div><div style="font-size:.75rem;color:#64748b">向量索引</div></div>'+
+'<div><div style="font-size:1.2rem;font-weight:700;color:#64748b">'+yt.db_file_mb+'MB</div><div style="font-size:.75rem;color:#64748b">数据库</div></div>'+
+'</div>';
+}else{
+document.getElementById('ytStats').innerHTML='<div style="color:#64748b">'+(yt.error||'数据不可用')+'</div>';
+}
 }
 
 // 图谱渲染
