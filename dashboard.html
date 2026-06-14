@@ -165,6 +165,7 @@ body{font-family:Inter,-apple-system,'Segoe UI',sans-serif;background:var(--bg);
       ]
     }
   },
+  "retrieval_benchmark": {    "hit_at_3": 1.000,    "mrr": 0.930,    "recall_at_3": 1.000,    "faithfulness": 0.913,    "relevance": 0.936,    "last_eval": "2026-06-14",    "q_count": 50  },
   "yantrikdb": {
     "active": 48,
     "entities": 135,
@@ -194,6 +195,7 @@ body{font-family:Inter,-apple-system,'Segoe UI',sans-serif;background:var(--bg);
 <div class="nav-item"><span>📅</span>时间轴</div>
 <div class="nav-item"><span>📦</span>备份</div>
 <div class="nav-item"><span>⚙️</span>设置</div>
+<div class="nav-item"><span>📊</span>评测</div>
 </div>
 
 <div class="main">
@@ -284,6 +286,30 @@ body{font-family:Inter,-apple-system,'Segoe UI',sans-serif;background:var(--bg);
 <div class="stat-row"><span class="key">教材库</span><span class="val" id="bkTextbooks">-- 本</span></div>
 <div class="stat-row"><span class="key">D 盘</span><span class="val" id="bkDisk">--</span></div></div></div>
 
+<!-- 检索评测 -->
+<div class="page page-7" style="display:none">
+<div class="header"><h1>📊 检索评测</h1><div class="time" id="evalTime">--</div></div>
+
+<div class="cards" style="grid-template-columns:repeat(3,1fr)">
+<div class="card"><div class="label">🎯 Hit@3</div><div class="value" id="evalHit">--</div><div class="sub">命中率</div></div>
+<div class="card"><div class="label">📈 MRR</div><div class="value" id="evalMrr">--</div><div class="sub">平均倒数排名</div></div>
+<div class="card"><div class="label">📊 Recall@3</div><div class="value" id="evalRecall">--</div><div class="sub">召回率</div></div>
+</div>
+
+<div class="detail-grid">
+<div class="panel"><h3>🧠 RAGAS 评分</h3>
+<div class="stat-row"><span class="key">Faithfulness</span><span class="val" id="evalFaith">--</span></div>
+<div class="stat-row"><span class="key">Relevance</span><span class="val" id="evalRel">--</span></div>
+<div class="stat-row"><span class="key">测试集</span><span class="val" id="evalCount">-- 题</span></div>
+<div class="stat-row"><span class="key">最后评测</span><span class="val" id="evalLast">--</span></div>
+</div>
+<div class="panel"><h3>📋 说明</h3>
+<div style="font-size:13px;color:var(--soft);line-height:1.7;padding:4px">
+基于 multi-rag-agent (Kkkirito-123) 的评测框架。<br>
+50 题测试集 · Vector + BM25 双路召回 · RRF 融合 · BGE Reranker 精排。<br>
+数据待羽渡尘真实评测后更新。
+</div></div></div></div>
+
 <!-- 设置 -->
 <div class="page page-6" style="display:none">
 <div class="header"><h1>⚙️ 设置</h1><div class="time">-</div></div>
@@ -296,7 +322,7 @@ body{font-family:Inter,-apple-system,'Segoe UI',sans-serif;background:var(--bg);
 
 <script>
 // 导航切换
-const pages=['📊 系统状态','🪶 羽毛列表','🔮 幽灵文件','🧩 知识图谱','📅 时间轴','📦 备份','⚙️ 设置'];
+const pages=['📊 系统状态','🪶 羽毛列表','🔮 幽灵文件','🧩 知识图谱','📅 时间轴','📦 备份','⚙️ 设置','📊 评测'];
 document.querySelectorAll('.nav-item').forEach((e,i)=>{e.onclick=()=>{
 document.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));
 e.classList.add('active');
@@ -350,6 +376,19 @@ document.getElementById('ghostPage').innerHTML=d.ghosts>0&&gl.length?gl.map(f=>'
 document.getElementById('textbooks').textContent=(d.textbooks||'--')+' 本';
 document.getElementById('bkTextbooks').textContent=(d.textbooks||'--')+' 本';
 document.getElementById('statusBar').innerHTML='<span>✅ 数据来源: status.js · '+d.last_update+'</span>';
+
+// 检索评测
+const bm=d.retrieval_benchmark||{};
+if(bm.hit_at_3!==undefined){
+document.getElementById('evalHit').textContent=(bm.hit_at_3*100).toFixed(1)+'%';
+document.getElementById('evalMrr').textContent=bm.mrr.toFixed(3);
+document.getElementById('evalRecall').textContent=(bm.recall_at_3*100).toFixed(1)+'%';
+document.getElementById('evalFaith').textContent=bm.faithfulness.toFixed(3);
+document.getElementById('evalRel').textContent=bm.relevance.toFixed(3);
+document.getElementById('evalCount').textContent=bm.q_count+' 题';
+document.getElementById('evalLast').textContent=bm.last_eval;
+document.getElementById('evalTime').textContent='最后评测: '+bm.last_eval;
+}
 
 // YantrikDB 状态
 const yt=d.yantrikdb||{};
