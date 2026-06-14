@@ -1,10 +1,10 @@
 var STATUS = {
-  "feathers": 48,
+  "feathers": 49,
   "entities": 1329,
   "l3_facts": 164,
   "health_score": 89,
-  "git_commits": 168,
-  "disk_free_gb": 442,
+  "git_commits": 170,
+  "disk_free_gb": 439,
   "ghosts": 0,
   "textbooks": 22,
   "feather_list": [
@@ -25,6 +25,7 @@ var STATUS = {
     "feather_016_符华传记.md",
     "feather_017_比特币白皮书.md",
     "feather_018_收藏夹离线化计划.md",
+    "feather_019_用户画像.md",
     "ref_c_file_ops.md",
     "ref_c_malloc_free.md",
     "ref_c_pointers_sizeof.md",
@@ -58,8 +59,8 @@ var STATUS = {
     "zz_记忆系统研究资料.md"
   ],
   "ghost_list": [],
-  "version": "5.9.0",
-  "last_update": "2026-06-11 15:01:11",
+  "version": "7.0.0",
+  "last_update": "2026-06-14 14:40:31",
   "audit_layers": {
     "结构完整": {
       "score": 25,
@@ -93,11 +94,11 @@ var STATUS = {
     }
   },
   "yantrikdb": {
-    "active": 48,
+    "active": 17,
     "entities": 135,
     "edges": 1414,
     "conflicts": 0,
-    "vec_index": 48,
-    "db_file_mb": 2.9
+    "vec_index": 17,
+    "db_file_mb": 2.4
   }
 };
