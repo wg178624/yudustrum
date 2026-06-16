@@ -1,66 +1,89 @@
 <div align="center">
 
-# 王刚 · Wang Gang
+```
+█▀▄▀█ █▀█ █▄ ▄█ █▀▀   █ █▄ █ ▄▀▀   ▄▀▀   █▀▀▄ █▀▀ ▀█▀ █▀▀
+█ ▀ █ █▄█ █ ▀ █ █▄▄   █ █ ▀█ ▄▄▀   ▄▄▀   █▄▄▀ █▄▄  █  ██▄
+```
 
-**EIE | Semiconductor | Linux**
-
-<a href="https://github.com/wg178624/yudustrum">
-  <img src="https://img.shields.io/badge/Featured-羽渡尘%20v7.0-6C7280?style=flat&labelColor=1A1A1A" alt="羽渡尘"/>
-</a>
-<a href="https://github.com/wg178624">
-  <img src="https://img.shields.io/badge/C-1A1A1A?style=flat&logo=c&logoColor=white" alt="C"/>
-  <img src="https://img.shields.io/badge/Python-1A1A1A?style=flat&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/Linux-1A1A1A?style=flat&logo=linux&logoColor=white" alt="Linux"/>
-</a>
+**⚡ 武汉工程大学 · EIE | Semiconductor | Linux ⚡**
 
 </div>
 
 ---
 
-I build things at the intersection of **electronics engineering** and **systems software**. Currently on a path from Jiangxi → Penang → Intel/AMD.
-
-### Now
-
 ```
-📖 Computer Organization (Tang Yuefei)    →  CPU, memory, pipeline
-📖 C Primer Plus                          →  Systems programming
-📖 Analog & Digital Electronics           →  Circuits, logic design
-📖 CS50 (Harvard)                         →  CS foundations
-🎯 Target: PSDC Penang → USM → Semiconductor
+🎮 正在加载玩家数据...
 ```
 
-### Projects
-
-**羽渡尘** — AI memory system with YantrikDB knowledge graph.  
-Semantic search, contradiction detection, 48 memories, 135 entities.  
-`YantrikDB` `Python` `GraphRAG` `Hermes Agent`  
-→ [github.com/wg178624/yudustrum](https://github.com/wg178624/yudustrum)
-
-**翻墙架构** — Dual-protocol VPN (Reality + Hysteria2) with WireGuard WARP.  
-sing-box unified, zero-iptables, nftables SSH lock, 13-day uptime.  
-`sing-box` `WireGuard` `nftables` `Debian`  
-
-**EIE 学习路线** — Curated 4-stage learning path for Electronics & Information Engineering.  
-`Markdown` `CS自学指南`
-
-### Path
+### ❤ 生命值 · 装备
 
 ```
-2025  →  PSDC, Penang          Diploma in Electronics Engineering
-2027  →  USM, Penang            Bachelor's (part-time, working)
-     →  Intel / AMD             Semiconductor engineer
+[❤❤❤❤❤❤❤❤❤❤] 王刚 · Wang Gang / lv.21 EIE
+[🛡 C████████]  C Primer Plus
+[🛡 Python███]  Python + YantrikDB
+[🛡 Linux████]  Debian · VPS · nftables · sing-box
+[🏆 成就]     FriendMemory PR#1 · 49枚羽渡尘羽毛 · 89健康分
 ```
 
-### Contact
+### 🏗 正在建造的项目
 
 ```
-email  →  g176245232@gmail.com
-x      →  @ikun268448
-github →  wg178624
+┌─────────────────────────────────────────────┐
+│  🪶 羽渡尘 v7.0                              │
+│  记忆系统 · YantrikDB · 49羽毛 · 135实体     │
+│  状态: ✅ 运行中 · 健康分 89/100             │
+│  [GitHub] https://github.com/wg178624/yudustrum │
+├─────────────────────────────────────────────┤
+│  🔐 翻墙架构                                 │
+│  sing-box · H2 + Reality · WireGuard WARP   │
+│  状态: ✅ 已稳定运行 15 天                   │
+├─────────────────────────────────────────────┤
+│  📖 EIE 学习路线                             │
+│  计算机组成 · C语言 · 模电/数电 · CS50      │
+│  目标: PSDC 槟城 → USM → Intel/AMD          │
+└─────────────────────────────────────────────┘
+```
+
+### ⚔ 正在学习的技能
+
+```
+[■■■■■■■■□□] 计算机组成原理 (80%)
+[■■■■■■□□□□] C语言 / 数据结构 (60%)
+[■■■■□□□□□□] 模拟/数字电子技术 (40%)
+[■■□□□□□□□□] CS50 计算机科学导论 (20%)
+```
+
+### 🗺 路线图
+
+```
+  🌍 吉安
+    ↓ 高铁 3h
+  🏙 深圳
+    ↓ 直飞 4h
+  🏝 槟城 (PSDC)
+    ↓ 目标 2026-2027
+  💼 Intel / AMD (Penang)
+```
+
+### 🤝 交易（联系我）
+
+```
+/召唤 wg178624
+  📧 g176245232@gmail.com
+  🐦 @ikun268448
+  🏗 github.com/wg178624
+
+/捐赠可见性
+  🌟 Star 羽渡尘 → github.com/wg178624/yudustrum
 ```
 
 ---
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=wg178624&show_icons=true&theme=graywhite&hide_rank=true&hide_title=true&card_width=400&include_all_commits=true" alt="GitHub stats"/>
-</p>
+<div align="center">
+
+```
+⛏ 正在挖矿... ████████████░░░░░░░░ 64%
+服务器在线: 14 天 · CPU 负载: 0.12 · 内存: 380MB/958MB
+```
+
+</div>
