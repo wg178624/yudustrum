@@ -1,10 +1,10 @@
 var STATUS = {
-  "feathers": 49,
+  "feathers": 50,
   "entities": 1329,
   "l3_facts": 164,
   "health_score": 89,
-  "git_commits": 171,
-  "disk_free_gb": 439,
+  "git_commits": 176,
+  "disk_free_gb": 440,
   "ghosts": 0,
   "textbooks": 22,
   "feather_list": [
@@ -26,6 +26,7 @@ var STATUS = {
     "feather_017_比特币白皮书.md",
     "feather_018_收藏夹离线化计划.md",
     "feather_019_用户画像.md",
+    "feather_020_个人数字资产负债表.md",
     "ref_c_file_ops.md",
     "ref_c_malloc_free.md",
     "ref_c_pointers_sizeof.md",
@@ -60,7 +61,7 @@ var STATUS = {
   ],
   "ghost_list": [],
   "version": "7.0.0",
-  "last_update": "2026-06-14 19:28:53",
+  "last_update": "2026-06-17 11:49:53",
   "audit_layers": {
     "结构完整": {
       "score": 25,
