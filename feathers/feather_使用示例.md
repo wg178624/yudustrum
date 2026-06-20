@@ -8,13 +8,15 @@ type: doc
 
 ## 手动调用
 
-\`\`\`python
+```python
 yudustrum_recall(query="记忆系统架构", top_k=5)
 yudustrum_stats()
 yudustrum_audit()
-\`\`\`
+yudustrum_save()
+```
 
 ## 应用场景
-- 技术问答时自动注入配置记忆
-- 项目复盘时关联历史决策
+
+- 技术问答时自动注入上下文记忆
+- 项目复盘时关联历史决策记录
 - 学习追踪时记录知识进度

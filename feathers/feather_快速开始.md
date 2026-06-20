@@ -6,10 +6,33 @@ type: doc
 
 # 快速开始
 
-\`\`\`bash
-pip install zvec
+## 安装
+
+```bash
+# 将羽渡尘放入 Hermes skills 目录
 cp -r yudustrum ~/.hermes/skills/
-\`\`\`
+```
 
 ## 添加记忆
-在 feathers/ 目录创建 .md 文件即可。
+
+在 feathers/ 目录创建 .md 文件：
+
+```markdown
+---
+title: "记忆标题"
+tags: [标签1, 标签2]
+retrieval: auto
+---
+
+# 标题
+
+正文内容...
+```
+
+## 检索
+
+系统自动将相关记忆注入对话。也可手动调用：
+
+```
+yudustrum_recall(query="需要什么", top_k=8)
+```

@@ -7,11 +7,14 @@ retrieval: explicit
 
 # 常见问题
 
-## 需要什么？
-Python 3.10+ 和 pip install zvec。
+## 需要什么依赖？
+
+Python 3.10+，Hermes Agent 环境。
 
 ## 支持中文吗？
-支持，使用 jieba 中文分词。
+
+支持，基于 FTS5 全文检索 + 语义向量双路召回。
 
 ## 数据会丢吗？
-zvec WAL 预写日志保证进程崩溃后数据不丢。
+
+源文件存在 feathers/ 目录下，可随时重建索引。
