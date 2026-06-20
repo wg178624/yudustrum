@@ -1,4 +1,10 @@
 ---
+title: "feather_002_羽渡尘存盘历史"
+tags: []
+type: reference
+---
+
+---
 brief: "羽渡尘开发存盘记录 v1→v2，包含各版本日期和主要变更说明。"
 title: "羽渡尘存盘历史 v1-v2 (精简版)"
 tags: [历史, 存盘, auto-save, v1, v2]

@@ -1,10 +1,10 @@
 {
-  "feathers": 50,
+  "feathers": 53,
   "entities": 1329,
   "l3_facts": 164,
   "health_score": 89,
-  "git_commits": 176,
-  "disk_free_gb": 440,
+  "git_commits": 179,
+  "disk_free_gb": 434,
   "ghosts": 0,
   "textbooks": 22,
   "feather_list": [
@@ -47,9 +47,12 @@
     "zz_三层记忆架构详解.md",
     "zz_仪表盘文档.md",
     "zz_向量数据库搭建.md",
+    "zz_待下载教材清单.md",
     "zz_控制论审计框架.md",
     "zz_数据库方案对比.md",
     "zz_检索引用检查清单.md",
+    "zz_甲骨文免费VPS注册指南.md",
+    "zz_简历_王刚.md",
     "zz_缓存对齐设计.md",
     "zz_羽毛库说明.md",
     "zz_羽渡尘架构现状.md",
@@ -61,7 +64,7 @@
   ],
   "ghost_list": [],
   "version": "7.0.0",
-  "last_update": "2026-06-17 11:49:53",
+  "last_update": "2026-06-20 14:31:37",
   "audit_layers": {
     "结构完整": {
       "score": 25,
@@ -95,11 +98,7 @@
     }
   },
   "yantrikdb": {
-    "active": 17,
-    "entities": 135,
-    "edges": 1414,
-    "conflicts": 0,
-    "vec_index": 17,
-    "db_file_mb": 2.4
+    "doc_count": 0,
+    "db_size_mb": 0
   }
 }
